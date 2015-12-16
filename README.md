@@ -1,5 +1,8 @@
-## 토담 todam
+## 크리에이티브 커먼즈 라이선스 가이드
+## Guide of Creative Commons License
 
-깃헙 페이지 상에서 prose.io를 활용해 홈페이지도 무료로 빠르게 만들고 콘텐츠 관리도 쉽게 할 수 있습니다.
+크리에이티브 커먼즈 라이선스를 소개하고 사용하는 방법, 사례 등을 확인할 수 있습니다.
 
-MIT Lisensed.
+
+code: MIT Lisensed.
+content: CC BY.
