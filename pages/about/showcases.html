@@ -1,0 +1,21 @@
+---
+permalink: /about/showcases/
+title: showcases
+layout: page
+---
+
+<div class="row">
+{% for showcase in site.showcases %}
+    <div class="col-md-4">
+        <div class="well">
+            <h2><a href="{{ showcase.url }}">{{ showcase.title }}</a></h2>
+            <p>
+                {{ showcase.output | truncate: 100 }}
+            </p>
+            <p>
+                {{ showcase }}
+            </p>
+        </div>
+    </div>
+{% endfor %}
+</div>

@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div class="home">
+
+    <h1 class="page-header">Posts</h1>
+
+    <div class="row">
+    {% for page in site.pages %}
+        {% if page.front %}
+        <div class="col-md-6 well">
+            <h2>
+              <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            </h2>
+            <p>{{ page.description }}</p>
+        </div>
+        {% endif %}
+    {% endfor %}
+    </div>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>

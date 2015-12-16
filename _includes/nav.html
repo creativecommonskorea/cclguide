@@ -1,0 +1,26 @@
+<ul class="nav nav-sidebar">
+{% for first in site.data.nav %}
+    <li{% if page.url == first.url | prepend: site.baseurl %} class="active"{% endif %}>
+        <a href="{{ first.url}}">{{ first.title }}</a>
+        {% if first.items | size > 1 %}
+            <ul>
+            {% for second in first.items %}
+                <li{% if page.url == second.url | prepend: site.baseurl %} class="active"{% endif %}>
+                    <a href="{{ second.url}}">{{ second.title }}</a>
+                    {% if second.items | size > 1 %}
+                        <ul>
+                            {% for third in second.items %}
+                            <li{% if page.url == third.url | prepend: site.baseurl %} class="active"{% endif %}>
+                                <a href="{{ third.url}}">{{ third.title }}</a>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    {% endif%}
+                </li>
+            {% endfor %}
+            </ul>
+        {% endif %}
+
+    </li>
+{% endfor %}
+</ul>

@@ -1,0 +1,99 @@
+# Site settings
+title: 크리에이티브 커먼즈 라이선스
+description: >
+  크리에이티브커먼즈 라이선스(Creative Commons License)는 창작자가 자신의 창작물에 대하여 일정한 조건하에 모든 이의 자유이용을 허락하는 라이선스 입니다.
+baseurl: '' # the subpath of your site, e.g. /blog/
+url: 'http://ccl.cckorea.org' # the base hostname & protocol for your site
+permalink: pretty
+timezone: Asia/Seoul
+
+email: creative@cckorea.org
+twitter_username: cckorea
+github_username: creativecommonskorea
+
+locale: ko
+# locale_alt:
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  input: GFM
+
+exclude: [ Gemfile, Gemfile.lock, README.md ]
+
+# Collection
+collections:
+  showcases:
+    output: true
+    permalink: /showcase/:path
+
+defaults:
+  -
+    scope:
+      path: "showcases"
+      # type: "showcases"
+    values:
+      layout: "showcase"
+
+# Prose.io settings
+prose:
+  rooturl: ''
+  siteurl: 'http://ccl.cckorea.org'
+  relativeLinks: 'http://ccl.cckorea.org/links.jsonp'
+  media: 'media'
+  metadata:
+    _posts:
+      - name: 'category'
+        field:
+          element: 'hidden'
+          value: 'blog'
+      - name: 'layout'
+        field:
+          element: 'hidden'
+          value: 'post'
+      - name: 'title'
+        field:
+          element: 'text'
+          label: '제목'
+          value: ''
+      - name: 'tags'
+        field:
+          element: 'multiselect'
+          label: '태그 추가'
+          placeholder: 'Choose Tags'
+          alterable: true
+      - name: 'image'
+        field:
+          element: 'text'
+          label: '대표 이미지'
+          value: ''
+
+    pages:
+      - name: 'layout'
+        field:
+          element: 'hidden'
+          value: 'page'
+      - name: 'title'
+        field:
+          element: 'text'
+          label: '제목'
+          value: ''
+      - name: 'permalink'
+        field:
+          element: 'text'
+          label: '퍼머링크'
+          help: 'URL. 예시) /about/cclicense/'
+          value: ''
+      - name: 'description'
+        field:
+          element: 'textarea'
+          label: '요약 설명'
+          help: '검색 엔진에게 제공할 설명, 초기 화면에 표시할 요약입니다.'
+          value: ''
+      - name: 'front'
+        field:
+          element: 'checkbox'
+          label: '초기 화면에 노출하기'
+          value: 'false'
+
