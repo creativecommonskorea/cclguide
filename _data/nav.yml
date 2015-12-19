@@ -34,7 +34,10 @@
       url: reuse/search
 
 - title: 04. 자주 묻는 질문
-  url: faq/
+  url: faq1/
+  items:
+    - title: 일반
+      url: /faq1/
 
 - title: 05. 크리에이티브커먼즈 소개
   url: cc/
