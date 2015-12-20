@@ -3,17 +3,19 @@ layout: page
 published: true
 permalink: about/
 title: 01. CC 라이선스
-description: 크리에이티브커먼즈 라이선스(Creative Commons License, 이하 CC 라이선스)는 창작자가 자신의 창작물에 대하여 일정한 조건하에 모든 이의 자유이용을 허락하는 라이선스 입니다.
+description: "크리에이티브커먼즈 라이선스(Creative Commons License, 이하 CC 라이선스)는 창작자가 자신의 창작물에 대하여 일정한 조건하에 모든 이의 자유이용을 허락하는 라이선스 입니다."
+front: true
 ---
+
 
 0. 목차
 {:toc .well}
 
-> 크리에이티브커먼즈 라이선스(Creative Commons License, 이하 CC 라이선스)는 창작자가 자신의 창작물에 대하여 일정한 조건하에 모든 이의 자유이용을 허락하는 라이선스 입니다.
+> 크리에이티브커먼즈 라이선스(Creative Commons License, 이하 CC 라이선스)는 저작자가 자신의 저작물에 대하여 일정한 조건하에 모든 이의 자유이용을 허락하는 라이선스 입니다.
 
 <iframe width="480" height="270" src="https://www.youtube.com/embed/U8g35rt0UmQ" frameborder="0" allowfullscreen></iframe>
 
-크리에이티브 커먼즈 라이선스 (Creative Commons License, 이하 CC 라이선스)는 창작자가 자신의 창작물에 대하여 일정한 조건하에 모든 이의 자유이용을 허락하는 라이선스입니다. 창작자들은 4가지의 이용허락조건 중 일부를 선택하여 라이선스를 구성하여 창작물에 적용하고, 이용자들은 라이선스에 표시된 이용허락조건에 따라 창작자에게 별도의 허락을 받을 필요없이 창작물을 자유롭게 이용할 수 있습니다.
+크리에이티브 커먼즈 라이선스 (Creative Commons License, 이하 CC 라이선스)는 저작자가 자신의 저작물에 대하여 일정한 조건하에 모든 이의 자유이용을 허락하는 라이선스입니다. 저작자들은 4가지의 이용허락조건 중 일부를 선택하여 라이선스를 구성하여 저작물에 적용하고, 이용자들은 라이선스에 표시된 이용허락조건에 따라 저작자에게 별도의 허락을 받을 필요없이 저작물을 자유롭게 이용할 수 있습니다.
 
 CC 라이선스는 세계적으로 사용하고 있는 라이선스로 국내 뿐만 아니라 다른 나라에서도 효력을 발휘하고 있습니다.
 
