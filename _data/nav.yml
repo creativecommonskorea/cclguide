@@ -14,33 +14,30 @@
 
 
 - title: 02. CC 라이선스 적용하기
-  url: application/
+  url: /application/choose/
   items:
     - title: 01. 라이선스 선택하기
-      url: application/choose
+      url: /application/choose/
     - title: 02. 라이선스 표기 기본 가이드
-      url: application/guide
+      url: /application/guide/
     - title: 03. 컨텐츠별 라이선스 표시
-      url: application/display
+      url: /application/display/
     - title: 04. 웹서비스에서 표시
-      url: application/display-web
+      url: /application/display-web/
 
 - title: 03. CC 라이선스 컨텐츠 사용
-  url: reuse/
+  url: /reuse/
   items:
     - title: 01. CC 라이선스 컨텐츠 사용방법
-      url: reuse/method
+      url: /reuse/method/
     - title: 02. CC 라이선스 컨텐츠 찾기
-      url: reuse/search
+      url: /reuse/find/
 
 - title: 04. 자주 묻는 질문
-  url: faq1/
-  items:
-    - title: 일반
-      url: /faq1/
+  url: /faq/
 
 - title: 05. 크리에이티브커먼즈 소개
-  url: cc/
+  url: /cckorea/
 
 
 
