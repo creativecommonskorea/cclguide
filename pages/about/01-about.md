@@ -1,10 +1,10 @@
 ---
 layout: page
 published: true
-permalink: about/
+permalink: /about/
 title: 01. CC 라이선스
 description: "크리에이티브커먼즈 라이선스(Creative Commons License, 이하 CC 라이선스)는 창작자가 자신의 창작물에 대하여 일정한 조건하에 모든 이의 자유이용을 허락하는 라이선스 입니다."
-front: true
+front: false
 ---
 
 

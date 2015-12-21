@@ -1,0 +1,15 @@
+---
+permalink: /faq/
+title: 자주 묻는 질문
+layout: page
+---
+
+<div class="row faqs">
+{% for faq in site.data.faqs %}
+    <div class="faq">
+        <p>Q: {{ faq.q }}</p>
+        <p>A: {{ faq.a }}</p>
+        <p>&nbsp;</p>
+    </div>
+{% endfor %}
+</div>
