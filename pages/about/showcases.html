@@ -1,20 +1,25 @@
 ---
 permalink: /about/showcases/
-title: showcases
+title: 적용 사례
 layout: page
 ---
 
-<div class="row">
+<div class="row showcases">
 {% for showcase in site.showcases %}
-    <div class="col-md-4">
-        <div class="well">
-            <h2><a href="{{ showcase.url }}">{{ showcase.title }}</a></h2>
+    <div class="media">
+        <div class="media-left media-middle">
+            <a href="{{ showcase.url }}">
+                <img class="media-object" src="{{ showcase.image }}" alt="{{ showcase.title }}">
+            </a>
+        </div>
+        <div class="media-body">
+            <p><span class="text-success">{{ showcase.category }}</span> / <span class="text-muted">{{ showcase.region }}</span></p>
+            <h3 class="media-heading"><a href="{{ showcase.url }}">{{ showcase.title }}</a></h3>
             <p>
-                {{ showcase.output | truncate: 100 }}
+                <a href="{{ showcase.url }}">{{ showcase.content | strip_html | truncate: 200 }}</a>
             </p>
-            <p>
-                {{ showcase }}
-            </p>
+            <a target="_blank" href="{{ showcase.link }}" class="btn btn-info pull-right">바로가기</a>
+            <p class="text-muted">{{ showcase.creator }}</p>
         </div>
     </div>
 {% endfor %}
