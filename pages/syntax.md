@@ -97,7 +97,9 @@ Content Cell  | Content Cell
 {: .table}
 
 
+## 깃헙 마크다운 도움말 페이지 링크
 
+<https://guides.github.com/features/mastering-markdown/>
 
 
 
