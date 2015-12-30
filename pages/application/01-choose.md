@@ -17,7 +17,7 @@ CC 라이선스에는 6개의 종류가 있습니다. 본인의 창작물을 어
 
 ### 내게 알맞는 CC 라이선스 찾기
 
-![placeholder.it]({{site.baseurl}}/media/text.png)
+![placeholder.it](/media/text.png)
 
 CC By Creative Commons Australia 
 

@@ -1,7 +1,7 @@
 ---
 title: Sloday - 데일리 인포그래픽 사이트 (오픈소스)
 date: 2015-12-11 10:15:53
-image: http://cckorea.org/xe/files/attach/images/396/412/807/tumblr_static_sloday_profile.png
+image: /images/thumbnail-post.png
 link: http://sloday.com
 creator: slowalk
 category: 디자인

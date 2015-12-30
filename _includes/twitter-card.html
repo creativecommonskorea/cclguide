@@ -4,5 +4,5 @@
 <meta name="twitter:creator" content="{{ site.twitter_username }}">
 <meta name="twitter:title" content="{{ page.title }}" />
 <meta name="twitter:description" content="{{ page.description | escape }}" />
-<meta name="twitter:image" content="{{ page.image }}" />
-<meta name="twitter:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}" />
+<meta name="twitter:image" content="{% if page.image %}{{ page.image | prepend: site.url }}{% else %}{{ site.default_image | prepend: site.url }}{% endif %}" />
+<meta name="twitter:url" content="{{ page.url | prepend: site.url }}" />

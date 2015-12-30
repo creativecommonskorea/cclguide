@@ -5,11 +5,11 @@
 {% endif %}
 <meta property="og:type" content="website">
 <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-{% if page.description %}<meta property="og:description" content="{{ page.description | strip_html }}">{% endif %}
-<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+{% if page.description %}<meta property="og:description" content="{{ page.description | strip_html | strip_newlines }}">{% endif %}
+<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
 <meta property="og:site_name" content="{{ site.title }}">
 {% if page.image %}
-<meta property="og:image" content="{{ page.image | prepend: prose.media | prepend: site.baseurl | site.url }}" />
+<meta property="og:image" content="{{ page.image | prepend: site.url }}" />
 {% else %}
-<meta property="og:image" content="{{ site.teaser | prepend: prose.media | prepend: site.baseurl | site.url }}" />
+<meta property="og:image" content="{{ site.default_image | prepend: site.url }}" />
 {% endif %}

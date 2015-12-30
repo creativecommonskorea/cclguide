@@ -2,23 +2,60 @@
 layout: default
 ---
 
-<div class="home">
-
-    <h1 class="page-header">Posts</h1>
-
-    <div class="row">
-    {% for page in site.pages %}
-        {% if page.front %}
-        <div class="col-md-6 well">
-            <h2>
-              <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-            </h2>
-            <p>{{ page.description }}</p>
-        </div>
-        {% endif %}
+<section class="section section-shortcut">
+    <h1 class="sr-only">바로가기</h1>
+    <ul class="list-shortcut">
+    {% for shortcut in site.data.shortcuts %}
+        <li class="bg_{{ shortcut.bg }}">
+            <a href="{{ shortcut.url }}" title="{{ shortcut.title }}">
+                <div class="centered">
+                    <div class="img">
+                        <img src="/images/home/ico-shortcut{{ shortcut.img }}.png">
+                    </div>
+                    <h2 class="title">{{ shortcut.title }}</h2>
+                    <span class="read-more">more</span>
+                </div>
+            </a>
+        </li>
     {% endfor %}
-    </div>
+</section><!-- .section-shortcut -->
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-</div>
+<section class="section section-banner">
+    <h1 class="sr-only">링크</h1>
+    <ul class="list-banner">
+        {% for banner in site.data.banners %}
+        <li class="{% if banner.bg %}bg_{{ banner.bg }}{% endif %}{% if site.data.banners.size < 2 %} full{% endif %}">
+            <a target="_blank" href="{{ banner.url }}" title="{{ banner.title | strip_html }}">
+                <h2 class="title">{{ banner.title }}</h2>
+            </a>
+        </li>
+        {% endfor %}
+    </ul>   
+</section><!-- .section-banner -->
+
+
+<section class="section section-case">
+    <h1 class="sr-only">활용사례</h1>
+    <ul class="list-case">
+    {% for showcase in site.data.showcases %}
+        <li{% if showcase.type %} class="{{ showcase.type }}"{% endif %}>
+            <a href="{{ showcase.url }}" title="{{ showcase.title | strip_html | strip_newlines }}">
+                <div class="img">
+                    <img src="{% if showcase.img contains 'http://' or showcase.img contains 'https://' %}{{ showcase.img }}{% else %}{{ showcase.img | prepend: site.prose.media | prepend: site.baseurl }}{% endif %}" alt="{{ showcase.title | strip_html | strip_newlines }}">
+                </div>
+                <div class="desc">
+                    <em>활용사례 #{{ forloop.index }}</em>
+                    <h2 class="title">
+                        {{ showcase.title }}
+                    </h2>
+                </div>
+            </a>
+        </li>
+    {% endfor %}
+    </ul>
+    
+    <div class="load-more">더보기</div>
+    <!-- // 더보기 항목 없을시 클래스 done 추가 -->
+    <!-- <div class="load-more done">모든 항목을 표시하였습니다</div> -->
+</section><!-- .section-case -->

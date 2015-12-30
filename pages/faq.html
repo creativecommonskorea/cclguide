@@ -2,14 +2,20 @@
 permalink: /faq/
 title: 자주 묻는 질문
 layout: page
+quiz_hide: yes
 ---
 
-<div class="row faqs">
+<ul class="accordion-list" id="accordion">
 {% for faq in site.data.faqs %}
-    <div class="faq">
-        <p>Q: {{ faq.q }}</p>
-        <p>A: {{ faq.a }}</p>
-        <p>&nbsp;</p>
-    </div>
+    <li>
+        <h2 class="post-title">{{ faq.q }}</h2>
+        <div class="post-content">
+        	{{ faq.a }}
+        	<p>&nbsp;</p>
+        	<button class="btn-close">접기</button>
+        </div>
+    </li>
 {% endfor %}
-</div>
+</ul>
+
+<div class="load-more done">모든 항목을 표시하였습니다</div>

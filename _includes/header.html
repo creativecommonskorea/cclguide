@@ -1,18 +1,78 @@
-<nav class="navbar navbar-inverse navbar-fixed-top">
-	<div class="container-fluid">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand" href="#">{{ site.title }}</a>
-		</div>
-		<div id="navbar" class="navbar-collapse collapse">
-			<form class="navbar-form navbar-right">
-				<input type="text" class="form-control" placeholder="검색...">
-			</form>
-		</div>
-	</div>
-</nav>
+<a class="skip-link sr-only" href="#content">Skip to content</a>
+
+<header id="masthead" class="site-header" role="banner">
+  <div class="container">
+    
+    <div class="navbar-header">
+      <a id="brand" class="site-title" href="{{ site.baseurl }}" rel="home" title="creative commons license">
+        <img class="svg hidden-xs" src="{{ 'images/brand.png' | prepend: site.baseurl }}">
+        <img class="img-responsive visible-xs" src="{{ 'images/m-brand.png' | prepend: site.baseurl }}">
+      </a>
+
+      <button type="button" class="navbar-toggle">
+        <span class="sr-only">메뉴 열기</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <button type="button" class="search-toggle">
+        <span class="sr-only">검색 열기</span>
+      </button>
+
+      <form role="search" method="get" class="search-form">
+        <label>
+          <span class="screen-reader-text">search</span>
+          <input type="search" class="search-field" placeholder="search" value="" name="s" title="Search for" />
+        </label>
+        <input type="submit" class="search-submit" value="Search" />
+      </form>
+    </div><!-- .navbar-header -->
+
+    <nav id="gnb" class="site-navigation" role="navigation">
+      <div class="navbar-controller">
+        <button type="button" class="navbar-close">
+          <span class="sr-only">메뉴 닫기</span>
+        </button>
+        <a href="{{ site.baseurl }}" title="홈으로">Home</a>
+      </div><!-- .navbar-controller -->
+
+      <ul class="navbar-nav">
+        {% for first in site.data.nav %}
+        <li{% if page.url == first.url | prepend: site.baseurl %} class="active"{% endif %}>
+            <a class="title" href="{{ first.url}}">{{ first.title }}</a>
+            {% if first.items | size > 1 %}
+                <ul class="sub-menu">
+                {% for second in first.items %}
+                    <li{% if page.url == second.url | prepend: site.baseurl %} class="active"{% endif %}>
+                        <a href="{{ second.url}}">{{ second.title }}</a>
+                        {% if second.items | size > 1 %}
+                            <ul>
+                                {% for third in second.items %}
+                                <li{% if page.url == third.url | prepend: site.baseurl %} class="active"{% endif %}>
+                                    <a href="{{ third.url}}">{{ third.title }}</a>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        {% endif%}
+                    </li>
+                {% endfor %}
+                </ul>
+            {% endif %}
+
+        </li>
+        {% endfor %}
+    </ul><!-- .site-navigation -->
+
+      <footer class="site-info" role="contentinfo">
+        <img class="site-brand" src="/images/brand-footer.png">
+        <p>
+          CCKOREA에 의해 작성된 Creative Commons License 웹사이트는 크리에이티브 커먼즈 저작자표시 2.0 대한민국 라이선스에 따라 이용할 수 있습니다.
+        </p>
+        <img class="ccl" src="/images/ico-cc.png">
+      </footer><!-- .site-info -->
+    </nav><!-- .site-navigation -->
+
+  </div><!-- .container -->
+</header><!-- .site-header 
+-->
