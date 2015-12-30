@@ -14,6 +14,7 @@ github_username: creativecommonskorea
 locale: ko
 # locale_alt:
 
+# 공유용 대표 이미지 (트위터 페북 카드 이미지)
 default_image: '/images/share/ccl_sns_img_green.jpg'
 
 # Build settings
@@ -29,14 +30,20 @@ collections:
   showcases:
     output: true
     permalink: /showcase/:path/
+  resources:
+    output: true
+    permalink: /resource/:path/
 
 defaults:
   -
     scope:
       path: "showcases"
-      # type: "showcases"
     values:
       layout: "showcase"
+    scope:
+      path: "resources"
+    values:
+      layout: "resource"
 
 # Prose.io settings
 prose:
