@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /about/for-dummies/
+permalink: /about/references/
 description: null
 front: false
 published: true
