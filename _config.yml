@@ -23,6 +23,10 @@ markdown: kramdown
 kramdown:
   input: GFM
 
+sass:
+  style: compressed
+  sourcemap: true
+
 exclude: [ Gemfile, Gemfile.lock, README.md ]
 
 # Collection

@@ -8,7 +8,7 @@ title: 06. 쉽게 이해하는 CC 라이선스
 ---
 
 <header class="page-header">
-    <h1 class="page-title">리소스</h1>
+    <h1 class="page-title">{{ page.title }}</h1>
     <div class="breadcrumbs">
         <span><a href="/" title="home" class="bc-home">home</a></span>
         <span><a href="/" title="home">CC 라이선스</a></span>
