@@ -11,6 +11,7 @@ published: true
 ---
 
 
+
 ![headerlogo3.png](http://cckorea.org/xe/files/attach/images/396/249/391/001/headerlogo3.png)
 
 [TalkToMeInKorean](http://www.talktomeinkorean.com/thedrawingproject/), CC BY-NC-ND
@@ -20,7 +21,7 @@ published: true
 - TalkToMeInKorean(이하 티티믹)에서 제안하는 크라우드 소싱을 통한 출판 프로젝트
 - 다양한 드로잉, 일러스트를 원작자들의 동의하에 오픈 콘텐츠를 엮어 책으로 출간
 
-## 참여 방법
+### 참여 방법
 
 더 드로잉 프로젝트에서는 "My Weekly Korean Vocabulary" 라는 한국어 어휘 및 예문 모음집 을 준비하고 있습니다. 이 책에서 소개될 "200여개의 단어들"에 대해 아래와 같이 참여할 수 있습니다.
 
@@ -35,3 +36,6 @@ ex) The Drawing Project – to hear – Yoona Sun
 4. 업로드 설정(Owner Settings > License)에서 “Attribution-ShareAlike Creative Commons”를 선택합니다.
 
 5. 그림을 업로드합니다. (그림은 원하는 만큼 여러장 올릴 수 있지만, 한장의 그림에는 하나의 키워드만 표현해주세요^^)
+
+## CC 관련
+이 프로젝트에 참여된 이미지들은 "CC BY-SA(저작자표시-동일 라이선스 적용)" 로 공개됩니다.
