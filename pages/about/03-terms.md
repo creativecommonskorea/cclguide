@@ -56,6 +56,8 @@ CC 라이선스에서 창작자가 표시하는 이용허락조건은 4가지입
 
 ## 저작자 표시 (CC BY)
 
+![BY.png]({{site.baseurl}}/media/BY.png)
+
 <table class="table table-bordered"><tbody>
 <tr><td class="col-md-6">가능한 이용</td><td class="col-md-6">제한</td></tr>
 <tr><td>
@@ -74,6 +76,8 @@ CC 라이선스에서 창작자가 표시하는 이용허락조건은 4가지입
 
 
 ## 저작자표시-비영리(CC BY-NC)
+
+![BY NC.png]({{site.baseurl}}/media/BY NC.png)
 
 <table class="table table-bordered"><tbody>
 <tr><td class="col-md-6">가능한 이용</td><td class="col-md-6">제한</td></tr>
@@ -95,6 +99,8 @@ CC 라이선스에서 창작자가 표시하는 이용허락조건은 4가지입
 
 ## 저작자표시-변경금지 (CC BY-ND)
 
+![BY ND.png]({{site.baseurl}}/media/BY ND.png)
+
 <table class="table table-bordered"><tbody>
 <tr><td class="col-md-6">가능한 이용</td><td class="col-md-6">제한</td></tr>
 <tr><td>
@@ -113,6 +119,8 @@ CC 라이선스에서 창작자가 표시하는 이용허락조건은 4가지입
 * [이용허락규약](http://creativecommons.org/licenses/by-nd/2.0/kr/legalcode)
 
 ## 저작자표시-동일조건변경허락 (CC BY-SA)
+
+![BY SA.png]({{site.baseurl}}/media/BY SA.png)
 
 <table class="table table-bordered"><tbody>
 <tr><td class="col-md-6">가능한 이용</td><td class="col-md-6">제한</td></tr>
@@ -133,6 +141,8 @@ CC 라이선스에서 창작자가 표시하는 이용허락조건은 4가지입
 * [이용허락규약](http://creativecommons.org/licenses/by-sa/2.0/kr/legalcode)
 
 ## 저작자표시-비영리-동일조건 변경 허락 (BY-NC-SA)
+
+![BY NC SA.png]({{site.baseurl}}/media/BY NC SA.png)
 
 <table class="table table-bordered"><tbody>
 <tr><td class="col-md-6">가능한 이용</td><td class="col-md-6">불가능한 이용</td></tr>
