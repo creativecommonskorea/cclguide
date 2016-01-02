@@ -15,31 +15,11 @@
   img: 2
 
 - title: CC 라이선스가 적용된 컨텐츠 찾기
-  url: /
+  url: /find/
   bg: 
   img: 3
 
-- title: 내 컨텐츠에 CC 라이선스 적용하기
-  url: /
+- title: 자주 묻는 질문
+  url: /faq/
   bg: green
   img: 4
-
-- title: CC 라이선스에 대해 알아볼까요?
-  url: /
-  bg: green
-  img: 1
-
-- title: CC 라이선스가 적용된 컨텐츠 찾기
-  url: /
-  bg: pattern
-  img: 3
-
-- title: CC 라이선스가 적용된 컨텐츠 찾기
-  url: /
-  bg: 
-  img: 2
-
-- title: CC 라이선스가 적용된 컨텐츠 찾기
-  url: /
-  bg: dark
-  img: 1
