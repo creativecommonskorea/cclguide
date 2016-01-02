@@ -17,12 +17,12 @@ front: true
 
 CC 라이선스별 일반권리증서는 기본적으로 해당 창작물을 가지고 사용자가 할수 있는 것과 할 수 없는 것에 대해 명시되어 있습니다. 일반권리증서에서 사용가능한 범위와 조건을 확인하고, 해당 범위와 조건에 따라 사용하도록 합니다.
 
-- 저작자 표시 (BY) 일반권리증서 
-- 저작자표시-비영리 (BY-NC) 일반권리증서
-- 저작자표시-변경금지 (BY-SA) 일반권리증서
-- 저작자표시-동일조건변경허락 (BY-ND) 일반권리증서 
-- 저작자표시-비영리-동일조건 변경 허락 (BY-NC-SA) 일반권리증서 
-- 저작자 표시- 비영리-변경금지 (BY-NC-ND) 일반권리증서 
+- 저작자 표시 (BY) [일반권리증서](http://creativecommons.org/licenses/by-sa/2.0/kr/) 
+- 저작자표시-비영리 (BY-NC) [일반권리증서](http://creativecommons.org/licenses/by-nc/2.0/kr/)
+- 저작자표시-변경금지 (BY-SA) [일반권리증서](http://creativecommons.org/licenses/by-sa/2.0/kr/)
+- 저작자표시-동일조건변경허락 (BY-ND) [일반권리증서](http://creativecommons.org/licenses/by-nd/2.0/kr/)
+- 저작자표시-비영리-동일조건 변경 허락 (BY-NC-SA) [일반권리증서](http://creativecommons.org/licenses/by-nc-sa/2.0/kr/)
+- 저작자 표시- 비영리-변경금지 (BY-NC-ND) [일반권리증서](http://creativecommons.org/licenses/by-nc-nd/2.0/kr/) 
 
 ## CC 라이선스 컨텐츠 사용시 주의할 점
 
