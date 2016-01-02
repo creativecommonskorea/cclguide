@@ -16,7 +16,7 @@ front: true
 
 현재 100여개국에서 크리에이티브커먼즈 운동을 펼쳐지고 있으며, 이 중 약 80여개국에서는 CC 라이선스를 받아들였습니다.
 
-- 관련 링크: [크리에이티브 커먼즈 공식 홈페이지](https://creativecommons.org/about/downloads)
+- [크리에이티브 커먼즈 공식 홈페이지](https://creativecommons.org/about/downloads)
 
 ## 크리에이티브 커먼즈 코리아
 
