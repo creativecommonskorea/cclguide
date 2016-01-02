@@ -28,3 +28,5 @@ Creative Commons 에서는 내가 입력한 조건에 따라 라이선스 코드
 
 ### 3. 생성된 코드를 복사해 적용합니다.
 라이선스 버튼 타입을 선택한 후, 복사한 코드를 직접 저작물이나 웹사이트에 적용합니다.
+
+![Chooser_howto2.jpg]({{site.baseurl}}/media/Chooser_howto2.jpg)
