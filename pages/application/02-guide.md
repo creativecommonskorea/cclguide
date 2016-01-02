@@ -65,7 +65,7 @@ URL을 텍스트로 표기해 주는 것이 바람직합니다.
 
 동영상 및 음원의 시작 혹은 마지막 부분에 CC 라이선스에 대해 안내합니다. 동영상의 경우, 제공하고 있는 CC 라이선스 표기용 비디오 범퍼를 편집하거나 그대로 사용하셔도 좋습니다. Creative Commons 에서는 바로 사용할 수 있는 비디오 범퍼 샘플을 제공하고 있습니다.
 
-관련링크: [CC Video bumpers](https://wiki.creativecommons.org/wiki/CC_video_bumpers)
+- [CC Video bumpers](https://wiki.creativecommons.org/wiki/CC_video_bumpers)
 
 ### 웹사이트
 
