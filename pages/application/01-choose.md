@@ -3,8 +3,10 @@ layout: page
 published: true
 permalink: application/choose/
 title: 01. 라이선스 선택하기
-description: 
+description: null
+front: true
 ---
+
 
 0. TOC
 {:toc}
@@ -12,8 +14,8 @@ description:
 ## 라이선스 선택하기
 
 CC 라이선스에는 6개의 종류가 있습니다. 본인의 창작물을 어떤 이용조건하에 다른사람들이 이용하길 원하는지에 따라 이에 알맞은 라이선스를 선택할 수 있습니다.
+6개 라이선스에 대한 자세한 설명은 ["이용허락조건과 CC 라이선스 종류"](http://ccl.cckorea.org/about/terms/)을 참고해주세요.
 
-- 03. 이용허락조건과 CC 라이선스 종류
 
 ### 내게 알맞는 CC 라이선스 찾기
 
@@ -48,4 +50,4 @@ CC 라이선스는 저작권, Sui Generis Database Right 혹은 저작권과 유
 
 **CC 라이선스에 적용할 수 없는 타인의 권리가 있는 경우**
 
-제 3자가 퍼블리시티권이나 상표권에 대한 권리를 가지고 있다면, 해당 사항들에 대해 명시해야 합니다. 
+제 3자가 퍼블리시티권이나 상표권에 대한 권리를 가지고 있다면, 해당 사항들에 대해 명시해야 합니다.
