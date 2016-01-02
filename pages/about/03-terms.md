@@ -56,7 +56,7 @@ CC 라이선스에서 창작자가 표시하는 이용허락조건은 4가지입
 
 ## 저작자 표시 (CC BY)
 
-![BY.png]({{site.baseurl}}/media/BY.png)
+![BY.png]({{site.baseurl}}/{{site.baseurl}}/{{site.baseurl}}/media/BY.png)
 
 <table class="table table-bordered"><tbody>
 <tr><td class="col-md-6">가능한 이용</td><td class="col-md-6">제한</td></tr>
