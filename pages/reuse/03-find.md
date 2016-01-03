@@ -23,9 +23,9 @@ Let’s CC는 CC 라이선스가 적용된 이미지, 음악, 동영상, 문서 
 
 1. 상업적 이용 혹은 원본컨텐츠에 변경 등 필요한 이용조건을 선택한 후 검색어를 입력합니다. 영문으로 검색할 경우 더 많은 컨텐츠를 검색할 수 있습니다.
 
-![letsCC_sc1.png]({{site.baseurl}}/media/letsCC_sc1.png)
+![letsCC_sc1.png](/media/letsCC_sc1.png)
 
 2. 선택한 이용조건대로 사용가능한 CC 라이선스가 적용된 컨텐츠들의 검색결과를 보여줍니다. 노란색 별표시를 누르면 컨텐츠를 보관함에 모아두거나 다른 사용자들에게 추천할 수 있습니다.
 
-![letsCC_sc2.png]({{site.baseurl}}/media/letsCC_sc2.png)
+![letsCC_sc2.png](/media/letsCC_sc2.png)
 
