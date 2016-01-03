@@ -17,7 +17,7 @@ layout: default
     	</div>
 	</div>
 
-	{% if page.quiz_hide != true %}
+	{% if page.quiz_display %}
 	<div class="page-additional">
 		<div class="oxquiz">
 			<h1>OX 퀴즈</h1>
@@ -25,37 +25,38 @@ layout: default
 				<li class="odd">
 					<h2 class="q">
 						<span class="num">1.</span>
-						CC 라이선스는<br>
-						저작권에 반대하는 라이선스이다.
+						{{ page.quiz_o_title | newline_to_br }}
 					</h2>
 					<div class="a-img"><img src="/images/view/ox-ico-right.png" srcset="/images/view/ox-ico-right@2x.png 2x"></div>
 					<div class="a">
-						CC는 저작권에 반대하는 것이 아닙니다. CCL은<br>저작권자로 하여금 좀 더 유연하고 열린 방법으로 저작권을<br>보유하고 관리할 수 있도록 도와줍니다. 사실 CCL은<br>그 실효성을 저작권법에 의존하고 있습니다.
+						{{ page.quiz_o_desc | newline_to_br }}
 					</div>
 				</li>
 
 				<li class="even">
 					<h2 class="q">
 						<span class="num">2.</span>
-						CC-BY-SA 이미지를<br>
-						CC-BY 블로그에 가져다 쓸 수 있다.
+						{{ page.quiz_x_title | newline_to_br }}
 					</h2>
 					<div class="a-img"><img src="/images/view/ox-ico-wrong.png" srcset="/images/view/ox-ico-wrong@2x.png 2x"></div>
 					<div class="a">
-						예, 쓸 수 있습니다. SA는 동일조건변경허락으로 이미지를<br>크롭하거나 다른 것과 합성하는 등 변경하지 않는다면<br>반드시 BY-SA의 조건을 그대로 가져올 필요는 없습니다.<br>단, 변경을 할 시에는 BY-SA를 블로그와 별개로<br>이미지에 표기해주셔야 합니다.
+						{{ page.quiz_x_desc | newline_to_br}}
 					</div>
 				</li>
 
 			</ul>
 		</div>
+		{% if page.related_contents.size > 1 %}
 		<div class="related">
 			<h1>관련 컨텐츠</h1>
 			<ul class="list-related">
-				<li><a href="">Copyright, Public Domain, CCL 비교</a></li>
-				<li><a href="">CC 라이선스 적용 및 표시 가이드</a></li>
-				<li><a href="">CC 라이선스가 적용된 컨텐츠 찾기</a></li>
+			{% for content in page.related_contents %}
+				{% assign link = content | split: '|' %}
+				<li><a href="{{ link[1] }}">{{ link[0] }}</a></li>
+			{% endfor %}
 			</ul>
 		</div>
+		{% endif %}
 	</div>
 	{% endif %}
 

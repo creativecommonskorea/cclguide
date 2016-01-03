@@ -56,32 +56,6 @@ prose:
   relativeLinks: 'http://ccl.cckorea.org/links.jsonp'
   media: 'media'
   metadata:
-    _posts:
-      - name: 'category'
-        field:
-          element: 'hidden'
-          value: 'blog'
-      - name: 'layout'
-        field:
-          element: 'hidden'
-          value: 'post'
-      - name: 'title'
-        field:
-          element: 'text'
-          label: '제목'
-          value: ''
-      - name: 'tags'
-        field:
-          element: 'multiselect'
-          label: '태그 추가'
-          placeholder: 'Choose Tags'
-          alterable: true
-      - name: 'image'
-        field:
-          element: 'text'
-          label: '대표 이미지'
-          value: ''
-
     pages:
       - name: 'layout'
         field:
@@ -109,4 +83,30 @@ prose:
           element: 'checkbox'
           label: '초기 화면에 노출하기'
           value: 'false'
-
+      - name: 'quiz_hide'
+        field:
+          element: 'checkbox'
+          label: '하단에 OX 퀴즈 숨기'
+          value: 'false'
+      - name: 'quiz_o_title'
+        field:
+          element: 'textarea'
+          label: 'O 퀴즈 제목'
+      - name: 'quiz_o_desc'
+        field:
+          element: 'textarea'
+          label: 'O 퀴즈 본문'
+      - name: 'quiz_x_title'
+        field:
+          element: 'textarea'
+          label: 'X 퀴즈 제목'
+      - name: 'quiz_x_desc'
+        field:
+          element: 'textarea'
+          label: 'X 퀴즈 본문'
+      - name: 'related_contents'
+        field:
+          element: 'textarea'
+          label: 'X 퀴즈 본문'
+    _showcases:
+    _faq:
