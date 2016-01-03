@@ -1,7 +1,14 @@
-## 바로가기
-http://opentutorials.org 
-
-![]({{site.baseurl}}/https://s3-ap-northeast-1.amazonaws.com/opentutorialsfile/course/94.png)
+---
+title: "생활코딩"
+date: 
+image: "https://s3-ap-northeast-1.amazonaws.com/opentutorialsfile/course/94.png"
+link: http://opentutorials.org 
+creator: opentutorial
+category: 디자인
+region: 국내
+layout: showcase
+published: true
+---
 
 소개
 - 생활코딩은 자가 학습할 수 있는 코딩 강의 동영상을 제공하고 있는 비영리 플랫폼이다.
