@@ -38,7 +38,7 @@ layout: default
 <section class="section section-case">
     <h1 class="sr-only">활용사례</h1>
     <ul class="list-case">
-    {% for showcase in site.data.showcases %}
+    {% for showcase in site.data.showcases limit:2 %}
         <li{% if showcase.type %} class="{{ showcase.type }}"{% endif %}>
             <a href="{{ showcase.url }}" title="{{ showcase.title | strip_html | strip_newlines }}">
                 <div class="img">
@@ -53,9 +53,23 @@ layout: default
             </a>
         </li>
     {% endfor %}
+    <div class="load-more"><a href="/showcase2.html" class="jscroll-next">더보기</a></div>
+
     </ul>
     
-    <div class="load-more">더보기</div>
+    
     <!-- // 더보기 항목 없을시 클래스 done 추가 -->
     <!-- <div class="load-more done">모든 항목을 표시하였습니다</div> -->
 </section><!-- .section-case -->
+
+<script src="//cdn.jsdelivr.net/jquery.jscroll/2.2.4/jquery.jscroll.min.js"></script>
+<script>
+    $('.section-case').jscroll({
+        loadingHtml: '<i class="fa fa-spinner"></i>',
+        padding: 20,
+        nextSelector: 'a.jscroll-next:last',
+        contentSelector: 'ul',
+        debug: true,
+        autoTrigger: false,
+    });
+</script>

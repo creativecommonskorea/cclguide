@@ -19,7 +19,6 @@ default_image: '/images/share/ccl_sns_img_green.jpg'
 
 # Build settings
 markdown: kramdown
-
 kramdown:
   input: GFM
 
@@ -27,7 +26,7 @@ sass:
   style: compressed
   sourcemap: true
 
-exclude: [ Gemfile, Gemfile.lock, README.md ]
+exclude: [ Gemfile, Gemfile.lock, README.md, FRONT.md ]
 
 # Collection
 collections:
@@ -78,32 +77,31 @@ prose:
           label: '요약 설명'
           help: '검색 엔진에게 제공할 설명, 초기 화면에 표시할 요약입니다.'
           value: ''
-      - name: 'front'
+      - name: 'quiz_show'
         field:
           element: 'checkbox'
-          label: '초기 화면에 노출하기'
-          value: 'false'
-      - name: 'quiz_hide'
-        field:
-          element: 'checkbox'
-          label: '하단에 OX 퀴즈 숨기'
+          label: '하단에 OX 퀴즈 표시하'
           value: 'false'
       - name: 'quiz_o_title'
         field:
           element: 'textarea'
           label: 'O 퀴즈 제목'
+          help: '줄바꿈을 존중합니다.'
       - name: 'quiz_o_desc'
         field:
           element: 'textarea'
           label: 'O 퀴즈 본문'
+          help: '줄바꿈을 존중합니다.'
       - name: 'quiz_x_title'
         field:
           element: 'textarea'
           label: 'X 퀴즈 제목'
+          help: '줄바꿈을 존중합니다.'
       - name: 'quiz_x_desc'
         field:
           element: 'textarea'
           label: 'X 퀴즈 본문'
+          help: '줄바꿈을 존중합니다.'
       - name: 'related_contents'
         field:
           element: 'textarea'
