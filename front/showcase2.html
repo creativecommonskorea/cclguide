@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<ul class="list-case">
+{% for showcase in site.data.showcases offset:site.numbers_of_showcases_to_display limit:site.numbers_of_showcases_to_display %}
+    <li{% if showcase.type %} class="{{ showcase.type }}"{% endif %}>
+        <a href="{{ showcase.url }}" title="{{ showcase.title | strip_html | strip_newlines }}">
+            <div class="img">
+                <img src="{% if showcase.img contains 'http://' or showcase.img contains 'https://' %}{{ showcase.img }}{% else %}{{ showcase.img | prepend: site.prose.media | prepend: site.baseurl }}{% endif %}" alt="{{ showcase.title | strip_html | strip_newlines }}">
+            </div>
+            <div class="desc">
+                <em>활용사례 #{{ forloop.index | plus: site.numbers_of_showcases_to_display }}</em>
+                <h2 class="title">
+                    {{ showcase.title }}
+                </h2>
+            </div>
+        </a>
+    </li>
+{% endfor %}
+    <a href="/front/showcase3/" class="jscroll-next">3</a>
+</ul>
