@@ -29,7 +29,7 @@ sass:
   style: compressed
   sourcemap: true
 
-exclude: [ Gemfile, Gemfile.lock, README.md, FRONT.md ]
+exclude: [ Gemfile, Gemfile.lock, README.md, front/uploads.md ]
 
 # Collection
 collections:

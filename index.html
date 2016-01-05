@@ -53,19 +53,24 @@ layout: default
             </a>
         </li>
     {% endfor %}
+        <li><a href="/front/showcase2/" class="jscroll-next">2</a></li>
     </ul>
-    <a href="/front/showcase2/" class="jscroll-next">2</a>
+
 
 </section><!-- .section-case -->
 
 <script src="//cdn.jsdelivr.net/jquery.jscroll/2.2.4/jquery.jscroll.min.js"></script>
 <script>
+    function neueFade() {
+        $(this).hide().fadeIn(2000);
+    };
     $('.section-case').jscroll({
-        loadingHtml: '<i class="fa fa-spinner"></i>',
-        padding: 20,
+        loadingHtml: '<h1>loading...</h1>',
+        padding: 0,
         nextSelector: 'a.jscroll-next:last',
         contentSelector: 'ul.list-case',
         debug: true,
-        autoTrigger: false,
+        autoTrigger: true,
+        callback: neueFade
     });
 </script>
