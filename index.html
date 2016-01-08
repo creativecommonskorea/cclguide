@@ -38,7 +38,7 @@ layout: default
 <section class="section section-case">
     <h1 class="sr-only">활용사례</h1>
     <ul class="list-case">
-    {% for showcase in site.data.showcases limit:site.numbers_of_showcases_to_display %}
+    {% for showcase in site.data.showcases limit:site.paging_front_showcases %}
         <li{% if showcase.type %} class="{{ showcase.type }}"{% endif %}>
             <a href="{{ showcase.url }}" title="{{ showcase.title | strip_html | strip_newlines }}">
                 <div class="img">
@@ -53,7 +53,7 @@ layout: default
             </a>
         </li>
     {% endfor %}
-        <li><a href="/front/showcase2/" class="jscroll-next">2</a></li>
+        <li><a href="/front/showcase/2/" class="jscroll-next">2</a></li>
     </ul>
 
 

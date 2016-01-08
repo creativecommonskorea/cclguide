@@ -17,8 +17,9 @@ locale: ko
 # 공유용 대표 이미지 (트위터 페북 카드 이미지)
 default_image: '/images/share/ccl_sns_img_green.jpg'
 
-# 초기 화면
-numbers_of_showcases_to_display: 4
+# 페이징
+paging_front_showcases: 4
+paging_list_showcases: 4
 
 # Build settings
 markdown: kramdown
