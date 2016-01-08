@@ -5,11 +5,75 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 // base styles from slowalk
-@import "style.min.css" 
+@import "style.min.css"
 
 #markdown-toc
     display: block
     padding: 2em
+    ol
+        margin-left: 1em
 
 .list-case li
     margin-bottom: 20px
+
+.entry-content h2,
+.accordion-list .post-content h2
+    color: #489100
+    font-size: 18px
+    font-size: 1.8rem
+    font-weight: 700
+    margin: 30px 0 8px
+
+.entry-content h3,
+.accordion-list .post-content h3
+    color: #0d0d0d
+    font-size: 16px
+    font-size: 1.6rem
+    font-weight: 400
+    margin: 15px 0 5px
+
+.entry-content h4,
+.accordion-list .post-content h4
+    color: #489100
+    font-size: 14px
+    font-size: 1.4rem
+    font-weight: 400
+    margin: 10px 0 5px
+
+.entry-content h2 + h3,
+.accordion-list .post-content h2 + h3
+    margin-top: 5px
+
+
+.entry-content h1, .accordion-list .post-content h1
+    color: #489100
+    font-size: 18px
+    font-size: 1.8rem
+    font-weight: 700
+    margin: 30px 0 8px
+
+@media (min-width:768px)
+    .entry-content h1, .accordion-list .post-content h1
+        font-size: 22px
+        font-size: 2.2rem
+        margin: 40px 0 12px
+
+    .entry-content h2, .accordion-list .post-content h2
+        font-size: 18px
+        font-size: 1.8rem
+        margin: 20px 0 5px
+
+    .entry-content h3, .accordion-list .post-content h3
+        font-size: 16px
+        font-size: 1.6rem
+        margin: 18px 0 5px
+
+    .entry-content h4, .accordion-list .post-content h4
+        font-size: 16px
+        font-size: 1.6rem
+        margin: 10px 0 2px
+
+.terms
+    .col-md-6
+        width: 50%
+

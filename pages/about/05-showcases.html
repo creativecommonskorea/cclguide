@@ -3,7 +3,6 @@ permalink: /about/showcases/
 title: 적용 사례
 layout: default
 ---
-
     <header class="page-header">
         <h1 class="page-title">적용 사례</h1>
         <div class="breadcrumbs">
@@ -12,32 +11,33 @@ layout: default
         </div>
     </header><!-- .page-header -->
     <div class="page-content">
+
         <ul class="tabs hidden-xs">
             <li class="on"><a href="">전체</a></li>
-            <li><a href="">학술</a></li>
-            <li><a href="">음악</a></li>
-            <li><a href="">예술</a></li>
-            <li><a href="">디자인</a></li>
-            <li><a href="">교육</a></li>
+            {% for hash in site.data.showcases-categories %}
+                {% for category in hash %}
+                    <li><a href="/about/showcases/{{ category[1] }}/">{{ category[0] }}</a></li>
+                {% endfor %}
+            {% endfor %}
         </ul>
-        
+
         <div class="selectbox visible-xs">
             <div class="label">전체</div>
             <select class="js-select">
-                <option value="">전체</option><!-- value : url -->
-                <option value="">학술</option>
-                <option value="">음악</option>
-                <option value="">예술</option>
-                <option value="">디자인</option>
-                <option value="">교육</option>
+                <option value="/about/showcases/">전체</option><!-- value : url -->
+                {% for hash in site.data.showcases-categories %}
+                {% for category in hash %}
+                <option value="{{ category[1] }}">{{ category[0] }}</option>
+                {% endfor %}
+            {% endfor %}
             </select>
         </div>
 
         <ul class="archive-list">
-            {% for showcase in site.showcases %}
+            {% for showcase in site.showcases limit:site.paging_list_showcases %}
             <li>
                 <div class="post-meta">
-                    <a class="taxo" href="#">음악</a>, <a href="#">유럽</a>
+                    <a class="taxo" href="#">{{ page.category }}</a>, <a href="#">{{ page.region }}</a>
                 </div>
                 <h2 class="post-title">
                     <a href="{{ showcase.url }}" target="_blank" title="{{ showcase.title | strip_html | strip_newlines }} 자세히 보기">{{ showcase.title }}</a>
@@ -53,12 +53,26 @@ layout: default
                     </div>
                 </a>
                 <div class="post-source">
-                    <a href="#">Bloter</a>
+                    {% if showcase.link %}<a target="_blank" href="{{ showcase.link }}">{% endif %}{{ showcase.creator }}{% if showcase.link %}</a>{% endif %}
                 </div>
             </li>
             {% endfor %}
+            <li><a href="/about/showcases/2/" class="jscroll-next">2</a></li>
         </ul>
-
-        <div class="load-more done">모든 항목을 표시하였습니다</div>
-
     </div>
+
+<script src="//cdn.jsdelivr.net/jquery.jscroll/2.2.4/jquery.jscroll.min.js"></script>
+<script>
+    function neueFade() {
+        $(this).hide().fadeIn(2000);
+    };
+    $('.page-content').jscroll({
+        loadingHtml: '<h1>loading...</h1>',
+        padding: 0,
+        nextSelector: 'a.jscroll-next:last',
+        contentSelector: 'ul.archive-list',
+        debug: true,
+        autoTrigger: true,
+        callback: neueFade
+    });
+</script>
