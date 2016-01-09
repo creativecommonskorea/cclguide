@@ -2,7 +2,7 @@
 title: 크리에이티브 커먼즈 라이선스
 description: >
   크리에이티브커먼즈 라이선스(Creative Commons License)는 창작자가 자신의 창작물에 대하여 일정한 조건하에 모든 이의 자유이용을 허락하는 라이선스 입니다.
-baseurl: '/' # the subpath of your site, e.g. /blog/
+baseurl: '' # the subpath of your site, e.g. /blog/
 url: 'http://ccl.cckorea.org' # the base hostname & protocol for your site
 permalink: pretty
 timezone: Asia/Seoul
