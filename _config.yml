@@ -132,6 +132,24 @@ prose:
           label: '요약 설명'
           help: '검색 엔진에게 제공할 설명, 초기 화면에 표시할 요약입니다.'
           value: ''
+      - name: 'image'
+        field:
+          element: 'text'
+          label: '이미지'
+          help: '이미지 파일 경로입니다. 예시) /images/thumbnail-post.png, /media/text.png'
+          value: ''
+      - name: 'link'
+        field:
+          element: 'text'
+          label: '링크'
+          help: '이 사례의 링크입니다. 예시) http://sloday.com'
+          value: ''
+      - name: 'creator'
+        field:
+          element: 'text'
+          label: '창작자'
+          help: '이 프로젝트의 창작자, 단체명입니다. 예시) slowalk'
+          value: ''
       - name: 'category'
         field:
           element: 'select'
@@ -169,4 +187,16 @@ prose:
           element: 'textarea'
           label: '요약 설명'
           help: '검색 엔진에게 제공할 설명, 초기 화면에 표시할 요약입니다.'
+          value: ''
+      - name: 'image'
+        field:
+          element: 'text'
+          label: '이미지'
+          help: '이미지 파일 경로입니다. 예시) /images/thumbnail-post.png, /media/text.png'
+          value: ''
+      - name: 'link'
+        field:
+          element: 'text'
+          label: '링크'
+          help: '이 사례의 링크입니다. 예시) http://sloday.com'
           value: ''
