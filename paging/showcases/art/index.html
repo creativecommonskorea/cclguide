@@ -1,0 +1,67 @@
+---
+permalink: /about/showcases/art/
+title: 적용 사례
+output: true
+layout: default
+---
+    <header class="page-header">
+        <h1 class="page-title">적용 사례</h1>
+        <div class="breadcrumbs">
+            <span><a href="/" title="home" class="bc-home">home</a></span>
+            <span><a href="/" title="home">CC 라이선스</a></span>
+        </div>
+    </header><!-- .page-header -->
+    <div class="page-content">
+
+        <ul class="tabs hidden-xs">
+            <li><a href="/about/showcases/">전체</a></li>
+            {% for hash in site.data.showcases-categories %}
+                {% for category in hash %}
+                    <li{% if category[1] == 'academy' %} class="on"{% endif %}><a href="/about/showcases/{{ category[1] }}/">{{ category[0] }}</a></li>
+                {% endfor %}
+            {% endfor %}
+        </ul>
+
+        <div class="selectbox visible-xs">
+            <div class="label">전체</div>
+            <select class="js-select">
+                <option value="">전체</option><!-- value : url -->
+                {% for hash in site.data.showcases-categories %}
+                {% for category in hash %}
+                <option value="{{ category[1] }}">{{ category[0] }}</option>
+                {% endfor %}
+            {% endfor %}
+            </select>
+        </div>
+
+        <ul class="archive-list">
+            {% for showcase in site.showcases %}
+            {% if showcase.category == '학술' %}
+            <li>
+                <div class="post-meta">
+                    <a class="taxo" href="#">{{ page.category }}</a>, <a href="#">{{ page.region }}</a>
+                </div>
+                <h2 class="post-title">
+                    <a href="{{ showcase.url }}" target="_blank" title="{{ showcase.title | strip_html | strip_newlines }} 자세히 보기">{{ showcase.title }}</a>
+                </h2>
+                <div class="post-thumbnail">
+                    <a href="{{ showcase.url }}" target="_blank" title="{{ showcase.title }} 자세히 보기">
+                        <img src="{{ showcase.image }}" alt="">
+                    </a>
+                </div>
+                <a href="{{ showcase.url }}" target="_blank" title="{{ showcase.title | strip_html | strip_newlines }}">
+                    <div class="post-excerpt">
+                        {{ showcase.content | strip_html | strip_newlines | truncate: 300 }}
+                    </div>
+                </a>
+                <div class="post-source">
+                    <a href="#">Bloter</a>
+                </div>
+            </li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+
+        <div class="load-more done">모든 항목을 표시하였습니다</div>
+
+    </div>

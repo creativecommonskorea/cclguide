@@ -1,5 +1,5 @@
 ---
-title: "생활코딩"
+title: "쉽게 이해하는 씨씨 라이선스 - 리소스"
 date: 
 image: "https://s3-ap-northeast-1.amazonaws.com/opentutorialsfile/course/94.png"
 link: http://opentutorials.org 

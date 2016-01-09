@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+
+  <header class="page-header">
+    <h1 class="page-title">{{ page.title }}</h1>
+  </header>
+
+  <article class="page-content">
+    <p><span class="text-success">{{ page.category }}</span> / <span class="text-muted">{{ page.region }}</span></p>
+    <a target="_blank" href="{{ page.link }}" class="btn btn-info pull-right">바로가기</a>
+    <p class="text-muted">{{ page.creator }}</p>
+    <p>&nbsp;</p>
+    {{ content }}
+  </article>
+
+

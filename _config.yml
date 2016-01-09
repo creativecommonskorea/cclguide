@@ -111,4 +111,62 @@ prose:
           element: 'textarea'
           label: 'X 퀴즈 본문'
     _showcases:
-    _faq:
+      - name: 'layout'
+        field:
+          element: 'hidden'
+          value: 'showcase'
+      - name: 'title'
+        field:
+          element: 'text'
+          label: '제목'
+          value: ''
+      - name: 'permalink'
+        field:
+          element: 'text'
+          label: '퍼머링크'
+          help: 'URL. 예시) /about/cclicense/'
+          value: ''
+      - name: 'description'
+        field:
+          element: 'textarea'
+          label: '요약 설명'
+          help: '검색 엔진에게 제공할 설명, 초기 화면에 표시할 요약입니다.'
+          value: ''
+      - name: 'category'
+        field:
+          element: 'select'
+          label: '분류'
+          help: '적용 사례의 분류입니다.'
+          options:
+            - name: 학술
+              value: academy
+            - name: 음악
+              value: music
+            - name: 예술
+              value: art
+            - name: 디자인
+              value: design
+            - name: 교육
+              value: education
+    _resources:
+      - name: 'layout'
+        field:
+          element: 'hidden'
+          value: 'resource'
+      - name: 'title'
+        field:
+          element: 'text'
+          label: '제목'
+          value: ''
+      - name: 'permalink'
+        field:
+          element: 'text'
+          label: '퍼머링크'
+          help: 'URL. 예시) /about/cclicense/'
+          value: ''
+      - name: 'description'
+        field:
+          element: 'textarea'
+          label: '요약 설명'
+          help: '검색 엔진에게 제공할 설명, 초기 화면에 표시할 요약입니다.'
+          value: ''
