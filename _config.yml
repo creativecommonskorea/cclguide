@@ -166,6 +166,16 @@ prose:
               value: design
             - name: 교육
               value: education
+      - name: 'region'
+        field:
+          element: 'select'
+          label: '국내/해외'
+          help: '적용 사례의 분류입니다.'
+          options:
+            - name: 국내
+              value: domestic
+            - name: 국외
+              value: international
     _resources:
       - name: 'layout'
         field:
