@@ -84,7 +84,7 @@ prose:
       - name: 'quiz_show'
         field:
           element: 'checkbox'
-          label: '하단에 OX 퀴즈 표시하'
+          label: '하단에 OX 퀴즈 보이기'
           value: 'false'
       - name: 'quiz_o_title'
         field:
