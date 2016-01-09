@@ -4,13 +4,11 @@ date: "2014-10-16 16:34"
 image: "http://cckorea.org/xe/files/attach/images/396/249/391/001/headerlogo3.png"
 link: "http://www.talktomeinkorean.com/thedrawingproject/"
 creator: TalkToMeInKorean
-category: 출판
-region: 국내
+category: art
+region: domestic
 layout: showcase
 published: true
 ---
-
-
 
 ![headerlogo3.png](http://cckorea.org/xe/files/attach/images/396/249/391/001/headerlogo3.png)
 

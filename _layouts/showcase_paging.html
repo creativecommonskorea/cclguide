@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+{% assign page_number = page.name | remove: '.html' | plus: 0 %}
+{% assign next_page_number = page_number | plus:1 %}
+{% assign offset_number = site.paging_list_showcases | times:page_number %}
+{% capture difference %} {{ site.showcases | size | divided_by: site.paging_list_showcases | minus: page_number }} {% endcapture %}
+{% assign difference = difference | plus: 0 %}
+{% assign categories = site.data.showcases-categories %}
+
+<div class="page-content">
+    <ul class="archive-list">
+        {% for showcase in site.showcases offset:offset_number limit:site.paging_list_showcases %}
+
+        {% for hashes in categories %}
+            {% for hash in hashes %}
+                {% if hash[1] == showcase.category %}
+                    {% assign category_label = hash[0] %}
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+        <li>
+            <div class="post-meta">
+            {% if showcase.category %}
+                <a class="taxo" href="/about/showcase/{{ showcase.category }}">{{ category_label }}</a>
+            {% endif %}
+            {% if showcase.region %}
+                , <a href="/about/showcase/{{ showcase.region }}">{% if showcase.region == 'domestic' %}국내{% else %}국외{% endif %}</a>
+            {% endif %}
+            </div>
+            <h2 class="post-title">
+                <a href="{{ showcase.url }}" target="_blank" title="{{ showcase.title | strip_html | strip_newlines }} 자세히 보기">{{ showcase.title }}</a>
+            </h2>
+            <div class="post-thumbnail">
+                <a href="{{ showcase.url }}" target="_blank" title="{{ showcase.title }} 자세히 보기">
+                    <img src="{{ showcase.image }}" alt="">
+                </a>
+            </div>
+            <a href="{{ showcase.url }}" target="_blank" title="{{ showcase.title | strip_html | strip_newlines }}">
+                <div class="post-excerpt">
+                    {{ showcase.content | strip_html | strip_newlines | truncate: 300 }}
+                </div>
+            </a>
+            <div class="post-source">
+                {% if showcase.link %}<a target="_blank" href="{{ showcase.link }}">{% endif %}{{ showcase.creator }}{% if showcase.link %}</a>{% endif %}
+            </div>
+        </li>
+        {% endfor %}
+        {% if difference > 0 %}
+        <li><a href="/paging/showcases/{{ next_page_number }}/" class="sr-only jscroll-next">{{ next_page_number }}</a></li>
+        {% endif %}
+    </ul>
+</div>

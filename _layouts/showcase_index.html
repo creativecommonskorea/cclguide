@@ -1,8 +1,18 @@
 ---
-permalink: /about/showcases/
-title: 적용 사례
 layout: default
 ---
+
+{% assign groups = site.showcases | group_by:'category' %}
+{% for group in groups %}
+    {% if group['name'] == page.category %}
+        {% assign showcases = group.items | map: 'to_liquid' %}
+    {% endif %}
+{% endfor %}
+
+{% assign last_page_number = showcases | size | divided_by: site.paging_list_showcases %}
+{% if showcases | size | modulo: site.paging_list_showcases > 0 %}
+    {% assign last_page_number = last_page_number | plus: 1 %}
+{% endif %}
 
 {% assign categories = site.data.showcases-categories %}
 
@@ -16,10 +26,10 @@ layout: default
     <div class="page-content">
 
         <ul class="tabs hidden-xs">
-            <li class="on"><a href="/about/showcases/">전체</a></li>
+            <li><a href="/about/showcases/">전체</a></li>
             {% for hash in site.data.showcases-categories %}
                 {% for category in hash %}
-                    <li><a href="/about/showcases/{{ category[1] }}/">{{ category[0] }}</a></li>
+                    <li{% if category[1] == page.category %} class="on"{% endif %}><a href="/about/showcases/{{ category[1] }}/">{{ category[0] }}</a></li>
                 {% endfor %}
             {% endfor %}
         </ul>
@@ -37,9 +47,10 @@ layout: default
         </div>
 
         <ul class="archive-list">
-            {{ showcase.category }}
 
-            {% for showcase in site.showcases limit:site.paging_list_showcases %}
+            {% for showcase in showcases limit:site.paging_list_showcases %}
+
+            {% if showcase.category == page.category %}
 
                 {% for hashes in categories %}
                     {% for hash in hashes %}
@@ -74,11 +85,19 @@ layout: default
                     {% if showcase.link %}<a target="_blank" href="{{ showcase.link }}">{% endif %}{{ showcase.creator }}{% if showcase.link %}</a>{% endif %}
                 </div>
             </li>
+
+            {% endif %}
+
             {% endfor %}
-            <li><a href="/paging/showcases/2/" class="jscroll-next">2</a></li>
+
+            {% if showcases.size > 0 and last_page_number != page_number %}
+            <li><a href="/paging/showcases/{{ page.category }}/2/" class="jscroll-next">2</a></li>
+            {% endif %}
+
         </ul>
     </div>
 
+{% if showcases.size > 0 %}
 <script src="//cdn.jsdelivr.net/jquery.jscroll/2.2.4/jquery.jscroll.min.js"></script>
 <script>
     function neueFade() {
@@ -94,3 +113,4 @@ layout: default
         callback: neueFade
     });
 </script>
+{% endif %}

@@ -4,8 +4,8 @@ date: {}
 image: "/images/thumbnail-post.png"
 link: "http://sloday.com"
 creator: slowalk
-category: 디자인
-region: 국내
+category: design
+region: domestic
 layout: showcase
 published: true
 ---

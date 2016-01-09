@@ -4,8 +4,8 @@ date:
 image: "https://s3-ap-northeast-1.amazonaws.com/opentutorialsfile/course/94.png"
 link: http://opentutorials.org 
 creator: opentutorial
-category: 디자인
-region: 국내
+category: education
+region: domestic
 layout: showcase
 published: true
 ---
