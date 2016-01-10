@@ -43,16 +43,28 @@ collections:
     output: true
     permalink: /showcase/:path/
   resources:
-    output: false
+    output: true
+    permalink: /resource/:path/
   faqs:
-    output: false
+    output: true
+    permalink: /faq/:path/
 
 defaults:
   -
     scope:
-      path: "showcases"
+      type: "showcases"
     values:
       layout: "showcase"
+  -
+    scope:
+      type: "resources"
+    values:
+      layout: "resource"
+  -
+    scope:
+      type: "faqs"
+    values:
+      layout: "faq"
 
 # Prose.io settings
 prose:
