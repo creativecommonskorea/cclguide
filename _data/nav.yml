@@ -5,15 +5,13 @@
   items:
     - title: 01. CC 라이선스
       url: /about/
-    - title: 02. CC 라이선스의 특징
-      url: /about/features/
-    - title: 03. 이용허락조건과 CC 라이선스 종류
+    - title: 02. 이용허락조건과 CC 라이선스 종류
       url: /about/terms/
-    - title: 04. CC0
+    - title: 03. CC0
       url: /about/cc-zero/
-    - title: 05. 적용 사례
+    - title: 04. 적용 사례
       url: /about/showcases/
-    - title: 06. 쉽게 이해하는 CC 라이선스
+    - title: 05. 쉽게 이해하는 CC 라이선스
       url: /about/resources/
 
 - title: 02. CC 라이선스 적용하기
