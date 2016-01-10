@@ -32,6 +32,9 @@ sass:
 
 exclude: [ Gemfile, Gemfile.lock, README.md, front/uploads.md ]
 
+gems:
+  - jekyll-redirect-from
+
 # Collection
 collections:
   showcases:

@@ -5,6 +5,7 @@ permalink: application/choose/
 title: 01. 라이선스 선택하기
 description: null
 front: true
+redirect_from: /application/
 ---
 
 
