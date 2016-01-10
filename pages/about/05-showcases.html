@@ -55,10 +55,10 @@ layout: default
                 {% endif %}
                 </div>
                 <h2 class="post-title">
-                    <a href="{{ showcase.url }}" target="_blank" title="{{ showcase.title | strip_html | strip_newlines }} 자세히 보기">{{ showcase.title }}</a>
+                    <a href="{{ showcase.url }}" title="{{ showcase.title | strip_html | strip_newlines }} 자세히 보기">{{ showcase.title }}</a>
                 </h2>
                 <div class="post-thumbnail">
-                    <a href="{{ showcase.url }}" target="_blank" title="{{ showcase.title }} 자세히 보기">
+                    <a href="{{ showcase.url }}" title="{{ showcase.title }} 자세히 보기">
                         <img src="{{ showcase.image }}" alt="">
                     </a>
                 </div>
@@ -82,7 +82,7 @@ layout: default
         $(this).hide().fadeIn(2000);
     };
     $('.page-content').jscroll({
-        loadingHtml: '<h1>loading...</h1>',
+        loadingHtml: '<div class="text-center"><p><img src="/images/loader.gif" alt="" style="width: 40px;"></p></div>',
         padding: 0,
         nextSelector: 'a.jscroll-next:last',
         contentSelector: 'ul.archive-list',

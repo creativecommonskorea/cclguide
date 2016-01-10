@@ -30,14 +30,14 @@ layout: default
             {% endif %}
             </div>
             <h2 class="post-title">
-                <a href="{{ showcase.url }}" target="_blank" title="{{ showcase.title | strip_html | strip_newlines }} 자세히 보기">{{ showcase.title }}</a>
+                <a href="{{ showcase.url }}" title="{{ showcase.title | strip_html | strip_newlines }} 자세히 보기">{{ showcase.title }}</a>
             </h2>
             <div class="post-thumbnail">
-                <a href="{{ showcase.url }}" target="_blank" title="{{ showcase.title }} 자세히 보기">
+                <a href="{{ showcase.url }}" title="{{ showcase.title }} 자세히 보기">
                     <img src="{{ showcase.image }}" alt="">
                 </a>
             </div>
-            <a href="{{ showcase.url }}" target="_blank" title="{{ showcase.title | strip_html | strip_newlines }}">
+            <a href="{{ showcase.url }}" title="{{ showcase.title | strip_html | strip_newlines }}">
                 <div class="post-excerpt">
                     {{ showcase.content | strip_html | strip_newlines | truncate: 300 }}
                 </div>
