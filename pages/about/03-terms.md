@@ -2,10 +2,17 @@
 layout: page
 published: true
 permalink: about/terms/
-title: 03. 이용허락조건과 CC 라이선스 종류
+title: 02. 이용허락조건과 CC 라이선스 종류
 description: null
 front: true
+quiz_show: true
+quiz_o_title: null
+quiz_o_desc: null
+quiz_x_title: null
+quiz_x_desc: null
+related_contents: null
 ---
+
 
 
 
