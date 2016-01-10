@@ -1,0 +1,26 @@
+<div class="breadcrumbs">
+	<span><a href="/" title="home" class="bc-home">home</a></span>
+
+{% assign splitted_url_parts = page.dir | split: '/' %}
+
+{% capture forLoopMaxInt %}{{ splitted_url_parts.size | minus: 1 }}{% endcapture %}
+
+{% for i in (1..forLoopMaxInt) %}
+
+    {% capture current_breadcrumb_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}/index.html{% endcapture %}
+    <!-- <li>{{ current_breadcrumb_url }}</li> -->
+
+    {% capture current_breadcrumb_md_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}/{% endcapture %}
+    <!-- <li>{{ current_breadcrumb_md_url }}</li> -->
+
+	{% capture next_prepender %}{{next_prepender}}/{{ splitted_url_parts[i] }}{% endcapture %}
+	<!-- <li>{{ next_prepender }}</li> -->
+
+    {% for item in site.data.nav %}
+    	{% if next_prepender == item.url %}
+			<span><a{% if page.url == item.url %} class="active" {% endif %} href="{{ item.url }}">{{ item.title }}</a></span>
+		{% endif %}
+	{% endfor %}
+
+{% endfor %}
+</div>

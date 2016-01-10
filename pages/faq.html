@@ -1,21 +1,51 @@
 ---
 permalink: /faq/
 title: 자주 묻는 질문
-layout: page
+layout: default
 quiz_hide: yes
 ---
 
-<ul class="accordion-list" id="accordion">
-{% for faq in site.data.faqs %}
-    <li>
-        <h2 class="post-title">{{ faq.q }}</h2>
-        <div class="post-content">
-        	{{ faq.a }}
-        	<p>&nbsp;</p>
-        	<button class="btn-close">접기</button>
-        </div>
-    </li>
-{% endfor %}
-</ul>
+<header class="page-header">
+    <h1 class="page-title">자주 묻는 질문</h1>
+    {% include breadcrumb.html %}
+</header><!-- .page-header -->
+<div class="page-content">
 
-<div class="load-more done">모든 항목을 표시하였습니다</div>
+    <ul class="tabs hidden-xs">
+        <li class="on"><a href="/faq/">전체</a></li>
+        {% for hash in site.data.faqs-categories %}
+            {% for category in hash %}
+                <li><a href="/faq/{{ category[0] }}/">{{ category[1] }}</a></li>
+            {% endfor %}
+        {% endfor %}
+    </ul>
+
+    <div class="selectbox visible-xs">
+        <div class="label">전체</div>
+        <select class="js-select">
+            <option value="/faq/">전체</option><!-- value : url -->
+            {% for hash in site.data.faqs-categories %}
+            {% for category in hash %}
+            <option value="{{ category[0] }}">{{ category[1] }}</option>
+            {% endfor %}
+        {% endfor %}
+        </select>
+    </div>
+
+    <p>&nbsp;</p>
+
+	<ul class="accordion-list" id="accordion">
+	{% for faq in site.data.faqs %}
+	    <li>
+	        <h2 class="post-title">{{ faq.q }}</h2>
+	        <div class="post-content">
+	        	{{ faq.a }}
+	        	<p>&nbsp;</p>
+	        	<button class="btn-close">접기</button>
+	        </div>
+	    </li>
+	{% endfor %}
+	</ul>
+
+	<div class="load-more done">모든 항목을 표시하였습니다</div>
+</div>
