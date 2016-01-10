@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+{% assign page_number = page.name | remove: '.html' | plus: 0 %}
+{% assign current_page = page_number | minus: 1 %}
+{% assign next_page_number = page_number | plus: 1 %}
+
+{% assign offset_number = site.paging_list_faqs | times: current_page %}
+
+{% assign groups = site.faqs | group_by:'category' %}
+
+{% for group in groups %}
+    {% if group['name'] == page.category %}
+        {% assign faqs = group.items | map: 'to_liquid' %}
+    {% endif %}
+{% endfor %}
+
+{% assign last_page_number = faqs | size | divided_by: site.paging_list_faqs %}
+{% if faqs | size | modulo: site.paging_list_faqs > 0 %}
+    {% assign last_page_number = last_page_number | plus: 1 %}
+{% endif %}
+
+{% assign categories = site.data.faqs-categories %}
+
+<div class="page-content">
+    <ul class="accordion-list" id="accordion">
+        {% for faq in faqs offset: offset_number limit: site.paging_list_faqs %}
+
+        {% if faq.category == page.category %}
+
+            {% for hashes in categories %}
+                {% for hash in hashes %}
+                    {% if hash[1] == faq.category %}
+                        {% assign category_label = hash[0] %}
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
+        <li>
+            <h2 class="post-title">{{ faq.title }}</h2>
+            <div class="post-content">
+                {{ faq.content }}
+                <p>&nbsp;</p>
+                <button class="btn-close">접기</button>
+            </div>
+        </li>
+
+        {% endif %}
+
+        {% endfor %}
+
+        {% if last_page_number > page_number %}
+        <li><a href="/paging/faq/{{ page.category }}/{{ next_page_number }}/" class="sr-only jscroll-next">{{ next_page_number }}</a></li>
+        {% endif %}
+
+    </ul>
+</div>

@@ -35,17 +35,32 @@ quiz_hide: yes
     <p>&nbsp;</p>
 
 	<ul class="accordion-list" id="accordion">
-	{% for faq in site.data.faqs %}
+	{% for faq in site.faqs reversed limit site.paging_list_faqs %}
 	    <li>
-	        <h2 class="post-title">{{ faq.q }}</h2>
+	        <h2 class="post-title">{{ faq.title }}</h2>
 	        <div class="post-content">
-	        	{{ faq.a }}
+	        	{{ faq.content }}
 	        	<p>&nbsp;</p>
 	        	<button class="btn-close">접기</button>
 	        </div>
 	    </li>
 	{% endfor %}
+		<li><a href="/paging/faq/2/" class="jscroll-next">2</a></li>
 	</ul>
-
-	<div class="load-more done">모든 항목을 표시하였습니다</div>
 </div>
+
+<script src="//cdn.jsdelivr.net/jquery.jscroll/2.2.4/jquery.jscroll.min.js"></script>
+<script>
+    function neueFade() {
+        $(this).hide().fadeIn(2000);
+    };
+    $('.page-content').jscroll({
+        loadingHtml: '<div class="text-center"><p><img src="/images/loader.gif" alt="" style="width: 40px;"></p></div>',
+        padding: 0,
+        nextSelector: 'a.jscroll-next:last',
+        contentSelector: '#accordion',
+        debug: true,
+        autoTrigger: true,
+        callback: neueFade
+    });
+</script>

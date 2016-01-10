@@ -1,0 +1,95 @@
+---
+layout: default
+---
+
+{% assign groups = site.faqs | group_by:'category' %}
+{% for group in groups %}
+    {% if group['name'] == page.category %}
+        {% assign faqs = group.items | map: 'to_liquid' %}
+    {% endif %}
+{% endfor %}
+
+{% assign last_page_number = faqs | size | divided_by: site.paging_list_faqs %}
+{% if faqs | size | modulo: site.paging_list_faqs > 0 %}
+    {% assign last_page_number = last_page_number | plus: 1 %}
+{% endif %}
+
+{% assign categories = site.data.faqs-categories %}
+
+    <header class="page-header">
+        <h1 class="page-title">자주 묻는 질문</h1>
+        {% include breadcrumb.html %}
+    </header><!-- .page-header -->
+    <div class="page-content">
+
+        <ul class="tabs hidden-xs">
+            <li><a href="/faq/">전체</a></li>
+            {% for hash in site.data.faqs-categories %}
+                {% for category in hash %}
+                    <li{% if category[0] == page.category %} class="on"{% endif %}><a href="/faq/{{ category[0] }}/">{{ category[1] }}</a></li>
+                {% endfor %}
+            {% endfor %}
+        </ul>
+
+        <div class="selectbox visible-xs">
+            <div class="label">전체</div>
+            <select class="js-select">
+                <option value="/faq/">전체</option><!-- value : url -->
+                {% for hash in site.data.faqs-categories %}
+                {% for category in hash %}
+                <option value="{{ category[0] }}">{{ category[1] }}</option>
+                {% endfor %}
+            {% endfor %}
+            </select>
+        </div>
+
+        <p>&nbsp;</p>
+
+        <ul class="accordion-list" id="accordion">
+
+            {% for faq in faqs limit:site.paging_list_faqs %}
+
+            {% if faq.category == page.category %}
+
+                {% for hashes in categories %}
+                    {% for hash in hashes %}
+                        {% if hash[1] == faq.category %}
+                            {% assign category_label = hash[0] %}
+                        {% endif %}
+                    {% endfor %}
+                {% endfor %}
+            <li>
+                <h2 class="post-title">{{ faq.title }}</h2>
+                <div class="post-content">
+                    {{ faq.content }}
+                    <p>&nbsp;</p>
+                    <button class="btn-close">접기</button>
+                </div>
+            </li>
+
+            {% endif %}
+
+            {% endfor %}
+
+            <li><a href="/paging/faq/{{ page.category }}/2/" class="sr-only jscroll-next">2</a></li>
+
+        </ul>
+    </div>
+
+{% if faqs.size > 0 %}
+<script src="//cdn.jsdelivr.net/jquery.jscroll/2.2.4/jquery.jscroll.min.js"></script>
+<script>
+    function neueFade() {
+        $(this).hide().fadeIn(2000);
+    };
+    $('.page-content').jscroll({
+        loadingHtml: '<div class="text-center"><p><img src="/images/loader.gif" alt="" style="width: 40px;"></p></div>',
+        padding: 0,
+        nextSelector: 'a.jscroll-next:last',
+        contentSelector: '#accordion',
+        debug: true,
+        autoTrigger: true,
+        callback: neueFade
+    });
+</script>
+{% endif %}

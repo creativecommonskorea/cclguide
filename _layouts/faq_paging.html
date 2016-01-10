@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+{% assign page_number = page.name | remove: '.html' | plus: 0 %}
+{% assign current = page_number | minus: 1 %}
+{% assign next_page_number = page_number | plus: 1 %}
+{% assign offset_number = site.paging_list_faqs | times: current %}
+{% capture difference %} {{ site.faqs | size | divided_by: site.paging_list_faqs | minus: page_number }} {% endcapture %}
+{% assign difference = difference | plus: 0 %}
+{% assign categories = site.data.faqs-categories %}
+
+<div class="page-content">
+    <ul class="accordion-list" id="accordion">
+        {% for faq in site.faqs offset:offset_number limit:site.paging_list_faqs %}
+
+        {% for hashes in categories %}
+            {% for hash in hashes %}
+                {% if hash[1] == faq.category %}
+                    {% assign category_label = hash[0] %}
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+        <li>
+            <h2 class="post-title">{{ faq.title }}</h2>
+            <div class="post-content">
+                {{ faq.content }}
+                <p>&nbsp;</p>
+                <button class="btn-close">접기</button>
+            </div>
+        </li>
+        {% endfor %}
+        {% if difference > 0 %}
+        <li><a href="/paging/faq/{{ next_page_number }}/" class="sr-only jscroll-next">{{ next_page_number }}</a></li>
+        {% endif %}
+    </ul>
+</div>
