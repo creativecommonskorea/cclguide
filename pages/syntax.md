@@ -14,16 +14,16 @@ related_contents: null
 
 ![text.png]({{site.baseurl}}/media/text.png)
 
-1. TOC
+0. TOC
 {:toc}
 
 ## 목차
 
 ```
-* TOC (순서없는 목록)
+0. TOC (순서없는 목록) - 숫자로 시작
 {:toc}
 
-* TOC (순서 목록)
+* TOC (순서 목록) - 목록형으로 시작
 {:toc}
 ```
 
@@ -51,6 +51,91 @@ related_contents: null
 ```
 *이탤릭*
 ```
+
+## 링크
+
+### 일반 링크
+
+```
+['test'](http://www.example.com/)
+```
+['test'](http://www.example.com/)
+
+### 새창으로 링크
+
+```
+['test'](http://www.example.com/){: target="_blank" }
+```
+['test'](http://www.example.com/){: target="_blank" }
+
+### 새창으로 버튼 링크 
+
+```
+['test'](http://www.example.com/){: .btn.btn-default target="_blank" }
+```
+['test'](http://www.example.com/){: .btn.btn-default target="_blank" }
+
+
+### 자동 링크
+
+```
+autolink: <http://www.example.com/>
+```
+
+autolink: <http://www.example.com/>
+
+## 문단 
+
+```
+Lorem ipsum dolor sit amet, consectetur
+adipisicing elit. Quasi error quod libero
+
+&nbsp;
+
+corporis, iste sit nulla similique enim dignissimos asperiores, illo numquam architecto maxime ab tenetur repellendus, dicta sed officia.
+```
+
+    
+
+Lorem ipsum dolor sit amet, consectetur
+adipisicing elit. Quasi error quod libero
+
+&nbsp;
+
+corporis, iste sit nulla similique enim dignissimos asperiores, illo numquam architecto maxime ab tenetur repellendus, dicta sed officia.
+
+
+## 정렬
+
+### 가운데 .text-center
+
+```
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi error quod libero corporis, iste sit nulla similique enim dignissimos asperiores, illo numquam architecto maxime ab tenetur repellendus, dicta sed officia.
+{: .text-center }
+```
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi error quod libero corporis, iste sit nulla similique enim dignissimos asperiores, illo numquam architecto maxime ab tenetur repellendus, dicta sed officia.
+{: .text-center }
+
+### 왼쪽 .text-left
+
+```
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi error quod libero corporis, iste sit nulla similique enim dignissimos asperiores, illo numquam architecto maxime ab tenetur repellendus, dicta sed officia.
+{: .text-left }
+```
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi error quod libero corporis, iste sit nulla similique enim dignissimos asperiores, illo numquam architecto maxime ab tenetur repellendus, dicta sed officia.
+{: .text-left }
+
+### 오른쪽 .text-right
+
+```
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi error quod libero corporis, iste sit nulla similique enim dignissimos asperiores, illo numquam architecto maxime ab tenetur repellendus, dicta sed officia.
+{: .text-right }
+```
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi error quod libero corporis, iste sit nulla similique enim dignissimos asperiores, illo numquam architecto maxime ab tenetur repellendus, dicta sed officia.
+{: .text-right }
 
 ## 각주
 
@@ -81,14 +166,19 @@ example.
 *[HTML]: HyperTextMarkupLanguage
 ```
 
-## 자동 링크
 
-autolink: <http://www.example.com/>
-
-
-[linkid]: http://www.example.com/ "Optional Title"
 
 ## 테이블
+
+```
+
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
+{: .table}
+```
+&nbsp;
 
 First Header  | Second Header
 ------------- | -------------
@@ -96,6 +186,18 @@ Content Cell  | Content Cell
 Content Cell  | Content Cell
 {: .table}
 
+&nbsp;
+&nbsp;
+
+```
+|  Left-Aligned |  Center Aligned | Right Aligned |
+| :------------ | :-------------: | ------------: |
+| col 3 is      | some wordy text |         $1600 |
+| col 2 is      |     centered    |           $12 |
+| zebra stripes |     are neat    |            $1 |
+{: .table}
+```
+&nbsp;
 
 |  Left-Aligned |  Center Aligned | Right Aligned |
 | :------------ | :-------------: | ------------: |
@@ -103,6 +205,9 @@ Content Cell  | Content Cell
 | col 2 is      |     centered    |           $12 |
 | zebra stripes |     are neat    |            $1 |
 {: .table}
+
+&nbsp;
+&nbsp;
 
 
 ## 깃헙 마크다운 도움말 페이지 링크
