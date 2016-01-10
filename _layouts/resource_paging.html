@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+{% assign page_number = page.name | remove: '.html' | plus: 0 %}
+{% assign current = page_number | minus: 1 %}
+{% assign next_page_number = page_number | plus:1 %}
+{% assign offset_number = site.paging_list_resources | times: current %}
+{% capture difference %} {{ site.resources | size | divided_by: site.paging_list_resources | minus: page_number }} {% endcapture %}
+{% assign difference = difference | plus: 0 %}
+{% assign categories = site.data.resources-categories %}
+
+<div class="page-content">
+    <ul class="archive-list">
+        {% for resource in site.resources offset:offset_number limit: site.paging_list_resources %}
+            {% for hashes in categories %}
+                {% for hash in hashes %}
+                    {% if hash[0] == resource.category %}
+                        {% assign category_label = hash[1] %}
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
+        <li>
+            <div class="post-meta">
+            {% if resource.category %}
+                <a class="taxo" href="/about/resources/{{ resource.category }}">{{ category_label }}</a>
+            {% endif %}
+            </div>
+            <h2 class="post-title">
+                <a href="{{ resource.link }}" target="_blank" title="{{ resource.title | strip_html | strip_newlines }} 자세히 보기">{{ resource.title }}</a>
+            </h2>
+            <div class="post-thumbnail">
+                <a href="{{ resource.link }}" target="_blank" title="{{ resource.title }} 자세히 보기">
+                    <img src="{{ resource.image }}" alt="">
+                </a>
+            </div>
+            <a href="{{ resource.link }}" target="_blank" title="{{ resource.title | strip_html | strip_newlines }}">
+                <div class="post-excerpt" style="min-height: 100px;">
+                    {{ resource.content | strip_html | strip_newlines | truncate: 300 }}
+                </div>
+            </a>
+        </li>
+        {% endfor %}
+        
+        {% if difference >= 0 %}
+        <li><a href="/paging/resources/{{ next_page_number }}/" class="sr-only jscroll-next">2</a></li>
+        {% endif %}
+    </ul>
+</div>

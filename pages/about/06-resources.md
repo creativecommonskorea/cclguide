@@ -1,11 +1,13 @@
 ---
 layout: default
 permalink: /about/resources/
-description: null
+description: 
 front: false
 published: true
 title: 06. 쉽게 이해하는 CC 라이선스
 ---
+
+{% assign categories = site.data.resources-categories %}
 
 <header class="page-header">
     <h1 class="page-title">{{ page.title }}</h1>
@@ -14,52 +16,73 @@ title: 06. 쉽게 이해하는 CC 라이선스
 
 <div class="page-content">
     <ul class="tabs hidden-xs">
-        <li class="on"><a href="">전체</a></li>
-        <li><a href="">학술</a></li>
-        <li><a href="">음악</a></li>
-        <li><a href="">예술</a></li>
-        <li><a href="">디자인</a></li>
-        <li><a href="">교육</a></li>
+        <li class="on"><a href="/about/resources/">전체</a></li>
+        {% for hash in site.data.resources-categories %}
+            {% for category in hash %}
+                <li><a href="/about/resources/{{ category[0] }}/">{{ category[1] }}</a></li>
+            {% endfor %}
+        {% endfor %}
     </ul>
-    
+
     <div class="selectbox visible-xs">
         <div class="label">전체</div>
         <select class="js-select">
-            <option value="">전체</option>
-            <option value="">학술</option>
-            <option value="">음악</option>
-            <option value="">예술</option>
-            <option value="">디자인</option>
-            <option value="">교육</option>
+            <option value="/about/resources/">전체</option><!-- value : url -->
+            {% for hash in site.data.resources-categories %}
+            {% for category in hash %}
+            <option value="{{ category[0] }}">{{ category[1] }}</option>
+            {% endfor %}
+        {% endfor %}
         </select>
     </div>
 
     <ul class="archive-list">
-        {% for resource in site.resources %}
+        {% for resource in site.resources limit: site.paging_list_resources %}
+            {% for hashes in categories %}
+                {% for hash in hashes %}
+                    {% if hash[0] == resource.category %}
+                        {% assign category_label = hash[1] %}
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
         <li>
             <div class="post-meta">
-                <a class="taxo" href="#">음악</a>, <a href="#">유럽</a>
+            {% if resource.category %}
+                <a class="taxo" href="/about/resources/{{ resource.category }}">{{ category_label }}</a>
+            {% endif %}
             </div>
             <h2 class="post-title">
-                <a href="{{ resource.url }}" target="_blank" title="{{ resource.title | strip_html | strip_newlines }} 자세히 보기">{{ resource.title }}</a>
+                <a href="{{ resource.link }}" target="_blank" title="{{ resource.title | strip_html | strip_newlines }} 자세히 보기">{{ resource.title }}</a>
             </h2>
             <div class="post-thumbnail">
-                <a href="{{ resource.url }}" target="_blank" title="{{ resource.title }} 자세히 보기">
+                <a href="{{ resource.link }}" target="_blank" title="{{ resource.title }} 자세히 보기">
                     <img src="{{ resource.image }}" alt="">
                 </a>
             </div>
-            <a href="{{ resource.url }}" target="_blank" title="{{ resource.title | strip_html | strip_newlines }}">
-                <div class="post-excerpt">
-                    {{ showcase.content | strip_html | strip_newlines | truncate: 300 }}
+            <a href="{{ resource.link }}" target="_blank" title="{{ resource.title | strip_html | strip_newlines }}">
+                <div class="post-excerpt" style="min-height: 100px;">
+                    {{ resource.content | strip_html | strip_newlines | truncate: 300 }}
                 </div>
             </a>
-            <div class="post-source">
-                <a href="#">Bloter</a>
-            </div>
         </li>
         {% endfor %}
+        <li><a href="/paging/resources/2/" class="sr-only jscroll-next">2</a></li>
     </ul>
 
-    <div class="load-more done">모든 항목을 표시하였습니다</div>
-
 </div>
+
+<script src="//cdn.jsdelivr.net/jquery.jscroll/2.2.4/jquery.jscroll.min.js"></script>
+<script>
+    function neueFade() {
+        $(this).hide().fadeIn(2000);
+    };
+    $('.page-content').jscroll({
+        loadingHtml: '<div class="text-center"><p><img src="/images/loader.gif" alt="" style="width: 40px;"></p></div>',
+        padding: 0,
+        nextSelector: 'a.jscroll-next:last',
+        contentSelector: 'ul.archive-list',
+        debug: true,
+        autoTrigger: true,
+        callback: neueFade
+    });
+</script>
