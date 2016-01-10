@@ -2,7 +2,7 @@
 layout: page
 published: true
 permalink: application/choose/
-title: 01. 라이선스 선택하기
+title: 01. 라이선스 선택 및 표기하기
 description: null
 front: true
 redirect_from: /application/
