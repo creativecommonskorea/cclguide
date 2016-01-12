@@ -120,10 +120,15 @@ prose:
           element: 'textarea'
           label: 'X 퀴즈 본문'
           help: '줄바꿈을 존중합니다.'
+      - name: 'related_contents_show'
+        field:
+          element: 'checkbox'
+          label: '하단에 관련 콘텐츠 보이기'
+          value: 'false'
       - name: 'related_contents'
         field:
           element: 'textarea'
-          label: 'X 퀴즈 본문'
+          label: '관련 콘텐츠'
     _showcases:
       - name: 'layout'
         field:
@@ -133,12 +138,6 @@ prose:
         field:
           element: 'text'
           label: '제목'
-          value: ''
-      - name: 'permalink'
-        field:
-          element: 'text'
-          label: '퍼머링크'
-          help: 'URL. 예시) /about/cclicense/'
           value: ''
       - name: 'description'
         field:
@@ -199,12 +198,6 @@ prose:
         field:
           element: 'text'
           label: '제목'
-          value: ''
-      - name: 'permalink'
-        field:
-          element: 'text'
-          label: '퍼머링크'
-          help: 'URL. 예시) /about/cclicense/'
           value: ''
       - name: 'description'
         field:
