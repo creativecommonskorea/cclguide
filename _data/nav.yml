@@ -40,21 +40,6 @@
 
 - title: 04. 자주 묻는 질문
   url: /faq
-  items:
-    - title: 01. 일반
-      url: /faq/general/
-    - title: 02. CC 라이선스 적용
-      url: /faq/application/
-    - title: 03. CC 라이선스 컨텐츠 사용
-      url: /faq/usage/
-    - title: 04. CC 라이선스 버튼 표시
-      url: /faq/display/
-    - title: 05. 기술
-      url: /faq/tech/
-    - title: 06. 데이터베이스권
-      url: /faq/database/
-    - title: 06. 기타
-      url: /faq/etc/
 
 - title: 05. 크리에이티브커먼즈 소개
   url: /cckorea
