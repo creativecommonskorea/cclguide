@@ -10,7 +10,7 @@ quiz_o_title: CC 라이선스는 저작권에 반대하는 라이선스이다.
 quiz_o_desc: CC는 저작권에 반대하는 것이 아닙니다. CCL은 저작권자로 하여금 좀 더 유연하고 열린 방법으로 저작권을 보유하고 관리할 수 있도록 도와줍니다. 사실 CCL은 그 실효성을 저작권법에 의존하고 있습니다.
 quiz_x_title: "CC-BY-SA 이미지를 CC-BY 블로그에 가져다 쓸 수 있다."
 quiz_x_desc: "예, 쓸 수 있습니다. SA는 동일조건변경허락으로 이미지를 크롭하거나 다른 것과 합성하는 등 변경하지 않는다면 반드시 BY-SA의 조건을 그대로 가져올 필요는 없습니다. 단, 변경을 할 시에는 BY-SA를 블로그와 별개로 이미지에 표기해주셔야 합니다."
-related_contents: "Copyright, Public Domain, CCL 비교|&amp;#x2F;about&amp;#x2F;cc-zero&amp;#x2F;,CC 라이선스 적용 및 표시 가이드|&amp;#x2F;about&amp;#x2F;features&amp;#x2F;,CC 라이선스가 적용된 컨텐츠 찾기|&amp;#x2F;reuse&amp;#x2F;find&amp;#x2F;"
+related_contents: "이용허락조건과 CC 라이선스 종류|/about/terms/,쉽게 이해하는 CC 라이선스|/about/resources/"
 quiz_show: true
 related_contents_show: true
 ---
