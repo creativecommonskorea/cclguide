@@ -20,7 +20,7 @@ related_contents_show: true
 
 
 
-*. 목차
+* 목차
 {:toc .well}
 
 <div class="embed-responsive embed-responsive-16by9">
