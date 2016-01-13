@@ -7,9 +7,9 @@ description: null
 front: true
 redirect_from: /application/
 quiz_show: true
-quiz_o_title: null
+quiz_o_title: 테스트입니다. 테스트입니다.
 quiz_o_desc: null
-quiz_x_title: null
+quiz_x_title: 테스트입니다. 테스트입니다.
 quiz_x_desc: null
 related_contents: null
 related_contents_show: true
@@ -29,9 +29,8 @@ CC 라이선스에는 6개의 종류가 있습니다. 본인의 창작물을 어
 
 ### 내게 알맞는 CC 라이선스 찾기
 
-![placeholder.it](/media/text.png)
 
-CC By Creative Commons Australia 
+(슬로워크에서 디자인한 츄져 넣기)
 
 
 ## 라이선스 적용 가이드
