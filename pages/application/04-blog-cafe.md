@@ -2,7 +2,7 @@
 layout: page
 published: true
 permalink: "application/blog-cafe/"
-title: 004. 블로그에 적용하기
+title: 04. 블로그에 적용하기
 description: null
 front: true
 quiz_show: true
