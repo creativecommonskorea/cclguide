@@ -2,7 +2,7 @@
 layout: page
 published: true
 permalink: application/choose/
-title: 01. 라이선스 선택 및 표기하기
+title: 01. 라이선스 선택 및 적용 가이드
 description: null
 front: true
 redirect_from: /application/
@@ -12,7 +12,9 @@ quiz_o_desc: null
 quiz_x_title: null
 quiz_x_desc: null
 related_contents: null
+related_contents_show: true
 ---
+
 
 
 
@@ -31,7 +33,7 @@ CC 라이선스에는 6개의 종류가 있습니다. 본인의 창작물을 어
 CC By Creative Commons Australia 
 
 
-## 라이선스 표기 가이드
+## 라이선스 적용 가이드
 
 ### 라이선스 표기 기본 요소
 
