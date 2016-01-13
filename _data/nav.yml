@@ -12,24 +12,24 @@
     - title: 04. 쉽게 이해하는 CC 라이선스
       url: /about/resources/
 
-- title: 02. CC 라이선스 적용하기
+- title: 02. CC 라이선스 적용
   url: /application
   items:
-    - title: 01. 라이선스 선택 및 표기하기
+    - title: 01. 라이선스 선택 및 표기 가이드
       url: /application/choose/
-    - title: 02. CC 라이선스 선택 툴로 적용하기
+    - title: 02. CC 라이선스 선택 툴로 적용
       url: /application/by-chooser/
-    - title: 03. 블로그 및 카페에 적용하기
+    - title: 03. 블로그 및 카페에 적용
       url: /application/blog-cafe/
-    - title: 04. 문서 프로그램에서 적용하기
+    - title: 04. 문서 프로그램에서 적용
       url: /application/word-processors/
-    - title: 05. 2차적 저작물에 CCL 적용하기
+    - title: 05. 2차적 저작물에 CCL 적용
       url: /application/secondary-works/
 
 - title: 03. CC 라이선스 컨텐츠 사용
   url: /reuse
   items:
-    - title: 01. CC 라이선스 컨텐츠 사용방법
+    - title: 01. CC 라이선스 컨텐츠 사용 가이드
       url: /reuse/method/
     - title: 02. 출처 표시 방법
       url: /reuse/source-display/
