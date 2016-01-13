@@ -11,7 +11,9 @@ quiz_o_desc: null
 quiz_x_title: null
 quiz_x_desc: null
 related_contents: null
+related_contents_show: true
 ---
+
 
 
 
@@ -191,3 +193,11 @@ CC 라이선스에서 창작자가 표시하는 이용허락조건은 4가지입
 
 &nbsp;
 &nbsp;
+
+## CC0(퍼블릭도메인)
+
+CC0(퍼블릭도메인)는 법률에 의해 허용되는 최대한도로 저작권과, 저작인접권, 데이터베이스권을 포기한다는 권리자의 의사표시입니다. 
+
+따라서 CC0 이 적용된 콘텐츠는 누구나 영리적인 목적을 포함한 어떤 목적으로든 그리고 어떤 방법으로든 그 저작물을 사용할 수 있습니다. 결국 창작자가 자신의 창작물에 CC0를 적용하면 그 작품은 법적인 의미에서는 더 이상 그의 것이 아니라는 의미이므로, CCL이‘some rights reserved’라 하면 CC0는 ’no rights reserved’라고 할 수 있습니다. CC0는 창작물의 원활한 자유이용이 방해되는 것을 해결할 수 있을 뿐만 아니라 과학 데이터와 같이 저작자표시가 큰 의미가 없고 이를 실제 표시해주기가 힘든 경우에 유용합니다. CC0는각국의법제에탄력적으로적용될수있을 뿐만 아니라 의사표시가 명확하다는 장점이 있다. CC0의 적용은 CC0 권리포기에서 선택할 수 있습니다.
+
+- [CC0 권리포기](http://creativecommons.org/choose/zero/waiver)
