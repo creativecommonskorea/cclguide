@@ -19,7 +19,7 @@ related_contents_show: true
 
 
 
-0. TOC
+* TOC
 {:toc}
 
 ## 라이선스 선택하기
