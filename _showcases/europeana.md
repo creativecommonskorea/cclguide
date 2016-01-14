@@ -1,7 +1,7 @@
 ---
 layout: showcase
 description: null
-image: ""
+image: /media/Europeana_List.png
 link: ""
 creator: ""
 category: art
@@ -9,6 +9,7 @@ region: international
 published: false
 title: "유럽 문화유산의 디지털 컨텐츠, 유로피아나(Europeana)"
 ---
+
 
 
 
