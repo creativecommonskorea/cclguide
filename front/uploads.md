@@ -1,5 +1,2 @@
----
-# 이 파일은 초기 화면 배너 올리는 용도입니다.
-# 이 파일은 웹서비스하지 않습니다.
----
-
+![Europeana_List.png]({{site.baseurl}}/media/Europeana_List.png)
+![Lifecoding_List.png]({{site.baseurl}}/media/Lifecoding_List.png)
