@@ -1,6 +1,6 @@
 ---
 layout: showcase
-title: 생활코딩
+title: "누구나 쉽게 배우는 코딩, 생활코딩"
 date: null
 image: "https://s3-ap-northeast-1.amazonaws.com/opentutorialsfile/course/94.png"
 link: "http://opentutorials.org"
@@ -10,6 +10,7 @@ region: domestic
 published: true
 description: null
 ---
+
 
 
 [Lifecoding.png]({{site.baseurl}}/media/Lifecoding.png)
