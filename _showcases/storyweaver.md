@@ -12,11 +12,8 @@ title: "동화책 공유 프로젝트, 스토리위버 (Storyweaver)"
 
 
 
+
 ![Storyweaver.png]({{site.baseurl}}/media/Storyweaver.png)
-
-
-## 바로가기
-https://storyweaver.org.in
 
 ## 소개
 인도의 비영리 출판기관인 프라담북스(PRATHAM BOOKS)에서 진행 중인 동화책 공유 프로젝트입니다.
@@ -26,3 +23,6 @@ https://storyweaver.org.in
 
 ## CC 관련
 스토리위버에 올려진 컨텐츠들은 “CC BY-SA(저작자표시-동일 라이선스 적용)” 로 공개되고 있습니다.
+
+## 바로가기
+https://storyweaver.org.in
