@@ -19,9 +19,9 @@ default_image: '/images/share/ccl_sns_img_green.jpg'
 
 # 페이징
 paging_front_showcases: 4
-paging_list_showcases: 4
-paging_list_faqs: 12
-paging_list_resources: 4
+paging_list_showcases: 30
+paging_list_faqs: 30
+paging_list_resources: 30
 
 # Build settings
 markdown: kramdown
