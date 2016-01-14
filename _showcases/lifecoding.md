@@ -3,8 +3,8 @@ layout: showcase
 title: "누구나 쉽게 배우는 코딩, 생활코딩"
 date: null
 image: /media/Lifecoding_List.png
-link: "http://opentutorials.org"
-creator: opentutorial
+link: ""
+creator: ""
 category: education
 region: domestic
 published: true
