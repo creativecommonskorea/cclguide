@@ -181,14 +181,10 @@ prose:
               value: education
       - name: 'region'
         field:
-          element: 'select'
-          label: '국내/해외'
-          help: '적용 사례의 분류입니다.'
-          options:
-            - name: 국내
-              value: domestic
-            - name: 국외
-              value: international
+          element: 'text'
+          label: '국가'
+          help: '적용 사례의 국가입니다.'
+
     _resources:
       - name: 'layout'
         field:
