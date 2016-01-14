@@ -129,6 +129,7 @@ prose:
         field:
           element: 'textarea'
           label: '관련 콘텐츠'
+          help: '본문처럼 마크다운 문법에 따라 목록과 링크로 작성합니다. 예)   * [라이선스 선택 및 표기 가이드](/application/choose/)'
     _showcases:
       - name: 'layout'
         field:

@@ -6,10 +6,10 @@ title: 01. 라이선스 선택 및 적용 가이드
 description: null
 front: true
 redirect_from: /application/
-quiz_show: true
-quiz_o_title: 테스트입니다. 테스트입니다.
+quiz_show: false
+quiz_o_title: null
 quiz_o_desc: null
-quiz_x_title: 테스트입니다. 테스트입니다.
+quiz_x_title: null
 quiz_x_desc: null
 related_contents: null
 related_contents_show: true
