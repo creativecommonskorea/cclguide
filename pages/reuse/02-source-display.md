@@ -5,7 +5,7 @@ permalink: "/reuse/source-display/"
 title: 02. 출처표시방법
 description: null
 front: true
-quiz_show: true
+quiz_show: false
 quiz_o_title: null
 quiz_o_desc: null
 quiz_x_title: null
