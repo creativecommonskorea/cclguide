@@ -43,4 +43,5 @@ Creative Commons 에서는 내가 입력한 조건에 따라 라이선스 코드
 {: .no_toc}
 
 라이선스 버튼 타입을 선택한 후 복사한 코드를 직접 저작물이나 웹사이트에 적용하면, 아래와 같이 표시가 됩니다.
-> ![Chooser_howto2.jpg]({{site.baseurl}}/media/Chooser_howto2.jpg)
+
+>![Chooser_howto2.jpg]({{site.baseurl}}/media/Chooser_howto2.jpg)
