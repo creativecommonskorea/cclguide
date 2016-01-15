@@ -14,7 +14,7 @@
 #markdown-toc > li:first-child {
   margin-top: 0;
 }
-#markdown-toc ul {
+#markdown-toc {
   margin: 0;
   padding-left: 12px;
 }
