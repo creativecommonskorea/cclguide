@@ -2,7 +2,7 @@
 layout: page
 published: true
 permalink: "application/word-processors/"
-title: 05. 문서 프로그램에서 적용하기
+title: 05. 문서 프로그램에서 적용
 description: null
 front: true
 quiz_show: true
