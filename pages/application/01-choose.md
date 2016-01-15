@@ -70,7 +70,9 @@ CCL이 적용되지 않는 콘텐츠에 저작권 유보 표시나 적용되는 
 
 - 관련링크: [CCl 버튼 및 라이선스 아이콘 다운로드](https://creativecommons.org/about/downloads)
 
+
 ## 컨텐츠 종류별 표기 상세 가이드
+
 
 ### 이미지
 {: .no_toc}
