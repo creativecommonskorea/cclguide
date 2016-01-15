@@ -16,7 +16,8 @@ description:
 아래 표에서 세로 항목은 원저작물에 적용된 라이선스를 의미하고, 가로 항목은 새로 작성된 2차적 저작물에 적용할 수 있는 라이선스를 의미합니다. ●표 되어 있는 부분이 적용가능 한 라이선스입니다.
 
 
-<table class="table table-borderd table-responsive">
+<div class="table-responsive">
+<table class="table table-borderd">
     <tbody>
         <tr>
             <td>&nbsp;</td>
@@ -100,3 +101,4 @@ description:
         </tr>
     </tbody>
 </table>
+</div>
