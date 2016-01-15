@@ -2,7 +2,7 @@
 layout: page
 published: true
 permalink: "application/blog-cafe/"
-title: 04. 네이버 및 다음 블로그에 적용
+title: 04. 네이버 및 다음 블로그에서 적용
 description: null
 front: true
 quiz_show: false
@@ -21,7 +21,7 @@ related_contents: ""
 * TOC
 {:toc}
 
-국내에서는 네이버와 다음의 블로그에 CC 라이선스 적용을 지원하고 있습니다.
+국내에서는 네이버와 다음의 블로그에서 CC 라이선스 적용을 지원하고 있습니다.
 
 # 네이버 블로그
 블로그 전체 또는 각 게시물 단위로 원하는 CC 라이선스를 적용할 수 있습니다.
