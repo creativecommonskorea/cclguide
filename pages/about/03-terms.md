@@ -21,13 +21,13 @@ related_contents_show: false
 
 CC 라이선스는 4가지 이용허락조건들을 조합한 6가지 종류가 있습니다.
 
-## 이용허락조건
+# 이용허락조건
 
 CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4가지입니다. 
 이 중 저작자 표시는 필수조건이며 나머지 조건은 저작자의 선택에 의해서 추가될 수 있습니다. 사용자는 저작자가 선택한 이용허락조건에 따라서 저작물을 이용하면 됩니다.
 
 
-### 저작자 표시 (Attribution)
+## 저작자 표시 (Attribution)
 {: .no_toc}
 
 <i class="cc cc-by cc-lg pull-left"></i>
@@ -35,14 +35,14 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 저작물을 복사하거나 다른 곳에 게시할때도 반드시 저작자와 출처를 표시해야 합니다.
 
 
-### 비영리 (Noncommercial)
+## 비영리 (Noncommercial)
 {: .no_toc}
 
 <i class="cc cc-nc cc-lg pull-left"></i>
 저작물을 영리 목적으로 이용할 수 없습니다. 따라서 영리목적의 이용을 위해서는, 별도의 계약이 필요합니다.
 하지만, 저작자가 자신의 저작물에 비영리 조건을 선택했더라도 이와는 별개로 본인의 저작물을 이용하여 영리활동을 할 수 있습니다.
 
-### 변경금지 (No Derivative Works)
+## 변경금지 (No Derivative Works)
 {: .no_toc}
 
 <i class="cc cc-nd cc-lg pull-left"></i>
@@ -50,7 +50,7 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 저작물을 변경하거나 저작물을 이용해 2차 저작물을 만드는 것을 금지한다는 의미입니다.
 하지만 이 조건을 선택하지 않고 자유로운 변경을 허락한 경우에도 창작자의 명예훼손에 해당할 정도로 저작물을 변경해서는 안됩니다.  
 
-### 동일조건변경허락(Share Alike)
+## 동일조건변경허락(Share Alike)
 {: .no_toc}
 
 <i class="cc cc-sa cc-lg pull-left"></i>
@@ -59,11 +59,11 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 
 &nbsp;
 
-## CC 라이선스 종류
+# CC 라이선스 종류
 
 이용허락조건들을 바탕으로 창작자는 6종류의 CC 라이선스 중 하나를 선택하여 적용합니다. 각 라이선스별로 CC 라이선스를 쉽게 읽고 이해할 수 있도록 이용허락규약을 요약한 일반증서(Commons Deed)와 법률적 근거가 되는 약정서 전문인 이용허락규약(Legal Code)이 있습니다. 
 
-### 저작자 표시 (CC BY)
+## 저작자 표시 (CC BY)
 {: .no_toc}
 
 ![BY.png](/media/BY.png)
@@ -85,7 +85,7 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 * [이용허락규약](http://creativecommons.org/licenses/by/2.0/kr/legalcode)
 
 
-### 저작자표시-비영리(CC BY-NC)
+## 저작자표시-비영리(CC BY-NC)
 {: .no_toc}
 
 ![BY NC.png](/media/BY NC.png)
@@ -108,7 +108,7 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 * [일반증서](http://creativecommons.org/licenses/by-nc/2.0/kr/)
 * [이용허락규약](http://creativecommons.org/licenses/by-nc/2.0/kr/legalcode)
 
-### 저작자표시-변경금지 (CC BY-ND)
+## 저작자표시-변경금지 (CC BY-ND)
 {: .no_toc}
 
 ![BY ND.png](/media/BY ND.png)
@@ -130,7 +130,7 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 * [일반증서](http://creativecommons.org/licenses/by-nd/2.0/kr/)
 * [이용허락규약](http://creativecommons.org/licenses/by-nd/2.0/kr/legalcode)
 
-### 저작자표시-동일조건변경허락 (CC BY-SA)
+## 저작자표시-동일조건변경허락 (CC BY-SA)
 {: .no_toc}
 
 ![BY SA.png](/media/BY SA.png)
@@ -153,7 +153,7 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 * [일반증서](http://creativecommons.org/licenses/by-sa/2.0/kr/)
 * [이용허락규약](http://creativecommons.org/licenses/by-sa/2.0/kr/legalcode)
 
-### 저작자표시-비영리-동일조건 변경 허락 (BY-NC-SA)
+## 저작자표시-비영리-동일조건 변경 허락 (BY-NC-SA)
 {: .no_toc}
 
 ![BY NC SA.png](/media/BY NC SA.png)
@@ -177,7 +177,7 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 * [일반증서](http://creativecommons.org/licenses/by-nc-sa/2.0/kr/)
 * [이용허락규약](http://creativecommons.org/licenses/by-nc-sa/2.0/kr/legalcode)
 
-### 저작자 표시-비영리-변경금지 (BY-NC-ND)
+## 저작자 표시-비영리-변경금지 (BY-NC-ND)
 {: .no_toc}
 
 <table class="terms table-responsive"><tbody>
@@ -197,7 +197,7 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 * [일반증서](http://creativecommons.org/licenses/by-nc-nd/2.0/kr/)
 * [이용허락규약](http://creativecommons.org/licenses/by-nc-nd/2.0/kr/legalcode)
 
-## CC0(퍼블릭도메인)
+# CC0(퍼블릭도메인)
 
 CC0(퍼블릭도메인)는 법률에 의해 허용되는 최대한도로 저작권과, 저작인접권, 데이터베이스권을 포기한다는 권리자의 의사표시입니다. 
 
