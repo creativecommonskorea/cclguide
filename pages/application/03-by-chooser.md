@@ -5,7 +5,7 @@ permalink: "application/by-chooser/"
 title: 03. CC 라이선스 선택 툴로 적용하기
 description: null
 front: true
-quiz_show: true
+quiz_show: false
 quiz_o_title: null
 quiz_o_desc: null
 quiz_x_title: null
@@ -13,6 +13,7 @@ quiz_x_desc: null
 related_contents_show: true
 related_contents: null
 ---
+
 
 
 
