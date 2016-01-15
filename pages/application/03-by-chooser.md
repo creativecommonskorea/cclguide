@@ -10,7 +10,7 @@ quiz_o_title: null
 quiz_o_desc: null
 quiz_x_title: null
 quiz_x_desc: null
-related_contents_show: true
+related_contents_show: false
 related_contents: null
 ---
 
