@@ -77,8 +77,8 @@ CCL이 적용되지 않는 콘텐츠에 저작권 유보 표시나 적용되는 
 ### 이미지
 {: .no_toc}
 
-![attribution_example.jpg]({{site.baseurl}}/media/attribution_example.jpg)
->[CCKorea]에 의해 창작된 [[DSC1253](https://www.flickr.com/photos/wowcckorea/22481186396/)]은 크리에이티브 커먼즈 [[저작자표시-비영리 2.0 대한민국 라이선스](http://creativecommons.org/licenses/by/2.0/kr/)]에 따라 이용할 수 있습니다.
+![mark_image.png]({{site.baseurl}}/media/mark_image.png)
+> CCKorea 에 의해 창작된 [[DSC1253](https://www.flickr.com/photos/wowcckorea/22481186396/)]은 크리에이티브 커먼즈 [[저작자표시-비영리 2.0 대한민국 라이선스](http://creativecommons.org/licenses/by/2.0/kr/)]에 따라 이용할 수 있습니다.
 
 이미지 주변에 CCL에 대한 내용을 표시 해 주세요. 이미지 안에 CCL에 대한 내용을 포함하거나 테두리 또는 하단에 별도로 표시해도 됩니다.
 이미지를 여러개 함께 사용했을 경우에는 적절한 곳에 한번에 명시해도 됩니다. 단, 이미지마다 적용된 CC 라이선스의 종류들이 다른 경우 어느 이미지에 어떤 라이선스가 적용됐는지에 대해 명시해 주어야 합니다.
@@ -86,12 +86,7 @@ CCL이 적용되지 않는 콘텐츠에 저작권 유보 표시나 적용되는 
 ### 동영상 및 음원
 {: .no_toc}
 
-동영상 및 음원의 시작 혹은 마지막 부분에 CC 라이선스에 대해 안내합니다. 동영상의 경우, 제공하고 있는 CC 라이선스 표기용 비디오 범퍼를 편집하거나 그대로 사용하셔도 좋습니다.
-
-### CC 비디오 범퍼
-{: .no_toc}
-
->![mark_Video.jpg]({{site.baseurl}}/media/mark_Video.jpg)
+> ![mark_Video_resized.png]({{site.baseurl}}/media/mark_Video_resized.png)
 
 동영상 및 음원의 시작 혹은 마지막 부분에 CC 라이선스에 대해 안내합니다. 동영상의 경우, 제공하고 있는 CC 라이선스 표기용 비디오 범퍼를 편집하거나 그대로 사용하셔도 좋습니다. Creative Commons 에서는 바로 사용할 수 있는 비디오 범퍼 샘플을 제공하고 있습니다.
 
@@ -100,7 +95,7 @@ CCL이 적용되지 않는 콘텐츠에 저작권 유보 표시나 적용되는 
 ### 웹사이트
 {: .no_toc}
 
-> ![mark_website.png]({{site.baseurl}}/media/mark_website.png)
+> ![mark_website_resized.png]({{site.baseurl}}/media/mark_website_resized.png)
 
 웹사이트 전체에 CC 라이선스를 적용한 경우 모든 페이지의 하단이나 눈에 잘 띄는 위치에 CC 라이선스를 표기하도록 합니다.
 일부 페이지의 컨텐츠에 한해서만 CC 라이선스를 적용한 경우, 해당 컨텐츠에 CC 라이선스를 표시해주고 '이 사진은...' '이 동영상은...' 처럼 CC 라이선스 표시문구에 대상을 특정해서 명시하도록 합니다. CC 라이선스가 적용되지 않은 컨텐츠가 일부 있는 경우, 해당 컨텐츠에 별개의 라이선스나 저작권 유보 표시를 해주고, CC 라이선스 표시 문구에는 '달리 정하지 않는 한' 이라는 문구를 추가해주도록 합니다.
@@ -108,14 +103,14 @@ CCL이 적용되지 않는 콘텐츠에 저작권 유보 표시나 적용되는 
 ### 인쇄물
 {: .no_toc}
 
-> ![mark_doc.jpg]({{site.baseurl}}/media/mark_doc.jpg)
+> ![mark_doc_resized.jpg]({{site.baseurl}}/media/mark_doc_resized.jpg)
 
 인쇄물의 겉표지나 서두, 또는 모든 페이지 하단에 CC 라이선스 표시를 합니다. 이미지를 표시할 수 있는 인쇄물에는 선택된 CC 라이선스의 버튼과 함께 URL로 연결되는 링크을 포함하도록 합니다. 이미지를 표시할 수 없거나 단순한 서류 형식의 인쇄물에는 CCL 버튼 이나 라이선스 아이콘 대신 ‘크리에이티브 커먼즈 저작자표시-비영리 라이선스’와 같은 라이선스 의 제목 또는‘CC BY-NC’와 같이 영문약어로 축약한 형태로 표시합니다. 그리고 반드시 적용되어 있는 라이선스의 내용을 알수 있는 라이선스의 URL을 텍스트로 포함시켜야 합니다.
 
 ### 출판물
 {: .no_toc}
 
-> ![mark_Book.png]({{site.baseurl}}/media/mark_Book.png)
+> ![mark_Book_resized.png]({{site.baseurl}}/media/mark_Book_resized.png)
 
 책이나 오프라인 매체에서 유통되는 저작물에도 CCL을 적용할 수 있습니다. 인쇄물 혹은 출판물의 앞/뒷면 등 주로 저작권에 대해 표기하는 부분에 적용된 라이선스에 대한 안내 문구를 넣으면 됩니다.
 
