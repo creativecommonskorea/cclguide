@@ -7,11 +7,11 @@
     display: block;
   }
 }
-#markdown-toc > ul > li {
+#markdown-toc > li > a {
   margin-top: 20px;
   font-weight: 700;
 }
-#markdown-toc > ul > li:first-child {
+#markdown-toc > li:first-child {
   margin-top: 0;
 }
 #markdown-toc ul {
@@ -27,6 +27,7 @@
 }
 #markdown-toc a {
   color: #0d0d0d;
+  text-decoration: none;
 }
 #markdown-toc a:hover {
   text-decoration: underline;
