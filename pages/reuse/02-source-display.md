@@ -2,7 +2,7 @@
 layout: page
 published: true
 permalink: "/reuse/source-display/"
-title: 02. 출처표시가이드
+title: 02. 출처 표시 가이드
 description: null
 front: true
 quiz_show: false
