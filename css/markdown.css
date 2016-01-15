@@ -1,0 +1,60 @@
+#markdown-toc {
+  display: none;
+  border-left: 3px solid #d9dade;
+}
+@media (min-width: 768px) {
+  #markdown-toc {
+    display: block;
+  }
+}
+#markdown-toc > ul > li {
+  margin-top: 20px;
+  font-weight: 700;
+}
+#markdown-toc > ul > li:first-child {
+  margin-top: 0;
+}
+#markdown-toc ul {
+  margin: 0;
+  padding-left: 12px;
+}
+#markdown-toc li {
+  margin-top: 16px;
+  font-size: 14px;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+#markdown-toc a {
+  color: #0d0d0d;
+}
+#markdown-toc a:hover {
+  text-decoration: underline;
+}
+#markdown-toc .depth3 li {
+  margin-top: 10px;
+  font-size: 12px;
+  font-size: 1.2rem;
+}
+#markdown-toc .depth3 li a {
+  color: #585858;
+}
+@media (min-width: 768px) {
+  #markdown-toc + .entry-content,
+  #markdown-toc + .accordion-list .post-content {
+    margin-top: 40px;
+  }
+}
+
+blockquote {
+  margin: 10px 0 24px;
+  padding: 12px 11px;
+  border: 1px solid #c7c9d1;
+  padding: 12px 16px 10px;
+  font-size: 16px;
+  font-size: 1.6rem;
+}
+
+.entry-content blockquote p {
+  margin-top: 0;
+}
