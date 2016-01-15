@@ -2,7 +2,7 @@
 layout: page
 published: true
 permalink: application/choose/
-title: 01. 라이선스 선택 및 적용 가이드
+title: 01. 라이선스 선택 및 표기 가이드
 description: null
 front: true
 redirect_from: /application/
@@ -14,6 +14,7 @@ quiz_x_desc: null
 related_contents_show: false
 related_contents: null
 ---
+
 
 
 
