@@ -2,7 +2,7 @@
 layout: page
 published: true
 permalink: "application/blog-cafe/"
-title: 04. 블로그에 적용하기
+title: 04. 네이버 및 다음 블로그에 적용
 description: null
 front: true
 quiz_show: false
