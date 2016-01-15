@@ -26,4 +26,4 @@ title: "유럽 문화유산의 디지털 컨텐츠, 유로피아나(Europeana)"
 
 ## 바로가기
 
-http://www.europeana.eu/portal/
+<http://www.europeana.eu/portal/>{: target="_blank"}

@@ -43,14 +43,13 @@ URL을 텍스트로 표기해 주는 것이 바람직합니다.
 가능하면, CC 라이선스 버튼이나 라이선스 아이콘을 함께 표시해주는 것이 좋습니다.
 라이선스 버튼에는 선택한 이용허락조건에 해당하는 아이콘과 문구가 포함되어 있기때문에 좀 더 전달이 명확합니다. 하지만, 디자인적인 요소 및 기타 다른 요소를 고해서 아이콘만 적절하게 배열해도 괜찮습니다.
 
-- 관련링크: [CCl 버튼 및 라이선스 아이콘 다운로드](https://creativecommons.org/about/downloads)
-
+- 관련링크: [CCl 버튼 및 라이선스 아이콘 다운로드](https://creativecommons.org/about/downloads){: target="_blank" }
 
 ## 컨텐츠 종류별 적용 상세 가이드
 
 ### 이미지
 ![attribution_example.jpg]({{site.baseurl}}/media/attribution_example.jpg)
-'[CCKorea]에 의해 창작된 [[DSC1253](https://www.flickr.com/photos/wowcckorea/22481186396/)]은 크리에이티브 커먼즈 [[저작자표시-비영리 2.0 대한민국 라이선스](http://creativecommons.org/licenses/by/2.0/kr/)]에 따라 이용할 수 있습니다.'
+'[CCKorea]에 의해 창작된 [[DSC1253](https://www.flickr.com/photos/wowcckorea/22481186396/)]{: target="_blank" }은 크리에이티브 커먼즈 [[저작자표시-비영리 2.0 대한민국 라이선스](http://creativecommons.org/licenses/by/2.0/kr/)]{: target="_blank" }에 따라 이용할 수 있습니다.'
 
 이미지 주변에 CCL에 대한 내용을 표시 해 주세요. 이미지 안에 CCL에 대한 내용을 포함하거나 테두리 또는 하단에 별도로 표시해도 됩니다.
 이미지를 여러개 함께 사용했을 경우에는 적절한 곳에 한번에 명시해도 됩니다. 단, 이미지마다 적용된 CC 라이선스의 종류들이 다른 경우 어느 이미지에 어떤 라이선스가 적용됐는지에 대해 명시해 주어야 합니다.
@@ -66,7 +65,7 @@ URL을 텍스트로 표기해 주는 것이 바람직합니다.
 
 동영상 및 음원의 시작 혹은 마지막 부분에 CC 라이선스에 대해 안내합니다. 동영상의 경우, 제공하고 있는 CC 라이선스 표기용 비디오 범퍼를 편집하거나 그대로 사용하셔도 좋습니다. Creative Commons 에서는 바로 사용할 수 있는 비디오 범퍼 샘플을 제공하고 있습니다.
 
-- 관련링크: [CC Video bumpers](https://wiki.creativecommons.org/wiki/CC_video_bumpers)
+- 관련링크: [CC Video bumpers](https://wiki.creativecommons.org/wiki/CC_video_bumpers){: target="_blank" }
 
 ### 웹사이트
 

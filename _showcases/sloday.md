@@ -25,4 +25,4 @@ Sloday에 공개된 그래픽은 "CC BY(저작권자 표시)"에 따라 사용 �
 
 ## 바로가기
 
-http://sloday.com/
+<http://sloday.com/>{: target="_blank"}

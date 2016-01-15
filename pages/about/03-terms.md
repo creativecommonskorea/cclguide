@@ -5,13 +5,13 @@ permalink: about/terms/
 title: 02. 이용허락조건과 CC 라이선스 종류
 description: null
 front: true
-quiz_show: true
+quiz_show: false
 quiz_o_title: null
 quiz_o_desc: null
 quiz_x_title: null
 quiz_x_desc: null
 related_contents: null
-related_contents_show: true
+related_contents_show: false
 ---
 
 
@@ -63,7 +63,7 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 
 ![BY.png](/media/BY.png)
 
-<table class="terms"><tbody>
+<table class="terms table-responsive"><tbody>
 <tr><td class="col-md-6">가능한 이용</td><td class="col-md-6">제한</td></tr>
 <tr><td>
 <ul>
@@ -84,7 +84,7 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 
 ![BY NC.png](/media/BY NC.png)
 
-<table class="terms"><tbody>
+<table class="terms table-responsive"><tbody>
 <tr><td class="col-md-6">가능한 이용</td><td class="col-md-6">제한</td></tr>
 <tr><td>
 <ul>
@@ -106,7 +106,7 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 
 ![BY ND.png](/media/BY ND.png)
 
-<table class="terms"><tbody>
+<table class="terms table-responsive"><tbody>
 <tr><td class="col-md-6">가능한 이용</td><td class="col-md-6">제한</td></tr>
 <tr><td>
 <ul>
@@ -127,7 +127,7 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 
 ![BY SA.png](/media/BY SA.png)
 
-<table class="terms"><tbody>
+<table class="terms table-responsive"><tbody>
 <tr><td class="col-md-6">가능한 이용</td><td class="col-md-6">제한</td></tr>
 <tr><td>
 <ul>
@@ -149,7 +149,7 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 
 ![BY NC SA.png](/media/BY NC SA.png)
 
-<table class="terms"><tbody>
+<table class="terms table-responsive"><tbody>
 <tr><td class="col-md-6">가능한 이용</td><td class="col-md-6">제한</td></tr>
 <tr><td>
 <ul>
@@ -170,7 +170,7 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 
 ### 저작자 표시-비영리-변경금지 (BY-NC-ND)
 
-<table class="terms"><tbody>
+<table class="terms table-responsive"><tbody>
 <tr><td class="col-md-6">가능한 이용</td><td class="col-md-6">제한</td></tr>
 <tr><td>
 <ul>

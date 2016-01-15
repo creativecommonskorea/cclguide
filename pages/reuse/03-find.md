@@ -4,13 +4,12 @@ published: true
 permalink: /reuse/find/
 title: 03. CC 라이선스 컨텐츠 찾기
 description: null
-front: true
-quiz_show: true
+quiz_show: false
 quiz_o_title: null
 quiz_o_desc: null
 quiz_x_title: null
 quiz_x_desc: null
-related_contents_show: true
+related_contents_show: false
 related_contents: null
 ---
 

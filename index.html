@@ -42,7 +42,7 @@ layout: default
         <li{% if showcase.type %} class="{{ showcase.type }}"{% endif %}>
             <a href="{{ showcase.url }}" title="{{ showcase.title | strip_html | strip_newlines }}">
                 <div class="img">
-                    <img src="{% if showcase.img contains 'http://' or showcase.img contains 'https://' %}{{ showcase.img }}{% else %}{{ showcase.img | prepend: site.prose.media | prepend: site.baseurl }}{% endif %}" alt="{{ showcase.title | strip_html | strip_newlines }}">
+                    <img src="{% if showcase.img contains 'http://' or showcase.img contains 'https://' %}{{ showcase.img }}{% else %}/media/{{ showcase.img }}{% endif %}" alt="{{ showcase.title | strip_html | strip_newlines }}">
                 </div>
                 <div class="desc">
                     <em>활용사례 #{{ forloop.index }}</em>
