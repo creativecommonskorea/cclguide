@@ -21,7 +21,7 @@ related_contents: null
 
 
 
-TOC
+* TOC
 {:toc}
 
 # 라이선스 선택하기
