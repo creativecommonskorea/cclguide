@@ -2,7 +2,7 @@
 layout: page
 published: true
 permalink: /reuse/method/
-title: 01. CC 라이선스 컨텐츠 사용방법
+title: 01. 컨텐츠 사용 가이드
 description: null
 front: true
 redirect_from: /reuse/
