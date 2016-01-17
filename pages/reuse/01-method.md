@@ -31,7 +31,11 @@ CC 라이선스별 일반권리증서는 기본적으로 해당 창작물을 가
 ## 저작자 표시 (BY) 
 {: .no_toc}
 
+&nbsp;
+
 ![BY.png]({{site.baseurl}}/media/BY.png)
+
+&nbsp;
 
 - 저작자 및 출처를 표시합니다.
 - 상업적 이용이 가능합니다.
@@ -44,7 +48,11 @@ CC 라이선스별 일반권리증서는 기본적으로 해당 창작물을 가
 ## 저작자표시-비영리 (BY-NC) 
 {: .no_toc}
 
+&nbsp;
+
 ![BY NC.png]({{site.baseurl}}/media/BY%20NC.png)
+
+&nbsp;
 
 - 저작자 및 출처를 표시합니다.
 - 복사 및 배포가 가능합니다.
@@ -56,7 +64,11 @@ CC 라이선스별 일반권리증서는 기본적으로 해당 창작물을 가
 ## 저작자표시-변경금지 (BY-SA) 
 {: .no_toc}
 
+&nbsp;
+
 ![BY SA.png]({{site.baseurl}}/media/BY%20SA.png)
+
+&nbsp;
 
 - 저작자 및 출처를 표시합니다.
 - 복사 및 배포가 가능합니다.
@@ -68,7 +80,11 @@ CC 라이선스별 일반권리증서는 기본적으로 해당 창작물을 가
 ## 저작자표시-동일조건변경허락 (BY-ND) 
 {: .no_toc}
 
+&nbsp;
+
 ![BY ND.png]({{site.baseurl}}/media/BY%20ND.png)
+
+&nbsp;
 
 - 저작자 및 출처를 표시합니다.
 - 복사 및 배포가 가능합니다.
@@ -81,7 +97,11 @@ CC 라이선스별 일반권리증서는 기본적으로 해당 창작물을 가
 ## 저작자표시-비영리-동일조건 변경 허락 (BY-NC-SA) 
 {: .no_toc}
 
+&nbsp;
+
 ![BY NC SA.png]({{site.baseurl}}/media/BY%20NC%20SA.png)
+
+&nbsp;
 
 - 저작자 및 출처를 표시합니다.
 - 복사 및 배포가 가능합니다.
@@ -95,7 +115,11 @@ CC 라이선스별 일반권리증서는 기본적으로 해당 창작물을 가
 ## 저작자 표시- 비영리-변경금지 (BY-NC-ND) 
 {: .no_toc}
 
+&nbsp;
+
 ![BY NC ND.png]({{site.baseurl}}/media/BY NC ND.png)
+
+&nbsp;
 
 - 저작자 및 출처를 표시합니다.
 - 복사 및 배포가 가능합니다.
