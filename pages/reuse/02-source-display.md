@@ -16,27 +16,30 @@ related_contents: null
 
 
 
+
 * toc
 {:toc}
 
+<span style="color:#499100">6종류의 CC 라이선스 모두 공통적으로 지켜야할 이용조건이 있습니다. 바로, 저작자표시 입니다. CC 라이선스가 적용된 저작물을 업로드하거나 2차 저작물을 창작하는데 이용하거나 할 때는 반드시 저작자를 표시해야합니다.</span>
+
 # 저작자표시
 
-6종류의 CC 라이선스 모두 공통적으로 지켜야할 이용조건이 있습니다. 바로, 저작자표시 입니다. CC 라이선스가 적용된 저작물을 업로드하거나 재창작하는 등 저작물을 이용할때는 반드시 저작자를 표시해야 하는데, 저작자표시에는 가능한한 아래 4가지 사항이 포함되어야 합니다.
+저작자표시에는 가능한한 아래 4가지 사항이 포함되어야 합니다.
 
-1. 원저작물의 제목(간혹 제목이 없는 저작물의 경우, 표기하지 않아도 됩니다.)
-2. 원저작자
-3. 원저작물의 출처링크
-4. 원저작물에 적용된 CC 라이선스
+	1. 원저작물의 제목(간혹 제목이 없는 저작물의 경우, 표기하지 않아도 됩니다.)
+	2. 원저작자
+	3. 원저작물의 출처링크
+	4. 원저작물에 적용된 CC 라이선스
 
-출처를 표시하는 방법은 한가지만 있지만 않습니다. 당신이 이용한 방식에 맞춰서 적합한 수준으로 표시되면 됩니다. 예를 들어 책에서 출처표시를 하는 경우 웹, 노래, 슬라이드쇼에서 출처 표시하는 것과 그 방법이 다를 수 있습니다.
+출처를 표시하는 방법은 한가지만 있지만 않고, 저작물을 이용한 방식에 맞춰서 적합한 수준으로 표시되면 됩니다. 예를 들어 책에서 출처표시를 하는 경우와 비디오에서 출처 표시하는 것은 그 방법이 다를 수 있습니다.
 
-혹은 필요한 경우 원저작물을 편집했거나 소스로 사용했을 경우 당신이 창작한 저작물과 원저작물이 다르다는 것을 헷갈리지 않도록 표시해야 합니다. 
+또한 원저작물을 편집하거나 소스로 활용해 2차 저작물을 창작한 경우, 원저작물과 내가 창작한 2차 저작물이 다르다는 것을 명확히 표시해야 합니다. 
 
 ## 저작자표시 예
 
 아래는 2015 CC Global Summit 에서 찍은 CC 마카롱 사진입니다. 이 사진은 CC 라이선스들 중 CC BY 가 적용되어 공개되었는데요, 이 사진을 사용할때 어떻게 저작권 표시를 할 수 있는지 예를 들겠습니다.
 
-> ![attribution_example.jpg]({{site.baseurl}}/media/attribution_example.jpg)
+> ![attribution_ex1_resized.jpg]({{site.baseurl}}/media/attribution_ex1_resized.jpg)
 
 ### 잘 표시된 예
 {: .no_toc}
@@ -79,7 +82,7 @@ related_contents: null
 
 아래 사진의 경우 원저작물에 이미지의 색감만 편집하였습니다. 이 경우 변경한 범위에 대해 간략히 표시합니다.
 
-> ![attribution_example_2.jpg]({{site.baseurl}}/media/attribution_example_2.jpg)
+> ![attribution_ex2_resized.jpg]({{site.baseurl}}/media/attribution_ex2_resized.jpg)
 
 > DSC_1253 by CCKorea, CC BY 라이선스/ 이미지 색감 조정
 
@@ -94,7 +97,7 @@ related_contents: null
 
 아래 사진의 경우 원저작물을 이용해 2차 저작물을 창작하였습니다. 이 경우 2차 저작물에 라이선스 표기에 따른 라이선스를 표기뿐만 아니라, 원저작물에 대한 저작자표시와 해당 원저작물을 변경해 창작하였음을 알려야 합니다.
 
-> ![attribution_example_3.jpg]({{site.baseurl}}/media/attribution_example_3.jpg)
+![attribution_ex3_resized.jpg]({{site.baseurl}}/media/attribution_ex3_resized.jpg)
 CC Macarons by (2차 창작자 이름), CC BY SA 라이선스
 ('DSC_1253 by CCKorea, CC BY 라이선스' 을 이용해 창작)
 
