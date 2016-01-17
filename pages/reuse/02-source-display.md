@@ -46,10 +46,10 @@ related_contents: null
 
 > [DSC_1253](https://www.flickr.com/photos/wowcckorea/22481186396/) by CCKorea, [CC BY](http://creativecommons.org/licenses/by/2.0/kr/) 라이선스
 
-1. 원저작물의 제목: DSC_1253 
-2. 원저작자: CCKorea
-3. 원저작물의 출처링크: https://www.flickr.com/photos/wowcckorea/22481186396/ (제목에 링크되어 있습니다.)
-4. 원저작물에 적용된 CC 라이선스: CC BY
+	1. 원저작물의 제목: DSC_1253 
+	2. 원저작자: CCKorea
+	3. 원저작물의 출처링크: https://www.flickr.com/photos/wowcckorea/22481186396/ (제목에 링크되어 있습니다.)
+	4. 원저작물에 적용된 CC 라이선스: CC BY
 
 ### 간소화한 예
 {: .no_toc}
@@ -58,20 +58,20 @@ related_contents: null
 
 > [CCKorea](https://www.flickr.com/photos/wowcckorea/22481186396/)/ [CC BY](http://creativecommons.org/licenses/by/2.0/kr/)
 
-1. 원저작물의 제목: 제목은 표시되지 않았지만, 출처는 링크되었습니다.
-2. 원저작자: CCKorea
-3. 원저작물의 출처링크: https://www.flickr.com/photos/wowcckorea/22481186396/
-4. 원저작물에 적용된 CC 라이선스: CC BY
+	1. 원저작물의 제목: 제목은 표시되지 않았지만, 출처는 링크되었습니다.
+	2. 원저작자: CCKorea
+	3. 원저작물의 출처링크: https://www.flickr.com/photos/wowcckorea/22481186396/
+	4. 원저작물에 적용된 CC 라이선스: CC BY
 
 ### 잘못된 예
 {: .no_toc}
 
 > 사진: Creative Commons
 
-1. 원저작물의 제목: 제목이 표시되지 않았습니다.
-2. 원저작자: 원작자가 표시되지 않았습니다.
-3. 원저작물의 출처링크: 원저작물의 출처링크가 표시되지 않았습니다.
-4. 원저작물에 적용된 CC 라이선스: Creative Commons 는 라이선스가 아닙니다. 
+	1. 원저작물의 제목: 제목이 표시되지 않았습니다.
+	2. 원저작자: 원작자가 표시되지 않았습니다.
+	3. 원저작물의 출처링크: 원저작물의 출처링크가 표시되지 않았습니다.
+	4. 원저작물에 적용된 CC 라이선스: Creative Commons 는 라이선스가 아닙니다. 
 
 ## 편집하거나 소스로 사용한 경우
 
@@ -86,11 +86,11 @@ related_contents: null
 
 > DSC_1253 by CCKorea, CC BY 라이선스/ 이미지 색감 조정
 
-1. 원저작물의 제목: DSC_1253 
-2. 원저작자: CCKorea
-3. 원저작물의 출처링크: https://www.flickr.com/photos/wowcckorea/22481186396/ (제목에 링크되어 있습니다.)
-4. 원저작물에 적용된 CC 라이선스: CC BY
-5. 변경된 사항 표시: 이미지 색감 조정
+	1. 원저작물의 제목: DSC_1253 
+	2. 원저작자: CCKorea
+	3. 원저작물의 출처링크: https://www.flickr.com/photos/wowcckorea/22481186396/ (제목에 링크되어 있습니다.)
+	4. 원저작물에 적용된 CC 라이선스: CC BY
+	5. 변경된 사항 표시: 이미지 색감 조정
 
 ### 원저작물을 이용해 2차 창작한 경우
 {: .no_toc}
@@ -101,9 +101,9 @@ related_contents: null
 CC Macarons by (2차 창작자 이름), CC BY SA 라이선스
 ('DSC_1253 by CCKorea, CC BY 라이선스' 을 이용해 창작)
 
-1. 2차 저작물에 대한 라이선스 표기: 포함
-2. 원저작물의 제목: DSC_1253 
-3. 원저작자: CCKorea
-4. 원저작물의 출처링크: https://www.flickr.com/photos/wowcckorea/22481186396/ (제목에 링크되어 있습니다.)
-5. 원저작물에 적용된 CC 라이선스: CC BY
-6. 변경된 사항 표시: DSC_1253 을 이용해 2차 창작된 저작물임을 안내
+	1. 2차 저작물에 대한 라이선스 표기: 포함
+	2. 원저작물의 제목: DSC_1253 
+	3. 원저작자: CCKorea
+	4. 원저작물의 출처링크: https://www.flickr.com/photos/wowcckorea/22481186396/ (제목에 링크되어 있습니다.)
+	5. 원저작물에 적용된 CC 라이선스: CC BY
+	6. 변경된 사항 표시: DSC_1253 을 이용해 2차 창작된 저작물임을 안내
