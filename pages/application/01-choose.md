@@ -11,7 +11,7 @@ quiz_o_title: null
 quiz_o_desc: null
 quiz_x_title: null
 quiz_x_desc: null
-related_contents_show: false
+related_contents_show: true
 related_contents: ""
 ---
 
@@ -23,8 +23,10 @@ related_contents: ""
 
 
 
+
 * TOC
 {:toc}
+{: .no-style }
 
 &nbsp;
 
@@ -33,7 +35,8 @@ related_contents: ""
 
 # 내게 알맞는 CC 라이선스 찾기
 
-(선택툴 영택님 작업 중입니다.)
+![Flowchart_korean.png]({{site.baseurl}}/media/Flowchart_korean.png)
+[Which Creative Commons license is right for me](http://creativecommons.org.au/content/licensing-flowchart.pdf) by Creative Commons Australia,CC BY 
 
 # 라이선스 표기 가이드
 
