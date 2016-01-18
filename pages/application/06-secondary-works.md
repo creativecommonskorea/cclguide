@@ -9,9 +9,10 @@ quiz_o_title: null
 quiz_o_desc: null
 quiz_x_title: null
 quiz_x_desc: null
-related_contents_show: false
+related_contents_show: true
 related_contents: ""
 ---
+
 
 
 <span style="color:#499100">CC 라이선스가 적용된 저작물을 활용해 2차 저작물을 창작할떄, 원저작물에 적용된 CC 라이선스에 따라 2차 저작물에 적용할 수 있는 CC 라이선스가 제한됩니다.</span>
