@@ -17,6 +17,7 @@ related_contents_show: false
 
 
 
+
 * TOC
 {:toc}
 
@@ -32,6 +33,9 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 
 
 ## 저작자 표시 (Attribution)
+
+&nbsp;
+
 {: .no_toc}
 
 <i class="cc cc-by cc-lg pull-left"></i>
@@ -42,12 +46,16 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 ## 비영리 (Noncommercial)
 {: .no_toc}
 
+&nbsp;
+
 <i class="cc cc-nc cc-lg pull-left"></i>
 저작물을 영리 목적으로 이용할 수 없습니다. 따라서 영리목적의 이용을 위해서는, 별도의 계약이 필요합니다.
 하지만, 저작자가 자신의 저작물에 비영리 조건을 선택했더라도 이와는 별개로 본인의 저작물을 이용하여 영리활동을 할 수 있습니다.
 
 ## 변경금지 (No Derivative Works)
 {: .no_toc}
+
+&nbsp;
 
 <i class="cc cc-nd cc-lg pull-left"></i>
 
@@ -56,6 +64,8 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 
 ## 동일조건변경허락(Share Alike)
 {: .no_toc}
+
+&nbsp;
 
 <i class="cc cc-sa cc-lg pull-left"></i>
 
@@ -69,6 +79,8 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 
 ## 저작자 표시 (CC BY)
 {: .no_toc}
+
+&nbsp;
 
 ![BY.png](/media/BY.png)
 
@@ -90,7 +102,8 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 
 
 ## 저작자표시-비영리(CC BY-NC)
-{: .no_toc}
+
+&nbsp;{: .no_toc}
 
 ![BY NC.png](/media/BY NC.png)
 
@@ -115,6 +128,8 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 ## 저작자표시-변경금지 (CC BY-ND)
 {: .no_toc}
 
+&nbsp;
+
 ![BY ND.png](/media/BY ND.png)
 
 <table class="terms table-responsive"><tbody>
@@ -136,6 +151,8 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 
 ## 저작자표시-동일조건변경허락 (CC BY-SA)
 {: .no_toc}
+
+&nbsp;
 
 ![BY SA.png](/media/BY SA.png)
 
@@ -160,6 +177,8 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 ## 저작자표시-비영리-동일조건 변경 허락 (BY-NC-SA)
 {: .no_toc}
 
+&nbsp;
+
 ![BY NC SA.png](/media/BY NC SA.png)
 
 <table class="terms table-responsive"><tbody>
@@ -183,6 +202,8 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 
 ## 저작자 표시-비영리-변경금지 (BY-NC-ND)
 {: .no_toc}
+
+&nbsp;
 
 <table class="terms table-responsive"><tbody>
 <tr><td class="col-md-6">가능한 이용</td><td class="col-md-6">제한</td></tr>
