@@ -11,11 +11,9 @@ quiz_o_desc: null
 quiz_x_title: null
 quiz_x_desc: null
 related_contents_show: true
-related_contents: |
-  * [라이선스 선택 및 표기 가이드](/application/choose/)
-  * [문서 프로그램에서 적용](/application/word-processors/)
-
+related_contents: ""
 ---
+
 
 
 
@@ -24,6 +22,7 @@ related_contents: |
 
 * TOC
 {:toc}
+{: .no-style }
 
 &nbsp;
 
