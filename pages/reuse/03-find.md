@@ -16,6 +16,7 @@ related_contents: ""
 
 
 
+
 <span style="color:#499100">Let’s CC는 CC 라이선스가 적용된 이미지, 음악, 동영상, 문서 등을 빠르고 쉽게 찾을 수 있는 검색 서비스입니다.</span>
 
 &nbsp;
@@ -42,4 +43,3 @@ Let’s CC(https://letscc.net)는 플리커, 유투브, CC mixter, jamendo 등 C
 2.선택한 이용조건대로 사용가능한 CC 라이선스가 적용된 컨텐츠들의 검색결과를 보여줍니다. 노란색 별표시를 누르면 컨텐츠를 보관함에 모아두거나 다른 사용자들에게 추천할 수 있습니다.
 
 ![letsCC_sc2_resized.png]({{site.baseurl}}/media/letsCC_sc2_resized.png)
-
