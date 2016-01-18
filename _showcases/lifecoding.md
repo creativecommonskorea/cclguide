@@ -6,10 +6,11 @@ image: /media/Lifecoding_List.png
 link: ""
 creator: ""
 category: education
-region: domestic
+region: 한국
 published: true
 description: null
 ---
+
 
 
 
