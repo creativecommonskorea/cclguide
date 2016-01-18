@@ -167,7 +167,6 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 * [이용허락규약](http://creativecommons.org/licenses/by-nc-sa/2.0/kr/legalcode)
 
 ## ![BY NC ND.png]({{site.baseurl}}/media/BY%20NC%20ND.png) 저작자 표시-비영리-변경금지 (BY-NC-ND)
-
 {: .no_toc}
 
 <table class="terms table-responsive"><tbody>
