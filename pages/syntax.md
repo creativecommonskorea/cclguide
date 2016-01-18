@@ -14,8 +14,11 @@ related_contents: null
 
 ![text.png]({{site.baseurl}}/media/text.png)
 
+&nbsp;
+
 0. TOC
 {:toc}
+{: .no-style }
 
 ## 목차
 
@@ -25,6 +28,14 @@ related_contents: null
 
 * TOC (순서 목록) - 목록형으로 시작
 {:toc}
+
+# 디자인 시안처럼 목록 스타일 없이 직접 제목으로만 목차를 구성하고 싶으면 
+아래처럼 `no-style` 클래스를 추가합니다.
+
+* TOC (목록 스타일 없는 목록)
+{:toc}
+{: .no-style }
+
 ```
 
 ### 목차에서 제외하기

@@ -11,8 +11,8 @@
 
 #markdown-toc
     display: block
-    ol
-        margin-left: 1em
+    ul, ol
+        padding-left: 12px
 
 .list-case li
     margin-bottom: 20px
@@ -23,12 +23,7 @@
 
 .entry-content ul>li,
 .accordion-list .post-content ul>li
-    margin-left: 1em
     list-style-type: disc
-
-.entry-content ol>li,
-.accordion-list .post-content ol>li
-    margin-left: 1em
 
 em
     font-style: italic
@@ -59,3 +54,7 @@ em
 
 .hide
     display: none
+
+#markdown-toc.no-style
+    li
+        list-style: none
