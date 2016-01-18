@@ -9,7 +9,7 @@ layout: default
     {% include breadcrumb.html %}
 </header><!-- .page-header -->
 <div class="page-content">
-
+<!--
     <ul class="tabs hidden-xs">
         <li class="on"><a href="/faq/">전체</a></li>
         {% for hash in site.data.faqs-categories %}
@@ -22,7 +22,7 @@ layout: default
     <div class="selectbox visible-xs">
         <div class="label">전체</div>
         <select class="js-select">
-            <option value="/faq/">전체</option><!-- value : url -->
+            <option value="/faq/">전체</option>
             {% for hash in site.data.faqs-categories %}
             {% for category in hash %}
             <option value="{{ category[0] }}">{{ category[1] }}</option>
@@ -30,9 +30,7 @@ layout: default
         {% endfor %}
         </select>
     </div>
-
-    <p>&nbsp;</p>
-
+-->
 	<ul class="accordion-list" id="accordion">
 	{% for faq in site.faqs reversed limit site.paging_list_faqs %}
 	    <li>
