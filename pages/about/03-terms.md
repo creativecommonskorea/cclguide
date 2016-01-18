@@ -10,11 +10,10 @@ quiz_o_title: null
 quiz_o_desc: null
 quiz_x_title: null
 quiz_x_desc: null
-related_contents: |
-  * [test](/about/showcases)
-  * [test2](/about/resources)
+related_contents: ""
 related_contents_show: true
 ---
+
 
 
 
@@ -35,10 +34,9 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 
 
 ## 저작자 표시 (Attribution)
+{: .no_toc}
 
 &nbsp;
-
-{: .no_toc}
 
 <i class="cc cc-by cc-lg pull-left"></i>
 저작자의 이름, 출처 등 저작자를 반드시 표시해야 한다는 필수 조건입니다.
@@ -104,8 +102,9 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 
 
 ## 저작자표시-비영리(CC BY-NC)
+{: .no_toc}
 
-&nbsp;{: .no_toc}
+&nbsp;
 
 ![BY NC.png](/media/BY NC.png)
 
