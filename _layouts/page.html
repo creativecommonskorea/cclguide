@@ -14,8 +14,7 @@ layout: default
         </div>
     </div>
 
-{% if page.quiz_show or page.related_contents_show %}
-    <div class="page-additional">
+    <div class="page-additional{% if page.quiz_show == false and page.related_contents_show == false %} hide{% endif %}">
         {% if page.quiz_show %}
         <div class="oxquiz">
             <h1>OX 퀴즈</h1>
@@ -55,6 +54,5 @@ layout: default
         </div>
         {% endif %}
     </div>
-    {% endif %}
 
 </div>
