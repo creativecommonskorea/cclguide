@@ -4,11 +4,12 @@ description: null
 image: /media/storyweaver.png
 link: ""
 creator: ""
-category: art
-region: international
+category: education
+region: 인도
 published: false
 title: "동화책 공유 프로젝트, 스토리위버 (Storyweaver)"
 ---
+
 
 
 
