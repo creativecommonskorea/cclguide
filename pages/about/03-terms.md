@@ -36,26 +36,21 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 ## 저작자 표시 (Attribution)
 {: .no_toc}
 
-&nbsp;
-
 <i class="cc cc-by cc-lg pull-left"></i>
+
 저작자의 이름, 출처 등 저작자를 반드시 표시해야 한다는 필수 조건입니다.
 저작물을 복사하거나 다른 곳에 게시할때도 반드시 저작자와 출처를 표시해야 합니다.
-
 
 ## 비영리 (Noncommercial)
 {: .no_toc}
 
-&nbsp;
-
 <i class="cc cc-nc cc-lg pull-left"></i>
+
 저작물을 영리 목적으로 이용할 수 없습니다. 따라서 영리목적의 이용을 위해서는, 별도의 계약이 필요합니다.
 하지만, 저작자가 자신의 저작물에 비영리 조건을 선택했더라도 이와는 별개로 본인의 저작물을 이용하여 영리활동을 할 수 있습니다.
 
 ## 변경금지 (No Derivative Works)
 {: .no_toc}
-
-&nbsp;
 
 <i class="cc cc-nd cc-lg pull-left"></i>
 
@@ -64,8 +59,6 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 
 ## 동일조건변경허락(Share Alike)
 {: .no_toc}
-
-&nbsp;
 
 <i class="cc cc-sa cc-lg pull-left"></i>
 
