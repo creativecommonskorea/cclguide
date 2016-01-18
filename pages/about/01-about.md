@@ -28,10 +28,6 @@ related_contents: ""
 
 &nbsp;
 
-<div class="embed-responsive embed-responsive-16by9">
-	<iframe src="https://www.youtube.com/embed/U8g35rt0UmQ" frameborder="0" allowfullscreen></iframe>
-</div>
-
 <video class="vjs-tech" id="video-0_html5_api" preload="auto" poster="https://photos-1.dropbox.com/t/2/AACJtKS2YO9iaSyI6gdbtCiqXzQ7eCKpCj9j7eashegrQQ/12/35690965/jpeg/1024x768/2/1453165200/0/5/CC%EC%B9%B4%ED%83%80%EB%A5%B4%20%ED%95%9C%EA%B5%AD%EC%96%B4%EC%9E%90%EB%A7%89%20%EC%B5%9C%EC%A2%85.mp4/CNWzghEgASACIAQgBSAHKAEoAigH/2eh37rpulp0noby/AACrRDYkr-u2RaTObDO_hChga/0?size=1024x768&amp;size_mode=2" src="https://www.dropbox.com/sm/hls_playlist/s/2eh37rpulp0noby?secure_hash=AACrRDYkr-u2RaTObDO_hChga&amp;item_id=0" controls=""><source src="https://www.dropbox.com/sm/hls_playlist/s/2eh37rpulp0noby?secure_hash=AACrRDYkr-u2RaTObDO_hChga&amp;item_id=0" type="application/vnd.apple.mpegurl"></video>
 
 
