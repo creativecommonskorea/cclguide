@@ -33,7 +33,7 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 이 중 저작자 표시는 필수조건이며 나머지 조건은 저작자의 선택에 의해서 추가될 수 있습니다. 사용자는 저작자가 선택한 이용허락조건에 따라서 저작물을 이용하면 됩니다.
 
 
-## 저작자 표시 (Attribution)
+## <i class="cc cc-by cc-lg pull-left"></i> 저작자 표시 (Attribution)
 {: .no_toc}
 
 <i class="cc cc-by cc-lg pull-left"></i>
