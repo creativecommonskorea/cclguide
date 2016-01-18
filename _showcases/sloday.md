@@ -6,10 +6,11 @@ image: /media/Sloday_List.png
 link: "http://sloday.com"
 creator: slowalk
 category: design
-region: domestic
+region: 한국
 published: true
 description: null
 ---
+
 
 
 
