@@ -11,8 +11,9 @@ quiz_o_desc: null
 quiz_x_title: null
 quiz_x_desc: null
 related_contents_show: true
-related_contents: ""
+related_contents: null
 ---
+
 
 
 
@@ -21,7 +22,9 @@ related_contents: ""
 * TOC
 {:toc}
 
-국내에서는 네이버와 다음의 블로그에서 CC 라이선스 적용을 지원하고 있습니다.
+&nbsp;
+
+<span style="color:#499100">국내에서는 네이버와 다음의 블로그에서 CC 라이선스 적용을 지원하고 있습니다.</span>
 
 # 네이버 블로그
 블로그 전체 또는 각 게시물 단위로 원하는 CC 라이선스를 적용할 수 있습니다.
