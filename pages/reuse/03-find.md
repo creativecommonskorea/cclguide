@@ -10,16 +10,15 @@ quiz_o_desc: null
 quiz_x_title: null
 quiz_x_desc: null
 related_contents_show: true
-related_contents: ""
+related_contents: null
 ---
 
 
 
 
 
-<span style="color:#499100">Let’s CC는 CC 라이선스가 적용된 이미지, 음악, 동영상, 문서 등을 빠르고 쉽게 찾을 수 있는 검색 서비스입니다.</span>
 
-&nbsp;
+<span style="color:#499100">Let’s CC는 CC 라이선스가 적용된 이미지, 음악, 동영상, 문서 등을 빠르고 쉽게 찾을 수 있는 검색 서비스입니다.</span>
 
 # Let's CC
 
