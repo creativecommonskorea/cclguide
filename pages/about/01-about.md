@@ -31,8 +31,8 @@ related_contents: ""
 
 &nbsp;
 
-<iframe src="https://player.vimeo.com/video/152247470" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/152247470">크리에이티브 커먼즈 (CC 카타르 제작/ CC 코리아 번역)</a> from <a href="https://vimeo.com/cckorea">cckorea</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-
+<iframe src="https://player.vimeo.com/video/152247470" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+[크리에이티브 커먼즈(CC 카타르 제작/ CC 코리아 번역)](https://vimeo.com/152247470) by CC코리아 / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (원작: "[Meet Creative Commons](https://www.youtube.com/watch?v=P1j0OA9N4hs)" by CC Qatar)
 
 크리에이티브 커먼즈 라이선스 (Creative Commons License, 이하 CC 라이선스)는 저작자가 자신의 저작물에 대하여 일정한 조건하에 모든 이의 자유이용을 허락하는 라이선스입니다.
 
