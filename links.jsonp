@@ -1,10 +1,20 @@
 ---
 ---
 callback([
-{% for post in site.posts reversed | sort: title %}
-  {
-    "text": "{{post.title | replace:'"','\"'}}",
-    "href": "{{site.baseurl}}{{post.url}}"
-  } {% unless forloop.last %},{% endunless%}
-{% endfor %}
+{% for page in site.pages reversed | sort: title %}{% if page.title and page.url != '/404.html' and page.url != '/syntax/' and page.url != '/application/' and page.url != '/reuse/' %}  {
+    "text": "{{page.title | replace:'"','\"'}}",
+    "href": "{{site.baseurl}}{{page.url}}"
+  },{% endif %}{% endfor %}
+{% for faq in site.faqs reversed | sort: title %}  {
+    "text": "{{faq.title | replace:'"','\"'}}",
+    "href": "{{site.baseurl}}{{faq.url}}"
+  },{% endfor %}
+{% for resource in site.resources reversed | sort: title %}  {
+    "text": "{{resource.title | replace:'"','\"'}}",
+    "href": "{{site.baseurl}}{{resource.url}}"
+  },{% endfor %}
+{% for showcase in site.showcases reversed | sort: title %}  {
+    "text": "{{showcase.title | replace:'"','\"'}}",
+    "href": "{{site.baseurl}}{{showcase.url}}"
+  } {% unless forloop.last %},{% endunless%}{% endfor %}
 ])
