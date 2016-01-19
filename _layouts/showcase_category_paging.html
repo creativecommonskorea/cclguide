@@ -41,9 +41,7 @@ layout: default
             {% if showcase.category %}
                 <a class="taxo" href="/about/showcase/{{ showcase.category }}">{{ category_label }}</a>
             {% endif %}
-            {% if showcase.region %}
-                , <a href="/about/showcase/{{ showcase.region }}">{% if showcase.region == 'domestic' %}국내{% else %}국외{% endif %}</a>
-            {% endif %}
+            {% if showcase.region %}, {{ showcase.region }}{% endif %}
             </div>
 
             <h2 class="post-title">

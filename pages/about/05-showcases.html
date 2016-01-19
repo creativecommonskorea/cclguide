@@ -50,9 +50,7 @@ layout: default
                 {% if showcase.category %}
                     <a class="taxo" href="/about/showcase/{{ showcase.category }}">{{ category_label }}</a>
                 {% endif %}
-                {% if showcase.region %}
-                    , {{ showcase.region }}
-                {% endif %}
+                {% if showcase.region %}, {{ showcase.region }}{% endif %}
                 </div>
                 <h2 class="post-title">
                     <a href="{{ showcase.url }}" title="{{ showcase.title | strip_html | strip_newlines }} 자세히 보기">{{ showcase.title }}</a>
