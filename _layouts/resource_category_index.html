@@ -73,7 +73,7 @@ layout: default
                 </a>
             </li>
             {% endfor %}
-            
+
             {% if resources.size > 0 and last_page_number != page_number %}
             <li><a href="/paging/resources/{{ page.category }}/2/" class="jscroll-next">2</a></li>
             {% endif %}
@@ -92,7 +92,6 @@ layout: default
         padding: 0,
         nextSelector: 'a.jscroll-next:last',
         contentSelector: 'ul.archive-list',
-        debug: true,
         autoTrigger: true,
         callback: neueFade
     });
