@@ -32,7 +32,7 @@ sass:
   style: compressed
   sourcemap: true
 
-exclude: [ Gemfile, Gemfile.lock, README.md, front/uploads.md ]
+exclude: [ Gemfile, Gemfile.lock, README.md, front/uploads.md, .editorconfig, .gitignore, .ruby-version ]
 
 gems:
   - jekyll-redirect-from
@@ -72,6 +72,25 @@ prose:
   siteurl: 'http://ccl.cckorea.org'
   relativeLinks: 'http://ccl.cckorea.org/links.jsonp'
   media: 'media'
+  ignore:
+    - /.editorconfig
+    - /.gitignore
+    - /.ruby-version
+    - /CNAME
+    - /Gemfile
+    - /Gemfile.lock
+    - /LICENSE
+    - /links.jsonp
+    - /READEM.md
+    - /_layouts
+    - /_includes
+    - /_sass
+    - /css
+    - /font
+    - /images
+    - /js
+    - /media
+    - /paging
   metadata:
     pages:
       - name: 'layout'
@@ -83,6 +102,10 @@ prose:
           element: 'text'
           label: '제목'
           value: ''
+      - name: 'date'
+        field:
+          element: 'text'
+          value: CURRENT_DATETIME
       - name: 'permalink'
         field:
           element: 'text'
@@ -130,6 +153,7 @@ prose:
           element: 'textarea'
           label: '관련 콘텐츠'
           help: '본문처럼 마크다운 문법에 따라 목록과 링크로 작성합니다. 예)   * [라이선스 선택 및 표기 가이드](/application/choose/)'
+
     _showcases:
       - name: 'layout'
         field:
@@ -214,6 +238,7 @@ prose:
           label: '링크'
           help: '이 사례의 링크입니다. 예시) http://sloday.com'
           value: ''
+
     _faqs:
       - name: 'title'
         field:
