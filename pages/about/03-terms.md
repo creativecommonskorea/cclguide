@@ -9,7 +9,7 @@ quiz_o_title: null
 quiz_o_desc: null
 quiz_x_title: null
 quiz_x_desc: null
-related_contents: "- [적용 사례](&#x2F;about&#x2F;showcases&#x2F;)\n- [이용허락조건과 CC 라이선스 종류](&#x2F;about&#x2F;terms&#x2F;)"
+related_contents: "* [적용 사례]('/about/showcases/')\n* [이용허락조건과 CC 라이선스 종류]('/about/terms/')"
 related_contents_show: true
 date: "2016-01-19 23:11 +0900"
 ---
