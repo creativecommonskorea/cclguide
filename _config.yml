@@ -81,12 +81,12 @@ prose:
     - /Gemfile.lock
     - /LICENSE
     - /links.jsonp
-    - /READEM.md
+    - /README.md
     - /_layouts
     - /_includes
     - /_sass
     - /css
-    - /font
+    - /fonts
     - /images
     - /js
     - /media
@@ -105,6 +105,7 @@ prose:
       - name: 'date'
         field:
           element: 'text'
+          label: '작성시간'
           value: CURRENT_DATETIME
       - name: 'permalink'
         field:
@@ -152,7 +153,8 @@ prose:
         field:
           element: 'textarea'
           label: '관련 콘텐츠'
-          help: '본문처럼 마크다운 문법에 따라 목록과 링크로 작성합니다. 예)   * [라이선스 선택 및 표기 가이드](/application/choose/)'
+          help: '본문처럼 마크다운 문법에 따라 목록과 링크로 작성합니다.'
+          value: '* []()'
 
     _showcases:
       - name: 'layout'
