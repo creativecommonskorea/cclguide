@@ -9,7 +9,7 @@ layout: default
     {% include breadcrumb.html %}
 </header><!-- .page-header -->
 <div class="page-content">
-<!--
+
     <ul class="tabs hidden-xs">
         <li class="on"><a href="/faq/">전체</a></li>
         {% for hash in site.data.faqs-categories %}
@@ -30,7 +30,9 @@ layout: default
         {% endfor %}
         </select>
     </div>
--->
+
+    <p>&nbsp;</p>
+
 	<ul class="accordion-list" id="accordion">
 	{% for faq in site.faqs reversed limit site.paging_list_faqs %}
 	    <li>
