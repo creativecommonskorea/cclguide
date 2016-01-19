@@ -10,8 +10,9 @@ quiz_o_desc: "예, 쓸 수 있습니다. SA는 동일조건변경허락으로 �
 quiz_x_title: CC 라이선스는 저작권에 반대하는 라이선스이다.
 quiz_x_desc: CC는 저작권에 반대하는 것이 아닙니다. CCL은 저작권자로 하여금 좀 더 유연하고 열린 방법으로 저작권을 보유하고 관리할 수 있도록 도와줍니다. 사실 CCL은 그 실효성을 저작권법에 의존하고 있습니다.
 related_contents_show: true
-related_contents: ""
+related_contents: "* [이용허락조건과 CC 라이선스 종류](/about/terms/)\n* [쉽게 이해하는 CC 라이선스](/about/resources/)\n"
 ---
+
 
 
 
