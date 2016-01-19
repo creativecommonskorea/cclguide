@@ -144,17 +144,17 @@ prose:
           element: 'textarea'
           label: 'X 퀴즈 본문'
           help: '줄바꿈을 존중합니다.'
-      - name: 'related_contents_show'
-        field:
-          element: 'checkbox'
-          label: '하단에 관련 콘텐츠 보이기'
-          value: 'false'
       - name: 'related_contents'
         field:
           element: 'textarea'
           label: '관련 콘텐츠'
           help: '본문처럼 마크다운 문법에 따라 목록과 링크로 작성합니다.'
-          value: '* []()'
+      - name: 'related_contents_show'
+        field:
+          element: 'checkbox'
+          label: '하단에 관련 콘텐츠 보이기'
+          value: 'false'
+
 
     _showcases:
       - name: 'layout'
