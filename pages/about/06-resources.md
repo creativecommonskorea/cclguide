@@ -2,9 +2,13 @@
 layout: default
 permalink: /about/resources/
 description: 
-front: false
 published: true
 title: 06. 쉽게 이해하는 CC 라이선스
+quiz_show: false
+related_contents_show: true
+related_contents: |
+  * [이용허락조건과 CC 라이선스 종류](/about/terms/)
+  * [적용 사례](/about/showcases/)
 ---
 
 {% assign categories = site.data.resources-categories %}
@@ -70,6 +74,47 @@ title: 06. 쉽게 이해하는 CC 라이선스
     </ul>
 
 </div>
+
+<div class="page-additional{% if page.quiz_show == false and page.related_contents_show == false %} hide{% endif %}">
+        {% if page.quiz_show %}
+        <div class="oxquiz">
+            <h1>OX 퀴즈</h1>
+            <ul class="list-oxquiz">
+                <li class="odd">
+                    <h2 class="q">
+                        <span class="num">1.</span>
+                        {{ page.quiz_o_title | newline_to_br }}
+                    </h2>
+                    <div class="a-img"><img src="/images/view/ox-ico-right.png" srcset="/images/view/ox-ico-right@2x.png 2x"></div>
+                    <div class="a">
+                        {{ page.quiz_o_desc | newline_to_br }}
+                    </div>
+                </li>
+
+                <li class="even">
+                    <h2 class="q">
+                        <span class="num">2.</span>
+                        {{ page.quiz_x_title | newline_to_br }}
+                    </h2>
+                    <div class="a-img"><img src="/images/view/ox-ico-wrong.png" srcset="/images/view/ox-ico-wrong@2x.png 2x"></div>
+                    <div class="a">
+                        {{ page.quiz_x_desc | newline_to_br}}
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+        {% endif %}
+
+        {% if page.related_contents_show and page.related_contents.size > 1 %}
+        <div class="related">
+            <h1>관련 컨텐츠</h1>
+            <ul class="list-related">
+            {{ page.related_contents | markdownify }}
+            </ul>
+        </div>
+        {% endif %}
+    </div>
 
 <script src="//cdn.jsdelivr.net/jquery.jscroll/2.2.4/jquery.jscroll.min.js"></script>
 <script>

@@ -5,13 +5,14 @@ title: 적용 사례
 published: true
 date: "2016-01-20 01:06 +0900"
 description: null
-quiz_show: true
+quiz_show: false
 quiz_o_title: null
 quiz_o_desc: null
 quiz_x_title: null
 quiz_x_desc: null
 related_contents_show: true
-related_contents: ""
+related_contents: |
+  * [이용허락조건과 CC 라이선스 종류](/about/terms/)
 ---
 
 
@@ -83,6 +84,47 @@ related_contents: ""
             {% endfor %}
             <li><a href="/paging/showcases/2/" class="jscroll-next">2</a></li>
         </ul>
+    </div>
+
+    <div class="page-additional{% if page.quiz_show == false and page.related_contents_show == false %} hide{% endif %}">
+        {% if page.quiz_show %}
+        <div class="oxquiz">
+            <h1>OX 퀴즈</h1>
+            <ul class="list-oxquiz">
+                <li class="odd">
+                    <h2 class="q">
+                        <span class="num">1.</span>
+                        {{ page.quiz_o_title | newline_to_br }}
+                    </h2>
+                    <div class="a-img"><img src="/images/view/ox-ico-right.png" srcset="/images/view/ox-ico-right@2x.png 2x"></div>
+                    <div class="a">
+                        {{ page.quiz_o_desc | newline_to_br }}
+                    </div>
+                </li>
+
+                <li class="even">
+                    <h2 class="q">
+                        <span class="num">2.</span>
+                        {{ page.quiz_x_title | newline_to_br }}
+                    </h2>
+                    <div class="a-img"><img src="/images/view/ox-ico-wrong.png" srcset="/images/view/ox-ico-wrong@2x.png 2x"></div>
+                    <div class="a">
+                        {{ page.quiz_x_desc | newline_to_br}}
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+        {% endif %}
+
+        {% if page.related_contents_show and page.related_contents.size > 1 %}
+        <div class="related">
+            <h1>관련 컨텐츠</h1>
+            <ul class="list-related">
+            {{ page.related_contents | markdownify }}
+            </ul>
+        </div>
+        {% endif %}
     </div>
 
 <script src="//cdn.jsdelivr.net/jquery.jscroll/2.2.4/jquery.jscroll.min.js"></script>

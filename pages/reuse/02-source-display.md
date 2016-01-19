@@ -11,7 +11,8 @@ quiz_o_desc: null
 quiz_x_title: null
 quiz_x_desc: null
 related_contents_show: true
-related_contents: ""
+related_contents: |
+  * [CC 라이선스 컨텐츠 사용 가이드](/reuse/method/)
 ---
 
 

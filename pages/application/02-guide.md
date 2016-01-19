@@ -11,7 +11,9 @@ quiz_o_desc: null
 quiz_x_title: null
 quiz_x_desc: null
 related_contents_show: true
-related_contents: null
+related_contents: |
+  * [이용허락조건과 CC 라이선스 종류](/about/terms/)
+  * [라이선스 선택 및 표기 가이드](/application/choose/)
 ---
 
 
