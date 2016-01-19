@@ -16,6 +16,7 @@ title: "동화책 공유 프로젝트, 스토리위버 (Storyweaver)"
 
 
 
+
 ![Storyweaver.png]({{site.baseurl}}/media/Storyweaver.png)
 
 ## 소개
@@ -24,8 +25,8 @@ title: "동화책 공유 프로젝트, 스토리위버 (Storyweaver)"
 또한 이곳을 통해 만들어진 동화를 자신의 언어로 번역할 수도 있습니다.
 이렇게 만들어진 컨텐츠들은 CC 라이선스를 통해 누구나 이용할 수 있도록 공유되고 있습니다.
 
-## CC 관련
-스토리위버에 올려진 컨텐츠들은 “CC BY-SA(저작자표시-동일 라이선스 적용)” 로 공개되고 있습니다.
+## CC 라이선스
+스토리위버에 올려진 컨텐츠들은 “CC BY-SA(저작자표시-동일조건변경허락)” 로 공개되고 있습니다.
 
 ## 바로가기
 https://storyweaver.org.in
