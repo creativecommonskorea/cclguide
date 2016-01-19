@@ -8,12 +8,6 @@
 
 @import "style.min.css"
 
-
-#markdown-toc
-    display: block
-    ul, ol
-        padding-left: 12px
-
 .list-case li
     margin-bottom: 20px
 
@@ -30,8 +24,14 @@
 .accordion-list .post-content ol>li
     margin-left: 1em
 
-.entry-content #markdown-toc ul>li
-    margin-left: 0
+.entry-content #markdown-toc
+    display: block
+    li
+        margin-left: 0
+    ul, ol
+        padding-left: 12px
+        &>li
+            margin-left: 0
 
 em
     font-style: italic
