@@ -4,13 +4,14 @@ published: true
 permalink: about/terms/
 title: 02. 이용허락조건과 CC 라이선스 종류
 description: null
-front: true
 quiz_show: false
 quiz_o_title: null
 quiz_o_desc: null
 quiz_x_title: null
 quiz_x_desc: null
-related_contents: ""
+related_contents: |
+  * [적용 사례](/about/showcases/)
+  * [이용허락조건과 CC 라이선스 종류](/about/terms/)
 related_contents_show: true
 date: "2016-01-19 23:11 +0900"
 ---
