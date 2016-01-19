@@ -11,8 +11,9 @@ quiz_o_desc: null
 quiz_x_title: null
 quiz_x_desc: null
 related_contents_show: true
-related_contents: ""
+related_contents: null
 ---
+
 
 
 
@@ -20,6 +21,7 @@ related_contents: ""
 
 * TOC
 {:toc}
+{: .no-style }
 
 한컴오피스 한글, MS 오피스 프로그램에서도 CC 라이선스 적용 기능을 제공하고 있습니다.
 이 기능을 사용하면, 문서에 CC 라이선스를 보다 편리하게 적용할 수 있습니다.
