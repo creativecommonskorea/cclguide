@@ -198,6 +198,6 @@ CC0(퍼블릭도메인)는 법률에 의해 허용되는 최대한도로 저작�
 ## CC0 적용하기
 {: .no_toc}
 
-CC0의 적용은 CC0 권리포기에서 선택할 수 있습니다.
+CC0는 CC0 권리포기 페이지에서 선택해 적용할 수 있습니다.
 
 - [CC0 권리포기](http://creativecommons.org/choose/zero/waiver)
