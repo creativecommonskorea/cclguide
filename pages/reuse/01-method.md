@@ -2,7 +2,7 @@
 layout: page
 published: true
 permalink: /reuse/method/
-title: 01. 컨텐츠 사용 가이드
+title: 01. 콘텐츠 사용 가이드
 description: null
 front: true
 redirect_from: /reuse/
@@ -27,7 +27,7 @@ related_contents: |
 
 &nbsp;
 
-<span style="color:#499100">다른 사람의 CC 라이선스 컨텐츠를 사용하는 경우 사용가능한 범위와 조건을 확인하고 반드시 저작자 혹은 출처를 표시하여야 합니다.</span>
+<span style="color:#499100">다른 사람의 CC 라이선스 콘텐츠를 사용하는 경우 사용가능한 범위와 조건을 확인하고 반드시 저작자 혹은 출처를 표시하여야 합니다.</span>
 
 # 사용가능한 범위와 조건 확인하기
 
@@ -135,7 +135,7 @@ CC 라이선스별 일반권리증서는 기본적으로 해당 창작물을 가
 
 [일반권리증서](http://creativecommons.org/licenses/by-nc-nd/2.0/kr/) 
 
-# CC 라이선스 컨텐츠 사용시 주의할 점
+# CC 라이선스 콘텐츠 사용시 주의할 점
 
 - 창작물의 창작자를 반드시 밝혀야 합니다.
 - 라이선스의 명시된 조건 이외의 용도로 사용할 때는 반드시 창작자의 허락을 받아야 합니다.(예: 상업적 이용을 허락하지 않은 창작물을 상업적으로 이용하려거나, 변경을 허락하지 않은 창작물을 변경하려고 할때)

@@ -7,7 +7,7 @@ creator: ""
 category: art
 region: 유럽
 published: false
-title: "유럽 문화유산의 디지털 컨텐츠, 유로피아나(Europeana)"
+title: "유럽 문화유산의 디지털 콘텐츠, 유로피아나(Europeana)"
 ---
 
 

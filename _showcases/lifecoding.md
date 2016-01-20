@@ -24,7 +24,7 @@ description: null
 위키북스에서 종이책으로도 출간되었습니다.([자세히보기](http://wikibook.co.kr/coding-everybody/)
 
 ## CC 라이선스
-생활코딩에서 제공하고 있는 교육컨텐츠들은 CC 라이선스 혹은 퍼블릭 도메인으로 공개되어 있습니다.
+생활코딩에서 제공하고 있는 교육 콘텐츠들은 CC 라이선스 혹은 퍼블릭 도메인으로 공개되어 있습니다.
 
 ## 바로가기
 <https://www.opentutorials.org>{: target="_blank"}

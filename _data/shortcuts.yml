@@ -9,12 +9,12 @@
   bg: dark
   img: 1
 
-- title: 내 컨텐츠에 CC 라이선스 적용하기
+- title: 내 콘텐츠에 CC 라이선스 적용하기
   url: /application/choose/
   bg: pattern
   img: 2
 
-- title: CC 라이선스가 적용된 컨텐츠 찾기
+- title: CC 라이선스가 적용된 콘텐츠 찾기
   url: /reuse/find/
   bg: pattern
   img: 3
