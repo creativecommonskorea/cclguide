@@ -4,7 +4,31 @@ published: true
 permalink: syntax/
 title: 마크다운 문법 소개
 description: 마크다운 문법을 소개합니다.
+date: "2016-01-22 23:17 +0900"
+related_contents_show: false
+related_contents: ""
+quiz_show: true
+quiz: 
+  - title: "CC-BY-SA 이미지를 CC-BY 블로그에 가져다 쓸 수 있다."
+    answer: right
+    description: "\"예, 쓸 수 있습니다. SA는 동일조건변경허락으로 이미지를 크롭하거나 다른 것과 합성하는 등 변경하지 않는다면 반드시 BY-SA의 조건을 그대로 가져올 필요는 없습니다. 단, 변경을 할 시에는 BY-SA를 블로그와 별개로 이미지에 표기해주셔야 합니다.\"\n"
+  - title: CC 라이선스는 저작권에 반대하는 라이선스이다.
+    answer: wrong
+    description: "CC는 저작권에 반대하는 것이 아닙니다. CCL은 저작권자로 하여금 좀 더 유연하고 열린 방법으로 저작권을 보유하고 관리할 수 있도록 도와줍니다. 사실 CCL은 그 실효성을 저작권법에 의존하고 있습니다.\n"
+  - title: "CC-BY-SA 이미지를 CC-BY 블로그에 가져다 쓸 수 있다."
+    answer: right
+    description: "\"예, 쓸 수 있습니다. SA는 동일조건변경허락으로 이미지를 크롭하거나 다른 것과 합성하는 등 변경하지 않는다면 반드시 BY-SA의 조건을 그대로 가져올 필요는 없습니다. 단, 변경을 할 시에는 BY-SA를 블로그와 별개로 이미지에 표기해주셔야 합니다.\"\n"
+  - title: CC 라이선스는 저작권에 반대하는 라이선스이다.
+    answer: wrong
+    description: "CC는 저작권에 반대하는 것이 아닙니다. CCL은 저작권자로 하여금 좀 더 유연하고 열린 방법으로 저작권을 보유하고 관리할 수 있도록 도와줍니다. 사실 CCL은 그 실효성을 저작권법에 의존하고 있습니다.\n"
+  - title: "CC-BY-SA 이미지를 CC-BY 블로그에 가져다 쓸 수 있다."
+    answer: right
+    description: "\"예, 쓸 수 있습니다. SA는 동일조건변경허락으로 이미지를 크롭하거나 다른 것과 합성하는 등 변경하지 않는다면 반드시 BY-SA의 조건을 그대로 가져올 필요는 없습니다. 단, 변경을 할 시에는 BY-SA를 블로그와 별개로 이미지에 표기해주셔야 합니다.\"\n"
+  - title: CC 라이선스는 저작권에 반대하는 라이선스이다.
+    answer: wrong
+    description: CC는 저작권에 반대하는 것이 아닙니다. CCL은 저작권자로 하여금 좀 더 유연하고 열린 방법으로 저작권을 보유하고 관리할 수 있도록 도와줍니다. 사실 CCL은 그 실효성을 저작권법에 의존하고 있습니다.
 ---
+
 
 ![text.png]({{site.baseurl}}/media/text.png)
 
