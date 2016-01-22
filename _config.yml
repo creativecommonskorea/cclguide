@@ -118,31 +118,6 @@ prose:
           label: '요약 설명'
           help: '검색 엔진에게 제공할 설명, 초기 화면에 표시할 요약입니다.'
           value: ''
-      - name: 'quiz_show'
-        field:
-          element: 'checkbox'
-          label: '하단에 OX 퀴즈 보이기'
-          value: 'false'
-      - name: 'quiz_o_title'
-        field:
-          element: 'textarea'
-          label: 'O 퀴즈 제목'
-          help: '줄바꿈을 존중합니다.'
-      - name: 'quiz_o_desc'
-        field:
-          element: 'textarea'
-          label: 'O 퀴즈 본문'
-          help: '줄바꿈을 존중합니다.'
-      - name: 'quiz_x_title'
-        field:
-          element: 'textarea'
-          label: 'X 퀴즈 제목'
-          help: '줄바꿈을 존중합니다.'
-      - name: 'quiz_x_desc'
-        field:
-          element: 'textarea'
-          label: 'X 퀴즈 본문'
-          help: '줄바꿈을 존중합니다.'
       - name: 'related_contents_show'
         field:
           element: 'checkbox'
@@ -154,6 +129,11 @@ prose:
           label: '관련 콘텐츠'
           help: '본문처럼 마크다운 문법에 따라 목록과 링크로 작성합니다. | 입력 후 줄바꿔서 입력해야 합니다.'
           value: '|'
+      - name: 'quiz_show'
+        field:
+          element: 'checkbox'
+          label: '하단에 OX 퀴즈 보이기'
+          value: 'false'
 
     _showcases:
       - name: 'layout'

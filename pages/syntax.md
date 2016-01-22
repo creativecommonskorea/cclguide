@@ -4,12 +4,6 @@ published: true
 permalink: syntax/
 title: 마크다운 문법 소개
 description: 마크다운 문법을 소개합니다.
-quiz_show: true
-quiz_o_title: null
-quiz_o_desc: null
-quiz_x_title: null
-quiz_x_desc: null
-related_contents: null
 ---
 
 ![text.png]({{site.baseurl}}/media/text.png)

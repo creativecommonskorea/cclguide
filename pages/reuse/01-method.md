@@ -4,20 +4,12 @@ published: true
 permalink: /reuse/method/
 title: 01. 콘텐츠 사용 가이드
 description: null
-front: true
 redirect_from: /reuse/
-quiz_show: false
-quiz_o_title: null
-quiz_o_desc: null
-quiz_x_title: null
-quiz_x_desc: null
 related_contents_show: true
 related_contents: |
   * [이용허락조건과 CC 라이선스 종류](/about/terms/)
+quiz_show: false
 ---
-
-
-
 
 
 

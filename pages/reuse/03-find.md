@@ -4,20 +4,12 @@ published: true
 permalink: /reuse/find/
 title: 03. CC 라이선스 콘텐츠 찾기
 description: null
-quiz_show: false
-quiz_o_title: null
-quiz_o_desc: null
-quiz_x_title: null
-quiz_x_desc: null
 related_contents_show: true
 related_contents: |
   * [CC 라이선스 콘텐츠 사용 가이드](/reuse/method/)
   * [출처 표시 가이드](/reuse/source-display/)
+quiz_show: false
 ---
-
-
-
-
 
 
 <span style="color:#499100">Let’s CC는 CC 라이선스가 적용된 이미지, 음악, 동영상, 문서 등을 빠르고 쉽게 찾을 수 있는 검색 서비스입니다.</span>

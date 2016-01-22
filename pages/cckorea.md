@@ -4,14 +4,9 @@ permalink: /cckorea/
 title: 05. 크리에이티브커먼즈 소개
 published: true
 description: null
-front: true
-quiz_show: false
-quiz_o_title: null
-quiz_o_desc: null
-quiz_x_title: null
-quiz_x_desc: null
 related_contents_show: false
 related_contents: null
+quiz_show: false
 ---
 
 
