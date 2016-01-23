@@ -1,0 +1,121 @@
+#ccl-helper
+    margin: 30px 0
+    .col-lg-3
+        &.first
+            padding-left: 0 !important
+        &.end
+            padding-right: 0 !important
+    .col-md-6.end
+        padding-right: 15px
+    .l-box
+        position: relative
+        padding: 1.5em
+        margin-bottom: 20px
+        border: 1px solid #ccc
+        height: 260px
+        font-size: 1.45rem
+        line-height: 23px
+        h2
+            margin: 5px 0 10px 0
+            font-weight: 800
+            font-size: 1.6rem
+        .guide
+            color: rgba(124, 173, 79, 1)
+            font-weight: 800
+            font-size: 1.35rem
+            line-height: 20px
+            display: inline-block
+            margin: 10px 0
+        &:hover
+            border: 1px solid #93BA31
+        &.on
+            background: #93BA31
+            border: 1px solid #93BA31
+            color: #fff
+            h2
+                color: #fff
+        &.on:after, &.on:before
+            top: 100%
+            left: 50%
+            border: solid transparent
+            content: " "
+            height: 0
+            width: 0
+            position: absolute
+            pointer-events: none
+        &.on:after
+            border-color: rgba(147, 186, 49, 0)
+            border-top-color: #93BA31
+            border-width: 15px
+            margin-left: -15px
+        &.on:before
+            border-color: rgba(147, 186, 49, 0)
+            border-top-color: #93BA31
+            border-width: 16px
+            margin-left: -16px
+    .contents
+        margin-bottom: 10px
+        padding: 30px
+        padding-bottom: 60px
+        background-color: rgba(245, 246, 250, 1)
+        height: 440px
+        .header
+            width: 100%
+            .keyword, .amount
+                font-weight: 400
+                color: rgba(124, 173, 79, 1)
+                margin-bottom: 30px
+            .keyword
+                float: left
+            .amount
+                float: right
+            .amount-image
+                display: inline-block
+                width: 182px
+                height: 20px
+                margin-bottom: -3px
+        h2
+            font-weight: 800
+            font-size: 2.2rem
+            line-height: 16px
+        .license-image
+            display: inline-block
+            margin-bottom: 10px
+            height: 50px
+        .license-title
+            font-size: 2.2rem
+        .license-description
+            font-size: 1.7rem
+    .footer
+        margin-top: 20px
+        ul 
+            display: block
+            width: 460px
+            margin: 0 auto
+            & > li
+                float: left
+                margin-right: .7em
+                &.end
+                    margin-right: 0
+                & > a
+                    font-size: 1.7rem
+                    font-weight: 800
+                    color: #000 !important
+                    text-decoration: none !important
+                    &:hover 
+                        text-decoration: underline !important
+    .recommandation
+        font-size: 1.45rem
+        color: #999
+
+    @media (max-width: 768px) 
+        .footer ul 
+            width: 220px
+            li
+                margin-bottom: 5px
+
+.entry-content #ccl-helper ul>li
+    list-style: none
+
+.page-content #ccl-helper img
+    margin: 0 auto

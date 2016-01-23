@@ -59,3 +59,8 @@ blockquote {
 .entry-content blockquote p {
   margin-top: 0;
 }
+
+#markdown-toc.no-style li {
+  list-style: none;
+}
+

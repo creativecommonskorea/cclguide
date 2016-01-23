@@ -30,7 +30,7 @@ quiz:
 ---
 
 
-![text.png]({{site.baseurl}}/media/text.png)
+{% include chooser.html %}
 
 &nbsp;
 

@@ -6,7 +6,10 @@
 // Import partials from `sass_dir` (defaults to `_sass`)
 // base styles
 
+
 @import "style.min.css"
+@import "markdown.css"
+@import "chooser"
 
 .list-case li
     margin-bottom: 20px
@@ -61,14 +64,10 @@ em
     .list-oxquiz
         li
             margin-bottom: 30px
+            min-height: 280px
         .a
             padding-right: 1em
-
-@import "markdown.css"
 
 .hide
     display: none
 
-#markdown-toc.no-style
-    li
-        list-style: none
