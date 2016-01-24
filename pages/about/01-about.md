@@ -91,8 +91,10 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 
 이용허락조건들을 바탕으로 창작자는 6종류의 CC 라이선스 중 하나를 선택하여 적용합니다. 각 라이선스별로 CC 라이선스를 쉽게 읽고 이해할 수 있도록 이용허락규약을 요약한 일반증서(Commons Deed)와 법률적 근거가 되는 약정서 전문인 이용허락규약(Legal Code)이 있습니다. 
 
-### ![by_300.png]({{site.baseurl}}/media/by_300.png)저작자 표시 (CC BY)
+### 저작자 표시 (CC BY)
 {: .no_toc}
+
+![by_300.png]({{site.baseurl}}/media/by_300.png)
 
 <table class="terms table-responsive"><tbody>
 <tr><td class="col-md-6">가능한 이용</td><td class="col-md-6">제한</td></tr>
@@ -108,9 +110,10 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 * [이용허락규약](http://creativecommons.org/licenses/by/2.0/kr/legalcode)
 
 
-### ![by-nc_300.png]({{site.baseurl}}/media/by-nc_300.png)
-저작자표시-비영리(CC BY-NC)
+### 저작자표시-비영리(CC BY-NC)
 {: .no_toc}
+
+![by-nc_300.png]({{site.baseurl}}/media/by-nc_300.png)
 
 <table class="terms table-responsive"><tbody>
 <tr><td class="col-md-6">가능한 이용</td><td class="col-md-6">제한</td></tr>
@@ -126,8 +129,10 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 * [일반증서](http://creativecommons.org/licenses/by-nc/2.0/kr/)
 * [이용허락규약](http://creativecommons.org/licenses/by-nc/2.0/kr/legalcode)
 
-### ![by-nd.png]({{site.baseurl}}/media/by-nd.png)저작자표시-변경금지 (CC BY-ND)
+### 저작자표시-변경금지 (CC BY-ND)
 {: .no_toc}
+
+![by-nd_300.png]({{site.baseurl}}/media/by-nd_300.png)
 
 <table class="terms table-responsive"><tbody>
 <tr><td class="col-md-6">가능한 이용</td><td class="col-md-6">제한</td></tr>
@@ -146,8 +151,10 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 * [일반증서](http://creativecommons.org/licenses/by-nd/2.0/kr/)
 * [이용허락규약](http://creativecommons.org/licenses/by-nd/2.0/kr/legalcode)
 
-### ![by-sa.png]({{site.baseurl}}/media/by-sa.png)저작자표시-동일조건변경허락 (CC BY-SA)
+### 저작자표시-동일조건변경허락 (CC BY-SA)
 {: .no_toc}
+
+![by-sa_300.png]({{site.baseurl}}/media/by-sa_300.png)
 
 <table class="terms table-responsive"><tbody>
 <tr><td class="col-md-6">가능한 이용</td><td class="col-md-6">제한</td></tr>
@@ -167,8 +174,10 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 * [일반증서](http://creativecommons.org/licenses/by-sa/2.0/kr/)
 * [이용허락규약](http://creativecommons.org/licenses/by-sa/2.0/kr/legalcode)
 
-### ![by-nc-sa.png]({{site.baseurl}}/media/by-nc-sa.png)저작자표시-비영리-동일조건 변경 허락 (BY-NC-SA)
+### 저작자표시-비영리-동일조건 변경 허락 (BY-NC-SA)
 {: .no_toc}
+
+![by-nc-sa_300.png]({{site.baseurl}}/media/by-nc-sa_300.png)
 
 <table class="terms table-responsive"><tbody>
 <tr><td class="col-md-6">가능한 이용</td><td class="col-md-6">제한</td></tr>
@@ -189,8 +198,10 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 * [일반증서](http://creativecommons.org/licenses/by-nc-sa/2.0/kr/)
 * [이용허락규약](http://creativecommons.org/licenses/by-nc-sa/2.0/kr/legalcode)
 
-### ![by-nc-nd.png]({{site.baseurl}}/media/by-nc-nd.png)저작자 표시-비영리-변경금지 (BY-NC-ND)
+### 저작자 표시-비영리-변경금지 (BY-NC-ND)
 {: .no_toc}
+
+![by-nc-nd_300.png]({{site.baseurl}}/media/by-nc-nd_300.png)
 
 <table class="terms table-responsive"><tbody>
 <tr><td class="col-md-6">가능한 이용</td><td class="col-md-6">제한</td></tr>
