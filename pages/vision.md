@@ -4,11 +4,19 @@ date: "2016-01-24 23:42 +0900"
 permalink: /vision/
 description: null
 related_contents_show: false
-related_contents: ""
-quiz_show: false
+related_contents: null
+quiz_show: true
 published: true
 title: CC 라이선스 배경과 목적
+quiz: 
+  - title: null
+    answer: null
+    description: "\n"
+  - title: null
+    answer: null
+    description: ""
 ---
+
 
 
 
