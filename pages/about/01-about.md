@@ -92,7 +92,7 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 
 이용허락조건들을 바탕으로 창작자는 6종류의 CC 라이선스 중 하나를 선택하여 적용합니다. 각 라이선스별로 CC 라이선스를 쉽게 읽고 이해할 수 있도록 이용허락규약을 요약한 일반증서(Commons Deed)와 법률적 근거가 되는 약정서 전문인 이용허락규약(Legal Code)이 있습니다. 
 
-### ![BY.png](/media/BY.png) 저작자 표시 (CC BY)
+### ![by.png]({{site.baseurl}}/media/by.png)저작자 표시 (CC BY)
 {: .no_toc}
 
 <table class="terms table-responsive"><tbody>
@@ -111,7 +111,7 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 * [이용허락규약](http://creativecommons.org/licenses/by/2.0/kr/legalcode)
 
 
-### ![BY NC.png](/media/BY NC.png) 저작자표시-비영리(CC BY-NC)
+### ![by-nc.png]({{site.baseurl}}/media/by-nc.png)저작자표시-비영리(CC BY-NC)
 {: .no_toc}
 
 <table class="terms table-responsive"><tbody>
@@ -132,7 +132,7 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 * [일반증서](http://creativecommons.org/licenses/by-nc/2.0/kr/)
 * [이용허락규약](http://creativecommons.org/licenses/by-nc/2.0/kr/legalcode)
 
-### ![BY ND.png](/media/BY ND.png) 저작자표시-변경금지 (CC BY-ND)
+### ![by-nd.png]({{site.baseurl}}/media/by-nd.png)저작자표시-변경금지 (CC BY-ND)
 {: .no_toc}
 
 <table class="terms table-responsive"><tbody>
@@ -152,7 +152,7 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 * [일반증서](http://creativecommons.org/licenses/by-nd/2.0/kr/)
 * [이용허락규약](http://creativecommons.org/licenses/by-nd/2.0/kr/legalcode)
 
-### ![BY SA.png](/media/BY SA.png) 저작자표시-동일조건변경허락 (CC BY-SA)
+### ![by-sa.png]({{site.baseurl}}/media/by-sa.png)저작자표시-동일조건변경허락 (CC BY-SA)
 {: .no_toc}
 
 <table class="terms table-responsive"><tbody>
@@ -173,7 +173,7 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 * [일반증서](http://creativecommons.org/licenses/by-sa/2.0/kr/)
 * [이용허락규약](http://creativecommons.org/licenses/by-sa/2.0/kr/legalcode)
 
-### ![BY NC SA.png](/media/BY NC SA.png) 저작자표시-비영리-동일조건 변경 허락 (BY-NC-SA)
+### ![by-nc-sa.png]({{site.baseurl}}/media/by-nc-sa.png)저작자표시-비영리-동일조건 변경 허락 (BY-NC-SA)
 {: .no_toc}
 
 <table class="terms table-responsive"><tbody>
@@ -195,7 +195,7 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 * [일반증서](http://creativecommons.org/licenses/by-nc-sa/2.0/kr/)
 * [이용허락규약](http://creativecommons.org/licenses/by-nc-sa/2.0/kr/legalcode)
 
-### ![BY NC ND.png]({{site.baseurl}}/media/BY%20NC%20ND.png) 저작자 표시-비영리-변경금지 (BY-NC-ND)
+### ![by-nc-nd.png]({{site.baseurl}}/media/by-nc-nd.png)저작자 표시-비영리-변경금지 (BY-NC-ND)
 {: .no_toc}
 
 <table class="terms table-responsive"><tbody>
