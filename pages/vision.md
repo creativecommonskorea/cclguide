@@ -5,7 +5,7 @@ permalink: /vision/
 description: null
 related_contents_show: false
 related_contents: null
-quiz_show: true
+quiz_show: false
 published: true
 title: CC 라이선스 배경과 목적
 quiz: 
