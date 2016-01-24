@@ -29,7 +29,7 @@ date: "2016-01-20 17:16 +0900"
 
 &nbsp;
 
-<iframe src="https://player.vimeo.com/video/152247470" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/152247470" width="600" height="337" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 [크리에이티브 커먼즈](https://vimeo.com/152247470) by CC Korea / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (원작: "[Meet Creative Commons](https://www.youtube.com/watch?v=P1j0OA9N4hs)" by CC Qatar)
 
 &nbsp;
