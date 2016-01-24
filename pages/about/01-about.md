@@ -33,13 +33,12 @@ date: "2016-01-20 17:16 +0900"
 <iframe src="https://player.vimeo.com/video/152247470" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 [크리에이티브 커먼즈](https://vimeo.com/152247470) by CC Korea / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (원작: "[Meet Creative Commons](https://www.youtube.com/watch?v=P1j0OA9N4hs)" by CC Qatar)
 
-크리에이티브 커먼즈 라이선스 (Creative Commons License, 이하 CC 라이선스)는 저작자가 자신의 저작물을 다른 이들이 특정 이용허락조건들에 따라 자유롭게 이용할 수 있도록 허락하는 라이선스입니다. CC 라이선스는 세계적으로 사용하고 있는 라이선스로 국내 뿐만 아니라 다른 나라에서도 효력을 발휘하고 있습니다.
-
-* [CC 라이선스가 탄생하게 된 배경과 목적](/vision.md){: target="_blank" }
+크리에이티브 커먼즈 라이선스 (Creative Commons License, 이하 CC 라이선스)는 저작자가 자신의 저작물을 다른 이들이 특정 이용허락조건들에 따라 자유롭게 이용할 수 있도록 허락하는 라이선스입니다. CC 라이선스는 세계적으로 사용하고 있는 라이선스로 국내 뿐만 아니라 다른 나라에서도 효력을 발휘하고 있습니다.([CC 라이선스가 탄생하게 된 배경과 목적](/pages/vision.md){: target="_blank" })
 
 CC 라이선스의 이용허락조건은 4가지 종류가 있으며, 이 중 원하는 조건들을 포함한 CC 라이선스를 선택하여 저작물에 적용하게 됩니다. 이후 다른 사람들은 저작물에 적용된 CC 라이선스의 이용허락조건에 따라 저작물을 자유롭게 이용할 수 있습니다.
 
-![이용허락조건과CC라이선스.png]({{site.baseurl}}/media/이용허락조건과CC라이선스.png)
+![Licences.png]({{site.baseurl}}/media/Licences.png)
+
 
 # 이용허락조건과 CC 라이선스 종류
 
