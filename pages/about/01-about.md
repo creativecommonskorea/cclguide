@@ -25,9 +25,11 @@ date: "2016-01-20 17:16 +0900"
 
 &nbsp;
 
-**<span style="color:#499100"> CC 라이선스는 저작자가 선택한 조건하에 자신의 저작물을 다른 사람들이 자유롭게 이용할 수 있도록 허락하는 입니다. 이용허락조건은 총 4가지 있으며, 이를 조합한 6종류의 라이선스가 제공되고 있습니다. 이 페이지에서는 CC 라이선스가 무엇인지 그리고 선택할 수 있는 이용허락조건과 이를 바탕으로 구성된 CC 라이선스의 종류에 대해 살펴보겠습니다.</span>** 
+**<span style="color:#499100"> CC 라이선스는 저작자가 선택한 조건하에 자신의 저작물을 다른 사람들이 자유롭게 이용할 수 있도록 허락하는 라이선스입니다. 이용허락조건은 총 4가지 있으며, 이를 조합한 6종류의 라이선스가 제공되고 있습니다. 이 페이지에서는 CC 라이선스가 무엇인지 그리고 선택할 수 있는 이용허락조건과 이를 바탕으로 구성된 CC 라이선스의 종류에 대해 살펴보겠습니다.</span>** 
 
-<iframe src="https://player.vimeo.com/video/152247470" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+&nbsp;
+
+<iframe src="https://player.vimeo.com/video/152247470" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 [크리에이티브 커먼즈](https://vimeo.com/152247470) by CC Korea / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (원작: "[Meet Creative Commons](https://www.youtube.com/watch?v=P1j0OA9N4hs)" by CC Qatar)
 
 &nbsp;
