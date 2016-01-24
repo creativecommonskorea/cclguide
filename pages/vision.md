@@ -9,12 +9,21 @@ quiz_show: true
 published: true
 title: CC 라이선스 배경과 목적
 quiz: 
-  - title: null
-    answer: null
-    description: "\n"
-  - title: null
-    answer: null
-    description: ""
+  - title: "CCKOREA가 저작물의 이용을 허가해 주는 것인가요?"
+    answer: wrong
+    description: "그렇지 않습니다. CCL은 등록제가 아니며, CCKOREA는 저작권자가 좀 더 유연한 조건으로 저작물에 라이선스를 적용할 수 있도록 이용 가능한 라이선스와 도구를 제공할 뿐입니다.\n"
+  - title: "CCKOREA가 저작물의 이용을 허가해 주는 것인가요?"
+    answer: right
+    description: "CCL은 등록제가 아니며, CCKOREA는 저작권자가 좀 더 유연한 조건으로 저작물에 라이선스를 적용할 수 있도록 이용 가능한 라이선스와 도구를 제공할 뿐입니다.\n"
+  - title: "CCKOREA가 저작물의 이용을 허가해 주는 것인가요?"
+    answer: right
+    description: "그렇지 않습니다. CCL은 등록제가 아니며, CCKOREA는 저작권자가 좀 더 유연한 조건으로 저작물에 라이선스를 적용할 수 있도록 이용 가능한 라이선스와 도구를 제공할 뿐입니다. |"
+  - title: "CCKOREA가 저작물의 이용을 허가해 주는 것인가요?"
+    answer: wrong
+    description: "CCL은 등록제가 아니며, CCKOREA는 저작권자가 좀 더 유연한 조건으로 저작물에 라이선스를 적용할 수 있도록 이용 가능한 라이선스와 도구를 제공할 뿐입니다. |"
+  - title: "CCKOREA가 저작물의 이용을 허가해 주는 것인가요?"
+    answer: wrong
+    description: "그렇지 않습니다. CCL은 등록제가 아니며, CCKOREA는 저작권자가 좀 더 유연한 조건으로 저작물에 라이선스를 적용할 수 있도록 이용 가능한 라이선스와 도구를 제공할 뿐입니다. |"
 ---
 
 
