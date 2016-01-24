@@ -4,6 +4,7 @@
   url: /about
   items:
     - title: 01. CC 라이선스
+      url: /about/
     - title: 02. 적용 사례
       url: /about/showcases/
     - title: 03. 쉽게 이해하는 CC 라이선스
