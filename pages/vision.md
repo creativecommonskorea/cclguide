@@ -4,11 +4,12 @@ date: "2016-01-24 23:42 +0900"
 permalink: ""
 description: null
 related_contents_show: false
-related_contents: ""
+related_contents: null
 quiz_show: false
 published: false
-title: CC 라이선스가 탄생하게 된 배경과 목적
+title: CC 라이선스 탄생 배경과 목적
 ---
+
 
 
 <iframe src="https://player.vimeo.com/video/15587108" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
