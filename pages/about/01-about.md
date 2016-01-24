@@ -107,9 +107,7 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 <li> 2차 저작물의 라이선스를 자유롭게 선택해도 됩니다.</li>
 </ul>
 </td><td>
-<ul>
-    <li>&nbsp;</li>
-    </ul>
+<ul>&nbsp;</ul>
 </td></tr></tbody></table>
 
 * [일반증서](http://creativecommons.org/licenses/by/2.0/kr/)
