@@ -1,7 +1,7 @@
 ---
 layout: page
 date: "2016-01-24 23:42 +0900"
-permalink: ""
+permalink: /vision/
 description: null
 related_contents_show: false
 related_contents: ""
