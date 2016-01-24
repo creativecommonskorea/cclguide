@@ -91,7 +91,7 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 
 이용허락조건들을 바탕으로 창작자는 6종류의 CC 라이선스 중 하나를 선택하여 적용합니다. 각 라이선스별로 CC 라이선스를 쉽게 읽고 이해할 수 있도록 이용허락규약을 요약한 일반증서(Commons Deed)와 법률적 근거가 되는 약정서 전문인 이용허락규약(Legal Code)이 있습니다. 
 
-### ![by.png]({{site.baseurl}}/media/by.png)저작자 표시 (CC BY)
+### ![by_300.png]({{site.baseurl}}/media/by_300.png)저작자 표시 (CC BY)
 {: .no_toc}
 
 <table class="terms table-responsive"><tbody>
@@ -108,7 +108,8 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 * [이용허락규약](http://creativecommons.org/licenses/by/2.0/kr/legalcode)
 
 
-### ![by-nc.png]({{site.baseurl}}/media/by-nc.png)저작자표시-비영리(CC BY-NC)
+### ![by-nc_300.png]({{site.baseurl}}/media/by-nc_300.png)
+저작자표시-비영리(CC BY-NC)
 {: .no_toc}
 
 <table class="terms table-responsive"><tbody>
