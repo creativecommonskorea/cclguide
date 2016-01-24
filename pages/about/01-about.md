@@ -218,6 +218,7 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 * [이용허락규약](http://creativecommons.org/licenses/by-nc-nd/2.0/kr/legalcode)
 
 ## CC0(퍼블릭도메인)
+{: .no_toc}
 
 CC0(퍼블릭도메인)는 법률에 의해 허용되는 최대한도로 저작권과, 저작인접권을 포기한다는 권리자의 의사표시입니다. 
 
