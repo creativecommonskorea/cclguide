@@ -96,15 +96,33 @@ CC 라이선스에서 저작자가 선택할 수 있는 이용허락조건은 4�
 
 ![by_300.png]({{site.baseurl}}/media/by_300.png)
 
+|가능한 이용|제한|
+|------|-------|
+
+|- 저작자 및 출처를 표시합니다.
+- 상업적 이용이 가능합니다.
+- 복사 및 배포가 가능합니다.<br/>
+- 이 창작물을 변경하거나, 이용해 2차 저작물을 만들어도 됩니다.<br/>
+- 2차 저작물의 라이선스를 자유롭게 선택해도 됩니다.
+</td><td>&nbsp;</td></tr></tbody></table>
+
+* [일반증서](http://creativecommons.org/licenses/by/2.0/kr/)
+* [이용허락규약](http://creativecommons.org/licenses/by/2.0/kr/legalcode)
+
+### 저작자 표시 (CC BY)
+{: .no_toc}
+
+![by_300.png]({{site.baseurl}}/media/by_300.png)
+
 <table class="terms table-responsive"><tbody>
 <tr><td class="col-md-6">가능한 이용</td><td class="col-md-6">제한</td></tr>
-<tr><td>
+<tr><td class="col-md-6">
 - 저작자 및 출처를 표시합니다.<br/>
 - 상업적 이용이 가능합니다.<br/>
 - 복사 및 배포가 가능합니다.<br/>
 - 이 창작물을 변경하거나, 이용해 2차 저작물을 만들어도 됩니다.<br/>
 - 2차 저작물의 라이선스를 자유롭게 선택해도 됩니다.
-</td><td>&nbsp;</td></tr></tbody></table>
+</td><td class="col-md-6">&nbsp;</td></tr></tbody></table>
 
 * [일반증서](http://creativecommons.org/licenses/by/2.0/kr/)
 * [이용허락규약](http://creativecommons.org/licenses/by/2.0/kr/legalcode)
