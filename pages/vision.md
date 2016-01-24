@@ -7,7 +7,7 @@ related_contents_show: false
 related_contents: ""
 quiz_show: false
 published: true
-title: CC 라이선스 탄생 배경과 목적
+title: CC 라이선스 배경과 목적
 ---
 
 
