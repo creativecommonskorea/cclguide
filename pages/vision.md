@@ -4,11 +4,12 @@ date: "2016-01-24 23:42 +0900"
 permalink: ""
 description: null
 related_contents_show: false
-related_contents: null
+related_contents: ""
 quiz_show: false
-published: false
+published: true
 title: CC 라이선스 탄생 배경과 목적
 ---
+
 
 
 
