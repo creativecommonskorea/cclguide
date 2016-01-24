@@ -13,9 +13,10 @@ quiz:
     answer: wrong
     description: "CC는 저작권에 반대하는 것이 아닙니다. CCL은 저작권자로 하여금 좀 더 유연하고 열린 방법으로 저작권을 보유하고 관리할 수 있도록 도와줍니다. 사실 CCL은 그 실효성을 저작권법에 의존하고 있습니다.\n"
 related_contents_show: true
-related_contents: "* [이용허락조건과 CC 라이선스 종류](/about/terms/)\n* [쉽게 이해하는 CC 라이선스](/about/resources/)"
+related_contents: ""
 date: "2016-01-20 17:16 +0900"
 ---
+
 
 
 
@@ -231,4 +232,3 @@ CC0(퍼블릭도메인)는 법률에 의해 허용되는 최대한도로 저작�
 CC0는 CC0 권리포기 페이지에서 선택해 적용할 수 있습니다.
 
 - [CC0 권리포기](http://creativecommons.org/choose/zero/waiver)
-
