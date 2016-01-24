@@ -7,10 +7,12 @@ related_contents_show: false
 related_contents: ""
 quiz_show: false
 published: false
-title: vision
+title: CC 라이선스의 탄생 배경과 목적
 ---
 
-# CC 라이선스 배경
+<iframe src="https://player.vimeo.com/video/15587108" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+# CC 라이선스의 탄생 배경
 
 인터넷 그리고 스마트폰을 비롯한 멋진 디지털기기들 덕분에, 창작물을 배포하거나 누군가의 창작물을 손쉽게 공유하고 그런 창작물을 재가공해서 2차적 저작물로 만드는 것이 자연스러운 일상이 되었습니다.
 
