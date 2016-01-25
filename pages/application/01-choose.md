@@ -2,14 +2,15 @@
 layout: page
 published: true
 permalink: application/choose/
-title: 01. 라이선스 선택 및 표기 가이드
+title: 01. 라이선스 적용 가이드
 description: null
 redirect_from: /application/
 related_contents_show: true
-related_contents: |
-  * [이용허락조건과 CC 라이선스 종류](/about/terms/)
+related_contents: "* [CC 라이선스](/about/)\n"
 quiz_show: false
+date: "2016-01-25 22:09 +0900"
 ---
+
 
 
 * TOC
@@ -18,15 +19,14 @@ quiz_show: false
 
 &nbsp;
 
-<span style="color:#499100">CC 라이선스에는 6개의 종류가 있습니다. 본인의 창작물을 어떤 이용조건하에 다른사람들이 이용하길 원하는지에 따라 이에 알맞은 라이선스를 선택할 수 있습니다. 6개 라이선스에 대한 자세한 설명은 ["이용허락조건과 CC 라이선스 종류"](http://ccl.cckorea.org/about/terms/)을 참고해주세요.</span>
+<span style="color:#499100"> 본인의 저작물에 CC 라이선스를 적용하고자 한다면, 우선 본인의 저작물을 이용하기 따라야 할 이용허락조건을 정한 후 해당 이용허락조건들로 구성된 알맞은 CC 라이선스를 선택합니다. 그 다음 아래 '라이선스 기본 표기 가이드'를 참고하여, 선택한 CC 라이선스를 저작물에 표기합니다. 이때 저작물의 콘텐츠 종류에 따라 적합한 표기 방식들이 다를 수 있기 때문에 이 페이지의 '콘텐츠 종류별 표기 상세 가이드'를 참고하여주시기 바랍니다.
 
-
-# 내게 알맞는 CC 라이선스 찾기
+# 이용조건에 따른 CC 라이선스 선택하기
 
 ![Flowchart_korean.png]({{site.baseurl}}/media/Flowchart_korean.png)
 [Which Creative Commons license is right for me](http://creativecommons.org.au/content/licensing-flowchart.pdf) by Creative Commons Australia,CC BY 
 
-# 라이선스 표기 기본 요소
+# 라이선스 기본 표기 가이드
 
 > (저작자이름)에 의해 창작된 (저작물 제목+출처 링크)은 크리에이티브 커먼즈 (적용된 라이선스+라이선스 일반증서 링크)에 따라 이용할 수 있습니다.
 
