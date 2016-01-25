@@ -4,8 +4,8 @@ date: "2016-01-24 23:42 +0900"
 permalink: /vision/
 description: null
 related_contents_show: false
-related_contents: ""
-quiz_show: true
+related_contents: null
+quiz_show: false
 published: true
 title: CC 라이선스 배경과 목적
 quiz: 
@@ -25,6 +25,7 @@ quiz:
     answer: wrong
     description: "그렇지 않습니다. CCL은 등록제가 아니며, CCKOREA는 저작권자가 좀 더 유연한 조건으로 저작물에 라이선스를 적용할 수 있도록 이용 가능한 라이선스와 도구를 제공할 뿐입니다.\n"
 ---
+
 
 
 
