@@ -1,15 +1,15 @@
 ---
 layout: default
 permalink: /about/resources/
-description: 
+description: null
 published: true
 title: 06. 쉽게 이해하는 CC 라이선스
 quiz_show: false
-related_contents_show: true
-related_contents: |
-  * [이용허락조건과 CC 라이선스 종류](/about/terms/)
-  * [적용 사례](/about/showcases/)
+related_contents_show: false
+related_contents: ""
+date: "2016-01-25 22:05 +0900"
 ---
+
 
 {% assign categories = site.data.resources-categories %}
 
