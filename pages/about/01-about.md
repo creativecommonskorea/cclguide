@@ -53,7 +53,9 @@ CC 라이선스의 이용허락조건은 4가지 종류가 있으며, 이 이용
 ## 이용허락조건
 {: .no_toc}
 
-CC 라이선스를 구성하고 하고 있는 이용허락조건은 4가지입니다. 이 이용허락조건들 중에 자신의 저작물을 이용하는 사람들이 꼭 지켜야 할 조건들을 선택한 후 해당 조건들로 구성되어 있는 CC 라이선스를 내 저작물에 표시하면 됩니다. 저작물을 이용하는 사람들은 표시되어 있는 CC 라이선스의 이용허락조건을 따라 저작물을 별도의 허락없이 자유롭게 이용할 수 있습니다.
+CC 라이선스를 구성하고 하고 있는 이용허락조건은 4가지입니다. 
+이 이용허락조건들 중에 자신의 저작물을 이용할 때 꼭 지켜야 할 조건들을 선택한 후 해당 조건들로 구성되어 있는 CC 라이선스를 내 저작물에 표시하면 됩니다. 
+저작물을 이용하는 사람들은 표시되어 있는 CC 라이선스의 이용허락조건을 따라 저작물을 별도의 허락없이 자유롭게 이용하게 됩니다.
 
 ### <i class="cc cc-by cc-lg pull-left"></i> 저작자 표시 (Attribution)
 {: .no_toc}
@@ -81,12 +83,14 @@ CC 라이선스를 구성하고 하고 있는 이용허락조건은 4가지입�
 ## CC 라이선스 종류
 {: .no_toc}
 
-이용허락조건들을 바탕으로 창작자는 6종류의 CC 라이선스 중 하나를 선택하여 적용합니다. 각 라이선스별로 CC 라이선스를 쉽게 읽고 이해할 수 있도록 이용허락규약을 요약한 일반증서(Commons Deed)와 법률적 근거가 되는 약정서 전문인 이용허락규약(Legal Code)이 있습니다. 
+CC 라이선스에는 4개의 이용허락조건들로 구성된 6 종류의 라이선스들이 있습니다. 
+원하는 이용허락조건들로 구성된 CC 라이선스를 선택 후 [CC 라이선스 표기 가이드](http://ccl.cckorea.org/application/choose/)에 따라 자신의 저작물에 선택한 CC 라이선스를 표기하도록 합니다.
+참고로, 각 라이선스별로 CC 라이선스를 쉽게 읽고 이해할 수 있도록 이용허락규약을 요약한 일반증서(Commons Deed)와 법률적 근거가 되는 약정서 전문인 이용허락규약(Legal Code)이 있습니다. 
 
 ### 저작자 표시 (CC BY)
 {: .no_toc}
 
-![by_300.png]({{site.baseurl}}/media/by_300.png)
+![200_by.png]({{site.baseurl}}/media/200_by.png)
 
 <table class="terms table-responsive"><tbody>
 <tr><td class="col-md-6">가능한 이용</td><td class="col-md-6">제한</td></tr>
@@ -102,14 +106,13 @@ CC 라이선스를 구성하고 하고 있는 이용허락조건은 4가지입�
 <ul>&nbsp;</ul>
 </td></tr></tbody></table>
 
-* [일반증서](http://creativecommons.org/licenses/by/2.0/kr/)
-* [이용허락규약](http://creativecommons.org/licenses/by/2.0/kr/legalcode)
+* [일반증서](http://creativecommons.org/licenses/by/2.0/kr/) / [이용허락규약](http://creativecommons.org/licenses/by/2.0/kr/legalcode)
 
 
 ### 저작자표시-비영리(CC BY-NC)
 {: .no_toc}
 
-![by-nc_300.png]({{site.baseurl}}/media/by-nc_300.png)
+![200_by-nc.png]({{site.baseurl}}/media/200_by-nc.png)
 
 <table class="terms table-responsive"><tbody>
 <tr><td class="col-md-6">가능한 이용</td><td class="col-md-6">제한</td></tr>
@@ -126,13 +129,12 @@ CC 라이선스를 구성하고 하고 있는 이용허락조건은 4가지입�
     </ul>
 </td></tr></tbody></table>
 
-* [일반증서](http://creativecommons.org/licenses/by-nc/2.0/kr/)
-* [이용허락규약](http://creativecommons.org/licenses/by-nc/2.0/kr/legalcode)
+* [일반증서](http://creativecommons.org/licenses/by-nc/2.0/kr/) / [이용허락규약](http://creativecommons.org/licenses/by-nc/2.0/kr/legalcode)
 
 ### 저작자표시-변경금지 (CC BY-ND)
 {: .no_toc}
 
-![by-nd_300.png]({{site.baseurl}}/media/by-nd_300.png)
+![200_by-nd.png]({{site.baseurl}}/media/200_by-nd.png)
 
 <table class="terms table-responsive"><tbody>
 <tr><td class="col-md-6">가능한 이용</td><td class="col-md-6">제한</td></tr>
@@ -148,13 +150,12 @@ CC 라이선스를 구성하고 하고 있는 이용허락조건은 4가지입�
 </ul>
 </td></tr></tbody></table>
 
-* [일반증서](http://creativecommons.org/licenses/by-nd/2.0/kr/)
-* [이용허락규약](http://creativecommons.org/licenses/by-nd/2.0/kr/legalcode)
+* [일반증서](http://creativecommons.org/licenses/by-nd/2.0/kr/) / [이용허락규약](http://creativecommons.org/licenses/by-nd/2.0/kr/legalcode)
 
 ### 저작자표시-동일조건변경허락 (CC BY-SA)
 {: .no_toc}
 
-![by-sa_300.png]({{site.baseurl}}/media/by-sa_300.png)
+![200_by-sa.png]({{site.baseurl}}/media/200_by-sa.png)
 
 <table class="terms table-responsive"><tbody>
 <tr><td class="col-md-6">가능한 이용</td><td class="col-md-6">제한</td></tr>
@@ -171,13 +172,12 @@ CC 라이선스를 구성하고 하고 있는 이용허락조건은 4가지입�
 </ul>
 </td></tr></tbody></table>
 
-* [일반증서](http://creativecommons.org/licenses/by-sa/2.0/kr/)
-* [이용허락규약](http://creativecommons.org/licenses/by-sa/2.0/kr/legalcode)
+* [일반증서](http://creativecommons.org/licenses/by-sa/2.0/kr/) / [이용허락규약](http://creativecommons.org/licenses/by-sa/2.0/kr/legalcode)
 
 ### 저작자표시-비영리-동일조건 변경 허락 (BY-NC-SA)
 {: .no_toc}
 
-![by-nc-sa_300.png]({{site.baseurl}}/media/by-nc-sa_300.png)
+![200_by-nc-sa.png]({{site.baseurl}}/media/200_by-nc-sa.png)
 
 <table class="terms table-responsive"><tbody>
 <tr><td class="col-md-6">가능한 이용</td><td class="col-md-6">제한</td></tr>
@@ -195,13 +195,12 @@ CC 라이선스를 구성하고 하고 있는 이용허락조건은 4가지입�
 </ul>
 </td></tr></tbody></table>
 
-* [일반증서](http://creativecommons.org/licenses/by-nc-sa/2.0/kr/)
-* [이용허락규약](http://creativecommons.org/licenses/by-nc-sa/2.0/kr/legalcode)
+* [일반증서](http://creativecommons.org/licenses/by-nc-sa/2.0/kr/) / [이용허락규약](http://creativecommons.org/licenses/by-nc-sa/2.0/kr/legalcode)
 
 ### 저작자 표시-비영리-변경금지 (BY-NC-ND)
 {: .no_toc}
 
-![by-nc-nd_300.png]({{site.baseurl}}/media/by-nc-nd_300.png)
+![200_by-nc-nd.png]({{site.baseurl}}/media/200_by-nc-nd.png)
 
 <table class="terms table-responsive"><tbody>
 <tr><td class="col-md-6">가능한 이용</td><td class="col-md-6">제한</td></tr>
@@ -217,8 +216,7 @@ CC 라이선스를 구성하고 하고 있는 이용허락조건은 4가지입�
 </ul>
 </td></tr></tbody></table>
 
-* [일반증서](http://creativecommons.org/licenses/by-nc-nd/2.0/kr/)
-* [이용허락규약](http://creativecommons.org/licenses/by-nc-nd/2.0/kr/legalcode)
+* [일반증서](http://creativecommons.org/licenses/by-nc-nd/2.0/kr/) / [이용허락규약](http://creativecommons.org/licenses/by-nc-nd/2.0/kr/legalcode)
 
 ## CC0(퍼블릭도메인)
 {: .no_toc}
