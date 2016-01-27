@@ -5,11 +5,11 @@ permalink: "application/word-processors/"
 title: 05. 문서 프로그램에서 적용
 description: null
 related_contents_show: true
-related_contents: |
-  * [이용허락조건과 CC 라이선스 종류](/about/terms/)
-  * [라이선스 선택 및 표기 가이드](/application/choose/)
+related_contents: "* [[이전]02.CC 라이선스 적용 > 03.네이버 및 다음 블로그에 적용](/application/blog-cafe/)\n* [[다음]02.CC 라이선스 적용 > 05. 2차 저작물에서 적용](/application/secondary-works/)\n"
 quiz_show: false
+date: "2016-01-27 11:53 +0900"
 ---
+
 
 
 
@@ -20,8 +20,10 @@ quiz_show: false
 {:toc}
 {: .no-style }
 
-한컴오피스 한글, MS 오피스 프로그램에서도 CC 라이선스 적용 기능을 제공하고 있습니다.
-이 기능을 사용하면, 문서에 CC 라이선스를 보다 편리하게 적용할 수 있습니다.
+&nbsp;
+
+**<span style="color:#499100"> 한컴오피스 한글, MS 오피스 프로그램에서도 CC 라이선스 적용 기능을 제공하고 있습니다.
+이 기능을 사용하면, 문서에 CC 라이선스를 보다 편리하게 적용할 수 있습니다.</span>** 
 
 # 한컴오피스 한글
 
