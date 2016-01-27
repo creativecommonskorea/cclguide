@@ -5,7 +5,7 @@ permalink: /reuse/find/
 title: 03. CC 라이선스 콘텐츠 찾기
 description: null
 related_contents_show: true
-related_contents: ""
+related_contents: "* [[이전] 03.CC 라이선스 콘텐츠 이용 > 02.출처 표시 가이드](/reuse/source-display/)\n"
 quiz_show: false
 date: "2016-01-27 12:20 +0900"
 ---
