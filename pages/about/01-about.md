@@ -13,9 +13,10 @@ quiz:
     answer: wrong
     description: "CC는 저작권에 반대하는 것이 아닙니다. CCL은 저작권자로 하여금 좀 더 유연하고 열린 방법으로 저작권을 보유하고 관리할 수 있도록 도와줍니다. 사실 CCL은 그 실효성을 저작권법에 의존하고 있습니다.\n"
 related_contents_show: true
-related_contents: "* [CC 라이선스 적용 가이드](/application/choose/)\n* [CC 라이선스 콘텐츠 사용 가이드](/reuse/method/)"
+related_contents: "* [[다음]01.CC 라이선스 > 02.적용 사례](/about/showcases/)"
 date: "2016-01-20 17:16 +0900"
 ---
+
 
 
 
