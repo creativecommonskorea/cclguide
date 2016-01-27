@@ -2,13 +2,14 @@
 layout: page
 published: true
 permalink: "application/word-processors/"
-title: 05. 문서 프로그램에서 적용
+title: 04. 문서 프로그램에서 적용
 description: null
 related_contents_show: true
-related_contents: "* [[이전]02.CC 라이선스 적용 &gt; 03.네이버 및 다음 블로그에 적용](&#x2F;application&#x2F;blog-cafe&#x2F;)\n* [[다음]02.CC 라이선스 적용 &gt; 05. 2차 저작물에서 적용](&#x2F;application&#x2F;secondary-works&#x2F;)\n"
+related_contents: ""
 quiz_show: false
 date: "2016-01-27 11:53 +0900"
 ---
+
 
 
 
