@@ -5,7 +5,7 @@ permalink: "/reuse/source-display/"
 title: 02. 출처 표시 가이드
 description: nullx
 related_contents_show: true
-related_contents: "* [[이전] 03.CC 라이선스 콘텐츠 이용 &gt; 01.컨텐츠 이용 가이드](&#x2F;reuse&#x2F;method&#x2F;)\n* [[다음] 03.CC 라이선스 콘텐츠 이용 > 03.CC 라이선스 콘텐츠 찾기](&#x2F;reuse&#x2F;find&#x2F;)"
+related_contents: "* [[이전] 03.CC 라이선스 콘텐츠 이용 > 01.컨텐츠 이용 가이드](/reuse/method/)\n* [[다음] 03.CC 라이선스 콘텐츠 이용 > 03.CC 라이선스 콘텐츠 찾기](/reuse/find/)"
 quiz_show: false
 date: "2016-01-27 12:13 +0900"
 ---
