@@ -2,7 +2,7 @@
 layout: page
 published: true
 permalink: "application/blog-cafe/"
-title: 04. 네이버 및 다음 블로그에서 적용
+title: 03. 네이버 및 다음 블로그에서 적용
 description: null
 related_contents_show: true
 related_contents: "* [[이전]02.CC 라이선스 적용 > 03.CC 라이선스 선택 툴로 적용](/application/by-chooser/)\n* [[다음]02.CC 라이선스 적용 > 05. 문서 프로그램에서 적용](/application/word-processors/)\n"
