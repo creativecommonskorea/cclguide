@@ -5,10 +5,11 @@ permalink: "application/secondary-works/"
 title: 05. 2차 저작물에서 적용
 description: null
 related_contents_show: true
-related_contents: "* [[이전] 02.CC 라이선스 적용 > 04. 문서 프로그램에서 적용](/application/word-processors/)\n* [[다음] 03.CC 라이선스 콘텐츠 이용 > 01. 콘텐츠 이용 가이드](/reuse/method/)\n"
+related_contents: "* [[이전] 02.CC 라이선스 적용 > 04. 문서 프로그램에서 적용](&#x2F;application&#x2F;word-processors&#x2F;)\n* [[다음] 03.CC 라이선스 콘텐츠 이용 > 01. 콘텐츠 이용 가이드](&#x2F;reuse&#x2F;method&#x2F;)\n"
 quiz_show: false
 date: "2016-01-27 11:57 +0900"
 ---
+
 
 
 
