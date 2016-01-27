@@ -13,9 +13,10 @@ quiz:
     answer: wrong
     description: "CC는 저작권에 반대하는 것이 아닙니다. CCL은 저작권자로 하여금 좀 더 유연하고 열린 방법으로 저작권을 보유하고 관리할 수 있도록 도와줍니다. 사실 CCL은 그 실효성을 저작권법에 의존하고 있습니다.\n"
 related_contents_show: true
-related_contents: "* [[다음]01.CC 라이선스 > 02.적용 사례](/about/showcases/)"
+related_contents: ""
 date: "2016-01-20 17:16 +0900"
 ---
+
 
 
 
@@ -96,131 +97,91 @@ CC 라이선스에는 4개의 이용허락조건들로 구성된 6 종류의 라
 
 ![200_by.png]({{site.baseurl}}/media/200_by.png)
 
-<table class="terms table-responsive"><tbody>
-<tr><td class="col-md-6">가능한 이용</td><td class="col-md-6">제한</td></tr>
-<tr><td>
-<ul>
-<li> 저작자 및 출처를 표시합니다.</li>
-<li> 상업적 이용이 가능합니다.</li>
-<li> 복사 및 배포가 가능합니다.</li>
-<li> 이 창작물을 변경하거나, 이용해 2차 저작물을 만들어도 됩니다.</li>
-<li> 2차 저작물의 라이선스를 자유롭게 선택해도 됩니다.</li>
-</ul>
-</td><td>
-<ul>&nbsp;</ul>
-</td></tr></tbody></table>
+* [일반증서](http://creativecommons.org/licenses/by/2.0/kr/)/[이용허락규약](http://creativecommons.org/licenses/by/2.0/kr/legalcode)
 
-* [일반증서](http://creativecommons.org/licenses/by/2.0/kr/) / [이용허락규약](http://creativecommons.org/licenses/by/2.0/kr/legalcode)
+#### 가능한 이용
+{: .no_toc}
+- 복사 및 배포를 할 수 있습니다.(반드시 저작자 및 출처를 표시합니다.)
+- 상업적 이용이 가능합니다.
+- 이 저작물을 변경하거나, 이용해 2차 저작물을 만들어도 됩니다.(반드시 원저작자 및 출처를 표시합니다.)
+- 2차 저작물의 라이선스를 자유롭게 선택해도 됩니다.
 
+#### 제한된 이용
+{: .no_toc}
+- 저작자 및 출처만 표시한다면, 제한없이 자유롭게 이용할 수 있습니다.
 
 ### 저작자표시-비영리(CC BY-NC)
 {: .no_toc}
 
 ![200_by-nc.png]({{site.baseurl}}/media/200_by-nc.png)
 
-<table class="terms table-responsive"><tbody>
-<tr><td class="col-md-6">가능한 이용</td><td class="col-md-6">제한</td></tr>
-<tr><td>
-<ul>
-<li> 저작자 및 출처를 표시합니다.</li>
-<li> 복사 및 배포가 가능합니다.</li>
-<li> 이 저작물을 변경하거나, 이용해 2차 저작물에 만들어도 됩니다.</li>
-<li> 2차 저작물의 라이선스를 자유롭게 선택해도 됩니다.</li>
-</ul>
-</td><td>
-<ul>
-    <li> 상업적 이용이 불가능합니다.</li>
-    </ul>
-</td></tr></tbody></table>
-
 * [일반증서](http://creativecommons.org/licenses/by-nc/2.0/kr/) / [이용허락규약](http://creativecommons.org/licenses/by-nc/2.0/kr/legalcode)
+
+#### 가능한 이용
+- 복사 및 배포를 할 수 있습니다.(반드시 저작자 및 출처를 표시합니다.)
+- 이 저작물을 변경하거나, 이용해 2차 저작물을 만들어도 됩니다.(반드시 원저작자 및 출처를 표시합니다.)
+- 2차 저작물의 라이선스를 자유롭게 선택해도 됩니다.
+
+#### 제한된 이용
+- 상업적 이용이 불가능합니다.
 
 ### 저작자표시-변경금지 (CC BY-ND)
 {: .no_toc}
 
 ![200_by-nd.png]({{site.baseurl}}/media/200_by-nd.png)
 
-<table class="terms table-responsive"><tbody>
-<tr><td class="col-md-6">가능한 이용</td><td class="col-md-6">제한</td></tr>
-<tr><td>
-<ul>
-<li>저작자 및 출처를 표시합니다.</li>
-<li>복사 및 배포가 가능합니다.</li>
-<li>상업적 이용이 가능합니다.</li>
-</ul>
-</td><td>
-<ul>
-    <li>이 저작물을 변경하거나, 이용해 2차 저작물에 만들어서는 안됩니다.</li>
-</ul>
-</td></tr></tbody></table>
-
 * [일반증서](http://creativecommons.org/licenses/by-nd/2.0/kr/) / [이용허락규약](http://creativecommons.org/licenses/by-nd/2.0/kr/legalcode)
+
+#### 가능한 이용
+- 복사 및 배포를 할 수 있습니다.(반드시 저작자 및 출처를 표시합니다.)
+- 상업적 이용이 가능합니다.
+
+#### 제한된 이용
+- 이 저작물을 변경하거나, 이용해 2차 저작물을 만들어서는 안됩니다.
 
 ### 저작자표시-동일조건변경허락 (CC BY-SA)
 {: .no_toc}
 
 ![200_by-sa.png]({{site.baseurl}}/media/200_by-sa.png)
 
-<table class="terms table-responsive"><tbody>
-<tr><td class="col-md-6">가능한 이용</td><td class="col-md-6">제한</td></tr>
-<tr><td>
-<ul>
-<li>저작자 및 출처를 표시합니다.</li>
-<li>복사 및 배포가 가능합니다.</li>
-<li>상업적 이용이 가능합니다.</li>
-<li>이 저작물을 변경하거나, 이용해 2차 저작물에 만들어도 됩니다.</li>
-</ul>
-</td><td>
-<ul>
-    <li>2차 저작물에 동일한 라이선스를 적용합니다.</li>
-</ul>
-</td></tr></tbody></table>
-
 * [일반증서](http://creativecommons.org/licenses/by-sa/2.0/kr/) / [이용허락규약](http://creativecommons.org/licenses/by-sa/2.0/kr/legalcode)
+
+#### 가능한 이용
+- 복사 및 배포를 할 수 있습니다.(반드시 저작자 및 출처를 표시합니다.)
+- 상업적 이용이 가능합니다.
+- 이 저작물을 변경하거나, 이용해 2차 저작물을 만들어도 됩니다.(반드시 원저작자 및 출처를 표시합니다.)
+
+#### 제한된 이용
+- 2차 저작물에 원저작물과 동일한 라이선스를 적용해야 합니다.
 
 ### 저작자표시-비영리-동일조건 변경 허락 (BY-NC-SA)
 {: .no_toc}
 
 ![200_by-nc-sa.png]({{site.baseurl}}/media/200_by-nc-sa.png)
 
-<table class="terms table-responsive"><tbody>
-<tr><td class="col-md-6">가능한 이용</td><td class="col-md-6">제한</td></tr>
-<tr><td>
-<ul>
-<li>저작자 및 출처를 표시합니다.</li>
-<li>복사 및 배포가 가능합니다.</li>
-<li>상업적 이용이 가능합니다.</li>
-<li>이 저작물을 변경하거나, 이용해 2차 저작물에 만들어도 됩니다.</li>
-</ul>
-</td><td>
-<ul>
-    <li>상업적 이용이 불가능합니다.</li>
-    <li>2차 저작물에 동일한 라이선스를 적용합니다.</li>
-</ul>
-</td></tr></tbody></table>
-
 * [일반증서](http://creativecommons.org/licenses/by-nc-sa/2.0/kr/) / [이용허락규약](http://creativecommons.org/licenses/by-nc-sa/2.0/kr/legalcode)
+
+#### 가능한 이용
+- 복사 및 배포를 할 수 있습니다.(반드시 저작자 및 출처를 표시합니다.)
+- 이 저작물을 변경하거나, 이용해 2차 저작물을 만들어도 됩니다.(반드시 원저작자 및 출처를 표시합니다.)
+
+#### 제한된 이용
+- 상업적 이용이 불가능합니다.
+- 2차 저작물에 원저작물과 동일한 라이선스를 적용해야 합니다.
 
 ### 저작자 표시-비영리-변경금지 (BY-NC-ND)
 {: .no_toc}
 
 ![200_by-nc-nd.png]({{site.baseurl}}/media/200_by-nc-nd.png)
 
-<table class="terms table-responsive"><tbody>
-<tr><td class="col-md-6">가능한 이용</td><td class="col-md-6">제한</td></tr>
-<tr><td>
-<ul>
-<li>저작자 및 출처를 표시합니다.</li>
-<li>복사 및 배포가 가능합니다.</li>
-</ul>
-</td><td>
-<ul>
-    <li>상업적 이용이 불가능합니다.</li>
-    <li>이 저작물을 변경하거나, 이용해 2차 저작물에 만들어서는 안됩니다.</li>
-</ul>
-</td></tr></tbody></table>
-
 * [일반증서](http://creativecommons.org/licenses/by-nc-nd/2.0/kr/) / [이용허락규약](http://creativecommons.org/licenses/by-nc-nd/2.0/kr/legalcode)
+
+#### 가능한 이용
+- 복사 및 배포를 할 수 있습니다.(반드시 저작자 및 출처를 표시합니다.)
+
+#### 제한된 이용
+- 상업적 이용이 불가능합니다.
+- 이 저작물을 변경하거나, 이용해 2차 저작물을 만들어서는 안됩니다.
 
 ## CC0(퍼블릭도메인)
 {: .no_toc}
