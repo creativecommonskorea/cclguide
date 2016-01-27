@@ -81,6 +81,8 @@
         e.preventDefault();
         $('.search-form').toggleClass('open');
     });
+
+    $('.search-form').submit(function(e){ e.preventDefault() });
     
     // 아코디언 리스트(FAQ)
     $('#accordion .post-title').click(function(){
