@@ -37,7 +37,7 @@ layout: default
                 <option value="/about/showcases/">전체</option><!-- value : url -->
                 {% for hash in site.data.showcases-categories %}
                 {% for category in hash %}
-                <option value="{{ category[1] }}">{{ category[0] }}</option>
+                <option value="/about/showcases/{{ category[1] }}/">{{ category[0] }}</option>
                 {% endfor %}
             {% endfor %}
             </select>
