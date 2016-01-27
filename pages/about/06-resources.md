@@ -3,12 +3,13 @@ layout: default
 permalink: /about/resources/
 description: null
 published: true
-title: 06. 쉽게 이해하는 CC 라이선스
+title: 03. 쉽게 이해하는 CC 라이선스
 quiz_show: false
 related_contents_show: false
-related_contents: ""
+related_contents: null
 date: "2016-01-25 22:05 +0900"
 ---
+
 
 
 {% assign categories = site.data.resources-categories %}
