@@ -97,7 +97,7 @@ CC 라이선스에는 4개의 이용허락조건들로 구성된 6 종류의 라
 
 ![200_by.png]({{site.baseurl}}/media/200_by.png)
 
-* [일반증서](http://creativecommons.org/licenses/by/2.0/kr/)/[이용허락규약](http://creativecommons.org/licenses/by/2.0/kr/legalcode)
+[일반증서](http://creativecommons.org/licenses/by/2.0/kr/)/[이용허락규약](http://creativecommons.org/licenses/by/2.0/kr/legalcode)
 
 #### 가능한 이용
 {: .no_toc}
@@ -115,7 +115,7 @@ CC 라이선스에는 4개의 이용허락조건들로 구성된 6 종류의 라
 
 ![200_by-nc.png]({{site.baseurl}}/media/200_by-nc.png)
 
-* [일반증서](http://creativecommons.org/licenses/by-nc/2.0/kr/) / [이용허락규약](http://creativecommons.org/licenses/by-nc/2.0/kr/legalcode)
+[일반증서](http://creativecommons.org/licenses/by-nc/2.0/kr/) / [이용허락규약](http://creativecommons.org/licenses/by-nc/2.0/kr/legalcode)
 
 #### 가능한 이용
 {: .no_toc}
@@ -132,7 +132,7 @@ CC 라이선스에는 4개의 이용허락조건들로 구성된 6 종류의 라
 
 ![200_by-nd.png]({{site.baseurl}}/media/200_by-nd.png)
 
-* [일반증서](http://creativecommons.org/licenses/by-nd/2.0/kr/) / [이용허락규약](http://creativecommons.org/licenses/by-nd/2.0/kr/legalcode)
+[일반증서](http://creativecommons.org/licenses/by-nd/2.0/kr/) / [이용허락규약](http://creativecommons.org/licenses/by-nd/2.0/kr/legalcode)
 
 #### 가능한 이용
 {: .no_toc}
@@ -148,7 +148,7 @@ CC 라이선스에는 4개의 이용허락조건들로 구성된 6 종류의 라
 
 ![200_by-sa.png]({{site.baseurl}}/media/200_by-sa.png)
 
-* [일반증서](http://creativecommons.org/licenses/by-sa/2.0/kr/) / [이용허락규약](http://creativecommons.org/licenses/by-sa/2.0/kr/legalcode)
+[일반증서](http://creativecommons.org/licenses/by-sa/2.0/kr/) / [이용허락규약](http://creativecommons.org/licenses/by-sa/2.0/kr/legalcode)
 
 #### 가능한 이용
 {: .no_toc}
@@ -165,7 +165,7 @@ CC 라이선스에는 4개의 이용허락조건들로 구성된 6 종류의 라
 
 ![200_by-nc-sa.png]({{site.baseurl}}/media/200_by-nc-sa.png)
 
-* [일반증서](http://creativecommons.org/licenses/by-nc-sa/2.0/kr/) / [이용허락규약](http://creativecommons.org/licenses/by-nc-sa/2.0/kr/legalcode)
+[일반증서](http://creativecommons.org/licenses/by-nc-sa/2.0/kr/) / [이용허락규약](http://creativecommons.org/licenses/by-nc-sa/2.0/kr/legalcode)
 
 #### 가능한 이용
 {: .no_toc}
@@ -182,7 +182,7 @@ CC 라이선스에는 4개의 이용허락조건들로 구성된 6 종류의 라
 
 ![200_by-nc-nd.png]({{site.baseurl}}/media/200_by-nc-nd.png)
 
-* [일반증서](http://creativecommons.org/licenses/by-nc-nd/2.0/kr/) / [이용허락규약](http://creativecommons.org/licenses/by-nc-nd/2.0/kr/legalcode)
+[일반증서](http://creativecommons.org/licenses/by-nc-nd/2.0/kr/) / [이용허락규약](http://creativecommons.org/licenses/by-nc-nd/2.0/kr/legalcode)
 
 #### 가능한 이용
 {: .no_toc}
