@@ -6,7 +6,7 @@ title: 01. 라이선스 적용 가이드
 description: null
 redirect_from: /application/
 related_contents_show: true
-related_contents: ""
+related_contents: "* [[이전]01.CC 라이선스 소개 > 03.쉽게 이해하는 CC 라이선스](/about/resources/)\n* [[다음]02.CC 라이선스 적용 > 02.CC 라이선스 선택 도구로 적용](/application/by-chooser/)"
 quiz_show: false
 date: "2016-01-25 22:09 +0900"
 ---
