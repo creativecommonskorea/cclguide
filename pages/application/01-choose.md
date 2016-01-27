@@ -6,10 +6,11 @@ title: 01. 라이선스 적용 가이드
 description: null
 redirect_from: /application/
 related_contents_show: true
-related_contents: "* [[이전]01.CC 라이선스 소개 > 03.쉽게 이해하는 CC 라이선스](/about/resources/)\n* [[다음]02.CC 라이선스 적용 > 02.CC 라이선스 선택 도구로 적용](/application/by-chooser/)\n"
+related_contents: ""
 quiz_show: false
 date: "2016-01-25 22:09 +0900"
 ---
+
 
 
 
@@ -22,14 +23,16 @@ date: "2016-01-25 22:09 +0900"
 
 **<span style="color:#499100"> 본인의 저작물에 CC 라이선스를 적용하기 위해서는, 우선 6 종류의 CC 라이선스들 중 원하는 이용허락조건들로 구성된 CC 라이선스를 선택합니다. 그 다음 아래 '라이선스 기본 표기 가이드'를 참고하여, 선택한 CC 라이선스를 저작물에 표기합니다. 이때 저작물의 콘텐츠 종류에 따라 적합한 표기 방식들이 다를 수 있기 때문에 이 페이지의 '콘텐츠 종류별 표기 상세 가이드'를 참고하여주시기 바랍니다.</span>** 
 
-# 이용조건에 따른 CC 라이선스 선택하기
+# 이용허락조건에 따른 CC 라이선스 선택하기
 
 ![Flowchart_korean.png]({{site.baseurl}}/media/Flowchart_korean.png)
 [Which Creative Commons license is right for me](http://creativecommons.org.au/content/licensing-flowchart.pdf) by Creative Commons Australia,CC BY 
 
 # 라이선스 기본 표기 가이드
 
-> (저작자이름)에 의해 창작된 (저작물 제목+출처 링크)은 크리에이티브 커먼즈 (적용된 라이선스+라이선스 일반증서 링크)에 따라 이용할 수 있습니다.
+자신의 저작물에 적용할 CC 라이선스를 선택했다면, 이제 저작물에 CC 라이선스를 표기해 적용합니다.
+
+> **기본표기:** ![BY.png]({{site.baseurl}}/media/BY.png)(저작자이름)에 의해 창작된 (저작물 제목+출처 링크)은 크리에이티브 커먼즈 (적용된 라이선스+라이선스 일반증서 링크)에 따라 이용할 수 있습니다.
 
 CC 라이선스를 적용할때 반드시 지켜야할 표기 방식은 없지만, 정확한 이용허락조건을 표기하기 위해 최대한 준수해야 할 기본적인 요소들은 다음과 같습니다.
 
