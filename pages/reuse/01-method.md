@@ -6,7 +6,7 @@ title: 01. 콘텐츠 이용 가이드
 description: null
 redirect_from: /reuse/
 related_contents_show: true
-related_contents: "* [[이전] 02.CC 라이선스 적용 > 05.2차 저작물에서 적용](/application/secondary-works/)\n* [[다음] 03.CC 라이선스 콘텐츠 이용 > 02. 출처 표시 가이드(/reuse/source-display/)\n"
+related_contents: ""
 quiz_show: false
 date: "2016-01-27 12:06 +0900"
 ---
