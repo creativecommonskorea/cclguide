@@ -14,7 +14,11 @@
 
   function m_func() {
     // 모바일 해상도에서 함수 실행
-
+    if ( $('.js-select') ) {
+      var selected = $('.js-select').children("option:selected").text();
+      $('.label').text( selected );
+    };
+    
     // 셀렉트(mobile 탭메뉴)
     $(".js-select").on('change', function () {
       var selected = $(this).children("option:selected").text();
