@@ -16,7 +16,7 @@ layout: default
     {% endif %}
 {% endfor %}
 
-{% assign last_page_number = resources | size | divided_by: site.paging_list_resources %}
+{% assign last_page_number = resources.size | divided_by: site.paging_list_resources %}
 {% if resources | size | modulo: site.paging_list_resources | plus: 0 %}
     {% assign last_page_number = last_page_number | plus: 1 %}
 {% endif %}
@@ -55,7 +55,7 @@ layout: default
             </li>
         {% endfor %}
 
-        {% if last_page_number != page_number %}
+        {% if last_page_number > page_number %}
         <li><a href="/paging/resources/{{ page.category }}/{{ next_page_number }}/" class="sr-only jscroll-next">{{ next_page_number }}</a></li>
         {% endif %}
 
