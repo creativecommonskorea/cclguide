@@ -37,7 +37,7 @@ layout: default
                 <option value="/about/resources/">전체</option><!-- value : url -->
                 {% for hash in site.data.resources-categories %}
                 {% for category in hash %}
-                <option value="{{ category[0] }}">{{ category[1] }}</option>
+                <option value="/about/resources/{{ category[0] }}/"{% if category[0] == page.category %} selected="selected"{% endif %}>{{ category[1] }}</option>
                 {% endfor %}
             {% endfor %}
             </select>
