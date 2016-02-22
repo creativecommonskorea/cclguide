@@ -11,12 +11,36 @@
 @import "markdown.css"
 @import "chooser"
 
+body.open .body-bg
+    z-index: 12
+
+.site-navigation
+    z-index: 13
+
+// .navbar-header
+//     .search-toggle
+//         top: 42px
+//     .search-submit
+//         top: 10px
+//     .search-toggle, .search-submit
+//         background-size: 275px 195px
+
+#brand
+    margin-top: 38px
+    > img.hidden-xs
+        width: 80%
+
 .list-case li
     margin-bottom: 20px
 
 .terms
     .col-md-6
         width: 50%
+
+.entry-content
+    > .centered
+        width: 100%
+        text-align: center
 
 .entry-content ul>li,
 .accordion-list .post-content ul>li
@@ -36,8 +60,51 @@
         &>li
             margin-left: 0
 
+.entry-content .row.condition
+    display: -webkit-flex
+    display: -ms-flexbox
+    display: flex
+    -webkit-align-items: center
+    -ms-flex-align: center
+    align-items: center
+    .logo img
+        width: 80px
+        margin: 0 auto
+
 em
     font-style: italic
+
+.section.section-top-banner
+    width: 100%
+    min-height: 250px
+    position: relative
+    background-image: url('/images/home/top-banner.png')
+    background-repeat: no-repeat
+    background-position: bottom center
+    background-size: cover
+    margin-bottom: -65px
+    z-index: 11
+    span.top-title
+        font-size: 2rem
+        font-weight: bold
+        position: absolute
+        top: 30px
+        left: 45px
+    .centered
+        width: 100%
+        color: white
+        padding: 40px 0px 60px
+        text-align: center
+        img
+            width: 150px
+        h1.title
+            font-size: 5rem
+        p.description
+            font-size: 2.5rem
+
+.section.section-shortcut
+    position: relative
+    z-index: 10
 
 #search-results
     display: block
@@ -71,3 +138,28 @@ em
 .hide
     display: none
 
+@media (max-width: 768px)
+    .navbar-header
+        .search-toggle
+            top: 20px
+        .search-submit
+            top: 4px
+    #brand
+        margin-top: 20px
+        img
+            width: 35px
+            margin: 0 auto
+    .section.section-top-banner
+        background-image: url('/images/home/top-banner-mobile.png')
+        margin-bottom: -50px
+        span.top-title
+            font-size: 1.2rem
+            top: 10px
+            left: 20px
+        .centered
+            img
+                width: 100px
+            h1.title
+                font-size: 3rem
+            p.description
+                font-size: 1.5rem
