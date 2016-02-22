@@ -31,7 +31,7 @@ sass:
   style: compressed
   sourcemap: true
 
-exclude: [ Gemfile, Gemfile.lock, README.md, front/uploads.md, .editorconfig, .gitignore, .ruby-version ]
+exclude: [ Gemfile, Gemfile.lock, README.md, front/uploads.md, .editorconfig, .gitignore, .ruby-version, vendor]
 
 gems:
   - jekyll-redirect-from
