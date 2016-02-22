@@ -1,7 +1,7 @@
 ---
 layout: showcase
 title: "누구나 쉽게 배우는 코딩, 생활코딩"
-date: null
+date: {}
 image: /media/Lifecoding_List.png
 link: ""
 creator: ""
