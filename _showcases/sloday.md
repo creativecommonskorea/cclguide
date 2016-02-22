@@ -1,7 +1,6 @@
 ---
 layout: showcase
 title: "데일리 그래픽 공유 프로젝트, 슬로데이(Sloday)"
-date: {}
 image: /media/Sloday_List.png
 link: "http://sloday.com"
 creator: slowalk
