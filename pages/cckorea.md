@@ -5,9 +5,11 @@ title: 05. 크리에이티브커먼즈 소개
 published: true
 description: null
 related_contents_show: false
-related_contents: null
+related_contents: ""
 quiz_show: false
+date: "2016-02-24 02:51 +0900"
 ---
+
 
 
 
@@ -20,6 +22,8 @@ quiz_show: false
 - 관련링크: [크리에이티브 커먼즈 공식 홈페이지](https://creativecommons.org/about/downloads)
 
 # 크리에이티브 커먼즈 코리아
+
+![22061382980_9fb63d154e_k.jpg]({{site.baseurl}}/media/22061382980_9fb63d154e_k.jpg)
 
 한국에서도 자원활동가들을 중심으로 크리에이티브 커먼즈 운동이 펼쳐지고 있던 중, 2005년 CC 라이선스와 운동에 대한 체계적인 지원 및 확산을 위해 2005년 크리에이티브 커먼즈 코리아가 설립되었습니다. 현재 CC 라이선스 보급 뿐만 아니라 공유문화 확산을 위한 프로젝트 그리고 열린정부 실현을 위한 공공 데이터 프로젝트등 다양한 프로젝트들을 진행하고 있습니다.
 
