@@ -76,9 +76,8 @@ CCL이 적용되지 않는 콘텐츠에 저작권 유보 표시나 적용되는 
 ## 이미지
 {: .no_toc}
 
-![mark_image.png]({{site.baseurl}}/media/mark_image.png)
-
-> CCKorea 에 의해 창작된 [[DSC1253](https://www.flickr.com/photos/wowcckorea/22481186396/)]은 크리에이티브 커먼즈 [[저작자표시-비영리 2.0 대한민국 라이선스](http://creativecommons.org/licenses/by/2.0/kr/)]에 따라 이용할 수 있습니다.
+>![mark_image.png]({{site.baseurl}}/media/mark_image.png)
+ CCKorea 에 의해 창작된 [[DSC1253](https://www.flickr.com/photos/wowcckorea/22481186396/)]은 크리에이티브 커먼즈 [[저작자표시-비영리 2.0 대한민국 라이선스](http://creativecommons.org/licenses/by/2.0/kr/)]에 따라 이용할 수 있습니다.
 
 이미지 주변에 CCL에 대한 내용을 표시 해 주세요. 이미지 안에 CCL에 대한 내용을 포함하거나 테두리 또는 하단에 별도로 표시해도 됩니다.
 이미지를 여러개 함께 사용했을 경우에는 적절한 곳에 한번에 명시해도 됩니다. 단, 이미지마다 적용된 CC 라이선스의 종류들이 다른 경우 어느 이미지에 어떤 라이선스가 적용됐는지에 대해 명시해 주어야 합니다.
