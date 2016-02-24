@@ -4,7 +4,7 @@ published: true
 permalink: /about/
 title: 01. CC 라이선스
 description: "크리에이티브커먼즈 라이선스(Creative Commons License, 이하 CC 라이선스)는 창작자가 자신의 창작물에 대하여 일정한 조건하에 모든 이의 자유이용을 허락하는 라이선스 입니다."
-quiz_show: true
+quiz_show: false
 quiz: 
   - title: "CC-BY-SA 이미지를 CC-BY 블로그에 가져다 쓸 수 있다."
     answer: right
@@ -21,22 +21,32 @@ date: "2016-01-20 17:16 +0900"
 {:toc .well}
 {: .no-style }
 
+
+<h2 style="color:#499100; text-align: center;"><b>CC 라이선스는 저작자가 일정한 조건하에 자신의 저작물을<br>다른 사람들이 자유롭게 이용할 수 있도록 허락하는 라이선스입니다.</b></h2>
+
 &nbsp;
 
 <div class="centered">
 
-<span style="color:#499100"><b>CC 라이선스는 저작자가 일정한 조건하에 자신의 저작물을 다른 사람들이 자유롭게 이용할 수 있도록 허락하는 라이선스입니다.</b></span>
-
-&nbsp;
-&nbsp;
-
 <iframe src="https://player.vimeo.com/video/152247470" width="100%" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <p><a href="https://vimeo.com/152247470">크리에이티브 커먼즈 (CC 카타르 제작/ CC 코리아 번역)</a> from <a href="https://vimeo.com/cckorea">cckorea</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
-&nbsp;
+</div>
+
 &nbsp;
 
+<!-- 
+
+<div class="row">
+    <div class="col-md-6">
+        <a href="" title=""></a><img src="{{site.baseurl}}/media/pages/about/banner_1.png" alt="">
+    </div>
+    <div class="col-md-6">
+        <img src="{{site.baseurl}}/media/pages/about/banner_2.png" alt="">
+    </div>
 </div>
+
+-->
 
 # CC 라이선스
 
@@ -47,9 +57,9 @@ CC 라이선스는 저작자가 자신의 저작물을 다른 이들이 자유�
 
 CC 라이선스를 구성하는 이용허락조건은 4 개가 있으며, 이 이용허락조건들을 조합한 6 종류의 CC 라이선스가 존재합니다.
 
-&nbsp;
-
 >![LicencesSet_Resized3.png]({{site.baseurl}}/media/LicencesSet_Resized3.png)
+
+<!-- <img src="{{site.baseurl}}/media/LicencesSet_Resized3.png" alt="CC Licenses" style="margin: 0 auto;"> -->
 
 # 이용허락조건과 CC 라이선스 종류
 
@@ -60,9 +70,11 @@ CC 라이선스를 구성하는 이용허락조건은 4 개가 있으며, 이 �
 앞서 설명한 것과 같이 내 저작물을 이용하는 사람들은 저작물에 적용된 CC 라이선스에서 표시하고 있는 이용허락조건에 따라 저작물을 자유롭게 이용하게 됩니다.
 CC 라이선스에서 선택할 수 있는 이용허락조건은 아래와 같이 4 가지입니다.
 
+&nbsp;
+
 <div class="row condition">
   <div class="col-md-2 logo">
-    <img src="/images/licenses/by-green.png" alt="CC BY">
+    <img src="{{site.baseurl}}/images/licenses/by-green.png" alt="CC BY">
   </div>
   <div class="col-md-10">
     <h3>저작자 표시 (Attribution)</h3>
@@ -74,7 +86,7 @@ CC 라이선스에서 선택할 수 있는 이용허락조건은 아래와 같�
 </div>
 <div class="row condition">
   <div class="col-md-2 logo">
-    <img src="/images/licenses/nc-green.png" alt="CC BY">
+    <img src="{{site.baseurl}}/images/licenses/nc-green.png" alt="CC BY">
   </div>
   <div class="col-md-10">
     <h3>비영리 (Noncommercial)</h3>
@@ -85,7 +97,7 @@ CC 라이선스에서 선택할 수 있는 이용허락조건은 아래와 같�
 </div>
 <div class="row condition">
   <div class="col-md-2 logo">
-    <img src="/images/licenses/nd-green.png" alt="CC BY">
+    <img src="{{site.baseurl}}/images/licenses/nd-green.png" alt="CC BY">
   </div>
   <div class="col-md-10">
     <h3>변경금지 (No Derivative Works</h3>
@@ -96,7 +108,7 @@ CC 라이선스에서 선택할 수 있는 이용허락조건은 아래와 같�
 </div>
 <div class="row condition">
   <div class="col-md-2 logo">
-    <img src="/images/licenses/sa-green.png" alt="CC BY">
+    <img src="{{site.baseurl}}/images/licenses/sa-green.png" alt="CC BY">
   </div>
   <div class="col-md-10">
     <h3>동일조건변경허락(Share Alike)</h3>
@@ -105,6 +117,7 @@ CC 라이선스에서 선택할 수 있는 이용허락조건은 아래와 같�
     </ul>
   </div>
 </div>
+
 &nbsp;
 
 ## CC 라이선스 종류
@@ -115,10 +128,9 @@ CC 라이선스에는 4개의 이용허락조건들로 구성된 6 종류의 라
 참고로, 각 라이선스별로 CC 라이선스를 쉽게 읽고 이해할 수 있도록 이용허락규약을 요약한 일반증서(Commons Deed)와 법률적 근거가 되는 약정서 전문인 이용허락규약(Legal Code)이 있습니다. 
 
 &nbsp;
-&nbsp;
 
 <div class="col-md-3" style="text-align: center;">
-  <img src="{{site.baseurl}}/media/200_by.png" alt="CC BY" style="margin: 0 auto;">
+  <img src="{{site.baseurl}}/media/200_by.png" alt="CC BY" style="margin: 18px auto;">
   <a href="http://creativecommons.org/licenses/by/2.0/kr/" title="일반증서">일반증서</a> / <a href="http://creativecommons.org/licenses/by/2.0/kr/legalcode" title="이용허락규약">이용허락규약</a>
 </div>
 <div class="col-md-9">
@@ -137,10 +149,9 @@ CC 라이선스에는 4개의 이용허락조건들로 구성된 6 종류의 라
 </div>
 
 &nbsp;
-&nbsp;
 
 <div class="col-md-3" style="text-align: center;">
-  <img src="{{site.baseurl}}/media/200_by-nc.png" alt="CC BY-NC" style="margin: 0 auto;">
+  <img src="{{site.baseurl}}/media/200_by-nc.png" alt="CC BY-NC" style="margin: 18px auto;">
   <a href="http://creativecommons.org/licenses/by-nc/2.0/kr/" title="일반증서">일반증서</a> / <a href="http://creativecommons.org/licenses/by-nc/2.0/kr/legalcode" title="이용허락규약">이용허락규약</a>
 </div>
 <div class="col-md-9">
@@ -158,10 +169,9 @@ CC 라이선스에는 4개의 이용허락조건들로 구성된 6 종류의 라
 </div>
 
 &nbsp;
-&nbsp;
 
 <div class="col-md-3" style="text-align: center;">
-  <img src="{{site.baseurl}}/media/200_by-nd.png" alt="CC BY-ND" style="margin: 0 auto;">
+  <img src="{{site.baseurl}}/media/200_by-nd.png" alt="CC BY-ND" style="margin: 18px auto;">
   <a href="http://creativecommons.org/licenses/by-nd/2.0/kr/" title="일반증서">일반증서</a> / <a href="http://creativecommons.org/licenses/by-nd/2.0/kr/legalcode" title="이용허락규약">이용허락규약</a>
 </div>
 <div class="col-md-9">
@@ -178,10 +188,9 @@ CC 라이선스에는 4개의 이용허락조건들로 구성된 6 종류의 라
 </div>
 
 &nbsp;
-&nbsp;
 
 <div class="col-md-3" style="text-align: center;">
-  <img src="{{site.baseurl}}/media/200_by-sa.png" alt="CC BY-ND" style="margin: 0 auto;">
+  <img src="{{site.baseurl}}/media/200_by-sa.png" alt="CC BY-ND" style="margin: 18px auto;">
   <a href="http://creativecommons.org/licenses/by-sa/2.0/kr/" title="일반증서">일반증서</a> / <a href="http://creativecommons.org/licenses/by-sa/2.0/kr/legalcode" title="이용허락규약">이용허락규약</a>
 </div>
 <div class="col-md-9">
@@ -199,10 +208,9 @@ CC 라이선스에는 4개의 이용허락조건들로 구성된 6 종류의 라
 </div>
 
 &nbsp;
-&nbsp;
 
 <div class="col-md-3" style="text-align: center;">
-  <img src="{{site.baseurl}}/media/200_by-nc-sa.png" alt="CC BY-ND" style="margin: 0 auto;">
+  <img src="{{site.baseurl}}/media/200_by-nc-sa.png" alt="CC BY-ND" style="margin: 18px auto;">
   <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/kr/" title="일반증서">일반증서</a> / <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/kr/legalcode" title="이용허락규약">이용허락규약</a>
 </div>
 <div class="col-md-9">
@@ -220,10 +228,9 @@ CC 라이선스에는 4개의 이용허락조건들로 구성된 6 종류의 라
 </div>
 
 &nbsp;
-&nbsp;
 
 <div class="col-md-3" style="text-align: center;">
-  <img src="{{site.baseurl}}/media/200_by-nc-nd.png" alt="CC BY-ND" style="margin: 0 auto;">
+  <img src="{{site.baseurl}}/media/200_by-nc-nd.png" alt="CC BY-ND" style="margin: 18px auto;">
   <a href="http://creativecommons.org/licenses/by-nc-nd/2.0/kr/" title="일반증서">일반증서</a> / <a href="http://creativecommons.org/licenses/by-nc-nd/2.0/kr/legalcode" title="이용허락규약">이용허락규약</a>
 </div>
 <div class="col-md-9">
@@ -239,20 +246,23 @@ CC 라이선스에는 4개의 이용허락조건들로 구성된 6 종류의 라
   </ul>
 </div>
 
+&nbsp;
+&nbsp;
 
 ## CC0(퍼블릭도메인)
 {: .no_toc}
 
 내 저작물을 아무런 조건없이 전세계 누구나 사용할 수 있게 하고 싶다면, CC0를 적용해 퍼블릭 도메인으로 공개할 수 있습니다.
 
-> **퍼블릭 도메인**
-퍼블릭 도메인은 저작권이 소멸된 저작물로, 저작권보호기간이 지나 저작권이 만료된 저작물 또는 저작권자가 저작권을 포기한 저작물이 해당됩니다.
+> 퍼블릭 도메인은 저작권이 소멸된 저작물로, 저작권보호기간이 지나<br>저작권이 만료된 저작물 또는 저작권자가 저작권을 포기한 저작물이 해당됩니다.
 
 CC0(퍼블릭도메인)는 법률에 의해 허용되는 최대한도로 저작권과, 저작인접권을 포기한다는 권리자의 의사표시입니다. 
 
 따라서 CC0 이 적용된 저작물은 누구나 영리적인 목적을 포함한 어떤 목적으로든 그리고 어떤 방법으로든 그 저작물을 사용할 수 있습니다. 결국 저작자가 자신의 창작물에 CC0를 적용하면 그 작품은 법적인 의미에서는 더 이상 그의 것이 아니라는 의미이므로, CC 라이선스가 ‘some rights reserved’라 하면 CC0는 ’no rights reserved’라고 할 수 있습니다. CC0는 저작물의 원활한 자유이용이 방해되는 것을 해결할 수 있을 뿐만 아니라 과학 데이터와 같이 저작자표시가 큰 의미가 없고 이를 실제 표시해주기가 힘든 경우에 유용합니다. CC0는 각국의 법제에 탄력적으로 적용될 수 있을 뿐만 아니라 의사표시가 명확하다는 장점이 있습니다. 
 
-### CC0 적용하기
+&nbsp;
+
+### CC0 제공하기 / CCL 권리포기
 {: .no_toc}
 
 CC0는 CC0 권리포기 페이지에서 선택해 적용할 수 있습니다.

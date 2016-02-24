@@ -10,10 +10,6 @@ published: true
 description: null
 ---
 
-
-
-
-
 ![Sloday.png]({{site.baseurl}}/media/Sloday.png)
 
 ## 소개
