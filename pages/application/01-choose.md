@@ -6,10 +6,11 @@ title: 01. 라이선스 적용 가이드
 description: null
 redirect_from: /application/
 related_contents_show: true
-related_contents: "* [[이전]01.CC 라이선스 소개 > 03.쉽게 이해하는 CC 라이선스](/about/resources/)\n* [[다음]02.CC 라이선스 적용 > 02.CC 라이선스 선택 도구로 적용](/application/by-chooser/)"
+related_contents: "* [[이전]01.CC 라이선스 소개 &gt; 03.쉽게 이해하는 CC 라이선스](&#x2F;about&#x2F;resources&#x2F;)\n* [[다음]02.CC 라이선스 적용 &gt; 02.CC 라이선스 선택 도구로 적용](&#x2F;application&#x2F;by-chooser&#x2F;)"
 quiz_show: false
 date: "2016-01-25 22:09 +0900"
 ---
+
 
 
 
@@ -32,7 +33,7 @@ date: "2016-01-25 22:09 +0900"
 
 자신의 저작물에 적용할 CC 라이선스를 선택했다면, 이제 저작물에 CC 라이선스를 표기해 적용합니다.
 
-> **기본표기:** ![CC BY]({{site.baseurl}}/media/by.png)(저작자이름)에 의해 창작된 (저작물 제목+출처 링크)은 크리에이티브 커먼즈 (적용된 라이선스+라이선스 일반증서 링크)에 따라 이용할 수 있습니다.
+> **기본표기:** ![200_by.png]({{site.baseurl}}/media/200_by.png) (저작자이름)에 의해 창작된 (저작물 제목+출처 링크)은 크리에이티브 커먼즈 (적용된 라이선스+라이선스 일반증서 링크)에 따라 이용할 수 있습니다.
 
 CC 라이선스를 적용할때 반드시 지켜야할 표기 방식은 없지만, 정확한 이용허락조건을 표기하기 위해 최대한 준수해야 할 기본적인 요소들은 다음과 같습니다.
 
@@ -75,9 +76,8 @@ CCL이 적용되지 않는 콘텐츠에 저작권 유보 표시나 적용되는 
 ## 이미지
 {: .no_toc}
 
-![mark_image.png]({{site.baseurl}}/media/mark_image.png)
-
-> CCKorea 에 의해 창작된 [[DSC1253](https://www.flickr.com/photos/wowcckorea/22481186396/)]은 크리에이티브 커먼즈 [[저작자표시-비영리 2.0 대한민국 라이선스](http://creativecommons.org/licenses/by/2.0/kr/)]에 따라 이용할 수 있습니다.
+>![mark_image.png]({{site.baseurl}}/media/mark_image.png)
+ CCKorea 에 의해 창작된 [[DSC1253](https://www.flickr.com/photos/wowcckorea/22481186396/)]은 크리에이티브 커먼즈 [[저작자표시-비영리 2.0 대한민국 라이선스](http://creativecommons.org/licenses/by/2.0/kr/)]에 따라 이용할 수 있습니다.
 
 이미지 주변에 CCL에 대한 내용을 표시 해 주세요. 이미지 안에 CCL에 대한 내용을 포함하거나 테두리 또는 하단에 별도로 표시해도 됩니다.
 이미지를 여러개 함께 사용했을 경우에는 적절한 곳에 한번에 명시해도 됩니다. 단, 이미지마다 적용된 CC 라이선스의 종류들이 다른 경우 어느 이미지에 어떤 라이선스가 적용됐는지에 대해 명시해 주어야 합니다.
