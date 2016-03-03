@@ -235,8 +235,10 @@ prose:
               value: general
             - name: CC 라이선스 적용
               value: application
+            - name: CC 라이선스 콘텐츠 이용
+              value: usage
             - name: CC 라이선스 버튼 표시
-              value: use
+              value: display
             - name: 기술
               value: tech
             - name: 데이터베이스권
