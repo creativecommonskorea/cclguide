@@ -38,10 +38,10 @@ date: "2016-01-20 17:16 +0900"
 
 <div class="row">
     <div class="col-md-6">
-        <a href="https://vimeo.com/159741383" title="CCL 캠페인 홍보 영상" target="_blank"><img src="{{site.baseurl}}/media/pages/about/banner_1.png" alt="CCL 캠페인 홍보 영상"></a>
+        <a href="https://vimeo.com/159741383" title="CCL 캠페인 홍보 영상" target="_blank"><img src="{{site.baseurl}}/media/pages/about/banner_1.png" alt="CCL 캠페인 홍보 영상" style="margin: 0 auto;"></a>
     </div>
     <div class="col-md-6">
-        <a href="https://vimeo.com/channels/1046957" title="CC가 만난 사람들" target="_blank"><img src="{{site.baseurl}}/media/pages/about/banner_2.png" alt="CC가 만난 사람들"></a>
+        <a href="https://vimeo.com/channels/1046957" title="CC가 만난 사람들" target="_blank"><img src="{{site.baseurl}}/media/pages/about/banner_2.png" alt="CC가 만난 사람들" style="margin: 0 auto;"></a>
     </div>
 </div>
 
