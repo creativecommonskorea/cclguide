@@ -3,12 +3,10 @@ layout: page
 published: true
 permalink: /reuse/method/
 title: 01. 콘텐츠 이용 가이드
-description: null
 redirect_from: /reuse/
 related_contents_show: true
-related_contents: "* [[이전] 02.CC 라이선스 적용 > 05.2차 저작물에서 적용](/application/secondary-works/)\n* [[다음] 03.CC 라이선스 콘텐츠 이용 > 02. 출처 표시 가이드](/reuse/source-display/)"
 quiz_show: false
-date: "2016-01-27 12:06 +0900"
+date: '2016-01-27 12:06 +0900'
 ---
 
 
@@ -52,7 +50,7 @@ CC 라이선스별 일반권리증서는 기본적으로 해당 창작물을 가
 
 [일반권리증서](http://creativecommons.org/licenses/by-nc/2.0/kr/)
 
-## 저작자표시-변경금지 (BY-SA) 
+## 저작자표시-변경금지 (BY-ND) 
 {: .no_toc}
 
 ![200_by-sa.png]({{site.baseurl}}/media/200_by-sa.png)
@@ -64,7 +62,7 @@ CC 라이선스별 일반권리증서는 기본적으로 해당 창작물을 가
 
 [일반권리증서](http://creativecommons.org/licenses/by-sa/2.0/kr/)
 
-## 저작자표시-동일조건변경허락 (BY-ND) 
+## 저작자표시-동일조건변경허락 (BY-SA) 
 {: .no_toc}
 
 ![200_by-nd.png]({{site.baseurl}}/media/200_by-nd.png)
@@ -98,7 +96,6 @@ CC 라이선스별 일반권리증서는 기본적으로 해당 창작물을 가
 
 - 저작자 및 출처를 표시합니다.
 - 복사 및 배포가 가능합니다.
-- 이 창작물을 변경하거나, 이용해 2차 창작물에 만들어도 됩니다.
 - 2차 창작물의 라이선스를 자유롭게 선택해도 됩니다.
 - 상업적 이용이 불가능합니다.  
 - 이 창작물을 변경하거나, 이용해 2차 창작물에 만들어서는 안됩니다.
