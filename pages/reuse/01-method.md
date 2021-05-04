@@ -7,8 +7,6 @@ redirect_from: /reuse/
 related_contents_show: true
 quiz_show: false
 date: '2016-01-27 12:06 +0900'
-description: ''
-related_contents: ''
 ---
 
 
