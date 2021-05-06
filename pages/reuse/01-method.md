@@ -53,7 +53,7 @@ CC 라이선스별 일반권리증서는 기본적으로 해당 창작물을 가
 ## 저작자표시-변경금지 (BY-ND) 
 {: .no_toc}
 
-![200_by-sa.png]({{site.baseurl}}/media/200_by-sa.png)
+![200_by-nd.png]({{site.baseurl}}/media/200_by-nd.png)
 
 - 저작자 및 출처를 표시합니다.
 - 복사 및 배포가 가능합니다.
@@ -65,7 +65,7 @@ CC 라이선스별 일반권리증서는 기본적으로 해당 창작물을 가
 ## 저작자표시-동일조건변경허락 (BY-SA) 
 {: .no_toc}
 
-![200_by-nd.png]({{site.baseurl}}/media/200_by-nd.png)
+![200_by-sa.png]({{site.baseurl}}/media/200_by-sa.png)
 
 - 저작자 및 출처를 표시합니다.
 - 복사 및 배포가 가능합니다.
